@@ -1,0 +1,264 @@
+boxName: '&fЖелезный кейс'
+boxItem: STORAGE_MINECART
+lore:
+- '&2После открывания кейса, Вы'
+- '&2получите 3 случайных предмета'
+checkPermission: false
+openWhenClicked: true
+addGlow: true
+unstackable: false
+itemsToSelectCount: 3
+
+gui:
+  enabled: true
+  rolling:
+  - {delay: 1, iterations: 50}
+  - {delay: 2, iterations: 20}
+  - {delay: 3, iterations: 10}
+  - {delay: 4, iterations: 5}
+  window:
+    type: CHEST
+    format:
+    - '@@@###@@@'
+    - 'abcDEFghi'
+    - '@@@###@@@'
+    fillers:
+      '@':
+        item: {id: 160, data: 15, delay: 20}
+        onStop:
+          item: {id: 0}
+      '#':
+        animated:
+        - {id: 160, data: 4, delay: 10}
+        - {id: 160, data: 5, delay: 10}
+
+effects:
+  open:
+    firework:
+      type: BALL_LARGE
+      colors: ['#FF0000', '#00FF00', 'BLUE']
+      fadeColors: ['GRAY', 'BLACK']
+      flicker: true
+      trail: false
+      power: 1
+    sound:
+      sound: BLOCK_CHEST_OPEN
+      volume: 1.0
+      pitch: 1.0
+  move:
+    sound: {sound: BLOCK_NOTE_HAT}
+  drop:
+    sound: {sound: BLOCK_ANVIL_LAND }
+    firework:
+      type: STAR
+      colors: ['RED']
+  close:
+    sound: {sound: BLOCK_CHEST_CLOSE}
+# --------------------------------------------------------
+items:
+  item1:
+    commands:
+      command1:
+        line: 'shot give %player% ShotGun'
+        fromConsole: true
+    dontGiveItem: true
+    item: 292
+    name: 'Автомат'
+    dontAssignName: true
+    amount: 1
+    chance: 5
+
+  item2:
+    commands:
+      command1:
+        line: 'shot give %player% Hunting'
+        fromConsole: true
+    dontGiveItem: true
+    item: 294
+    name: 'Охотничье ружьё'
+    dontAssignName: true
+    amount: 1
+    chance: 5
+
+  item3:
+    item: 283
+    amount: 1
+    name: 'Золотой меч'
+    dontAssignName: true
+    enchants:
+      sharpness: 2
+#      knockback: 1
+#      looting: 1
+#      fire: 1
+#      unbreaking: 1
+    chance: 5
+
+  item4:
+    item: BOW
+    amount: 1
+    name: 'Лук'
+    dontAssignName: true
+    enchants:
+      power: 2
+#      unbreaking: 1
+#      flame: 1
+#      infinity: 1
+#      punch: 1
+    chance: 5
+
+  item5:
+    item: 314
+    amount: 1
+    name: 'Золотой шлем'
+    dontAssignName: true
+    enchants:
+      protection: 1
+#      unbreaking: 1
+#      blastprotection: 1
+#      projprot: 1
+#      aquaaffinity: 1
+#      fireprot: 1
+#      respiration: 1
+    chance: 5
+
+  item6:
+    item: 315
+    amount: 1
+    name: 'Золотой нагрудник'
+    dontAssignName: true
+    enchants:
+      protection: 1
+#      unbreaking: 1
+#      blastprotection: 1
+#      projprot: 1
+#      fireprot: 1
+    chance: 5
+
+  item7:
+    item: 316
+    amount: 1
+    name: 'Золотые поножи'
+    dontAssignName: true
+    enchants:
+      protection: 1
+#      unbreaking: 1
+#      blastprotection: 1
+#      projprot: 1
+#      fireprot: 1
+    chance: 5
+
+  item8:
+    item: 317
+    amount: 1
+    name: 'Золотые ботинки'
+    dontAssignName: true
+    enchants:
+      protection: 1
+#      unbreaking: 1
+      featherfalling: 1
+#      blastprotection: 1
+#      projprot: 1
+#      fireprot: 1
+    chance: 5
+
+  item9:
+    item: 284
+    amount: 1
+    name: 'Золотая лопата'
+    dontAssignName: true
+    enchants:
+      efficiency: 2
+#      unbreaking: 1
+    chance: 5
+
+  item10:
+    item: 285
+    amount: 1
+    name: 'Золотая кирка'
+    dontAssignName: true
+    enchants:
+      efficiency: 2
+#      looting: 1
+#      unbreaking: 1
+    chance: 5
+
+  item11:
+    item: 286
+    amount: 1
+    name: 'Золотой топор'
+    dontAssignName: true
+    enchants:
+      efficiency: 2
+#      unbreaking: 1
+    chance: 5
+
+  item12:
+    item: 262
+    name: 'Стрела'
+    dontAssignName: true
+    amount: 16-32
+    chance: 5
+
+  item13:
+    item: 332
+    name: 'Снежок'
+    dontAssignName: true
+    amount: 8-16
+    chance: 5
+
+  item14:
+    item: 318
+    name: 'Кремень'
+    dontAssignName: true
+    amount: 8-16
+    chance: 5
+
+  item15:
+    item: 322
+    name: 'Золотое яблоко'
+    dontAssignName: true
+    amount: 4-16
+    chance: 5
+
+  item16:
+    item: 384
+    name: 'Пузырёк опыта'
+    dontAssignName: true
+    amount: 16-32
+    chance: 5
+
+  item17:
+    item: 263
+    name: 'Уголь'
+    dontAssignName: true
+    amount: 16-32
+    chance: 5
+
+  item18:
+    item: 264
+    name: 'Алмаз'
+    dontAssignName: true
+    amount: 4-16
+    chance: 5
+
+  item19:
+    item: 265
+    name: 'Железный слиток'
+    dontAssignName: true
+    amount: 16-32
+    chance: 5
+
+  item20:
+    item: 266
+    name: 'Золотой слиток'
+    dontAssignName: true
+    amount: 16-32
+    chance: 5
+
+  item21:
+    item: 388
+    name: 'Изумруд'
+    dontAssignName: true
+    amount: 4-16
+    chance: 5
+# --------------------------------------------------------

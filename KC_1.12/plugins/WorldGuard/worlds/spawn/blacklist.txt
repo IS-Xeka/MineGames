@@ -1,0 +1,8 @@
+[BEDROCK,SPONGE]
+on-break=deny,tell
+on-place=deny,tell
+ignore-groups=owner
+
+[SAPLING,DRAGON_EGG,BROWN_MUSHROOM,RED_MUSHROOM,BARRIER,PISTON,STICKY_PISTON]
+on-place=deny,tell
+ignore-groups=owner

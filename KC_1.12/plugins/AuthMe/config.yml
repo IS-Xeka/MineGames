@@ -1,0 +1,155 @@
+DataSource:
+  mySQLColumnName: username
+  mySQLTablename: accounts
+  mySQLUsername: root
+  backend: mysql
+  mySQLColumnLastLogin: lastlogin
+  mySQLDatabase: kenigcraft
+  mySQLPort: '3306'
+  mySQLColumnIp: ip
+  mySQLHost: 127.0.0.1
+  mySQLColumnPassword: password
+  mySQLPassword: <mysql_password>
+  caching: false
+  mySQLlastlocX: x
+  mySQLlastlocY: y
+  mySQLlastlocZ: z
+  mySQLlastlocWorld: world
+  mySQLColumnEmail: email
+  mySQLColumnId: id
+GroupOptions:
+  UnregisteredPlayerGroup: ''
+  RegisteredPlayerGroup: ''
+  Permissions:
+    PermissionsOnJoin: []
+settings:
+  sessions:
+    enabled: true
+    timeout: 1440
+    sessionExpireOnIpChange: true
+  restrictions:
+    allowChat: false
+    allowCommands:
+    - /login
+    - /register
+    - /l
+    - /reg
+    - /email
+    maxRegPerIp: 3
+    maxNicknameLength: 16
+    ForceSingleSession: true
+    ForceSpawnLocOnJoinEnabled: false
+    SaveQuitLocation: true
+    AllowRestrictedUser: false
+    AllowedRestrictedUser: []
+    kickNonRegistered: false
+    kickOnWrongPassword: false
+    teleportUnAuthedToSpawn: true
+    minNicknameLength: 3
+    allowMovement: false
+    timeout: 60
+    allowedNicknameCharacters: '[a-zA-Zа-яА-Я0-9_]*'
+    allowedMovementRadius: 100
+    enablePasswordVerifier: true
+    ProtectInventoryBeforeLogIn: true
+    displayOtherAccounts: false
+    ForceSpawnOnTheseWorlds:
+    - spawn
+    banUnsafedIP: false
+  GameMode:
+    ForceSurvivalMode: true
+    ResetInventoryIfCreative: false
+    ForceOnlyAfterLogin: false
+  security:
+    minPasswordLength: 4
+    unLoggedinGroup: unLoggedinGroup
+    passwordHash: MD5
+    doubleMD5SaltLength: 8
+    supportOldPasswordHash: false
+  registration:
+    enabled: true
+    messageInterval: 5
+    force: true
+    enableEmailRegistrationSystem: false
+    doubleEmailCheck: false
+  unrestrictions:
+    UnrestrictedName: []
+  messagesLanguage: ru
+  forceCommands: []
+ExternalBoardOptions:
+  mySQLColumnSalt: ''
+  mySQLColumnGroup: ''
+  nonActivedUserGroup: -1
+  mySQLOtherUsernameColumns: []
+  bCryptLog2Round: 10
+  phpbbTablePrefix: phpbb_
+  phpbbActivatedGroupId: 2
+  wordpressTablePrefix: wp_
+permission:
+  EnablePermissionCheck: false
+BackupSystem:
+  ActivateBackup: false
+  OnServerStart: false
+  OnServerStop: false
+  MysqlWindowsPath: ''
+Passpartu:
+  enablePasspartu: false
+Security:
+  SQLProblem:
+    stopServer: true
+  ReloadCommand:
+    useReloadCommandSupport: true
+  console:
+    noConsoleSpam: false
+    removePassword: false
+    logConsole: false
+  captcha:
+    useCaptcha: false
+    maxLoginTry: 5
+    captchaLength: 5
+Converter:
+  Rakamak:
+    fileName: users.rak
+    useIP: false
+    ipFileName: UsersIp.rak
+    newPasswordHash: MD5
+Email:
+  mailSMTP: smtp.mail.ru
+  mailPort: 465
+  mailAccount: admin@kenig-craft.ru
+  mailPassword: <email_password>
+  mailSenderName: Kenig Craft
+  RecoveryPasswordLength: 8
+  mailSubject: Востановление AuthMe пароля на сервере Kenig Craft
+  maxRegPerEmail: 3
+  mailText: '<p><span style="color:#FF0000;"><strong>---------------------------------------------------------------------------------------------------</strong></span></p><br
+    /><p><span style="color:#66cc66;">Здравствуйте <playername>.</span><br /> <span
+    style="color:#6633ff;">По вашему запросу был установлен новый пароль для аккаунта.<br
+    /> Ваш новый пароль на сервере <servername>:</span></p><br /><p><span style="color:#660066;"><strong><generatedpass></strong></span></p><br
+    /><p><span style="color:#6633ff;">Если вы хотите изменить пароль, используйте
+    следующую команду:<br /> /changepassword &lt;Текущий_пароль&gt; &lt;Новый_пароль&gt;.</span><br
+    /> <span style="color:#FF8C00;">Не отвечайте на это сообщение.</span></p><br /><p><strong
+    style="color: rgb(255, 0, 0); line-height: 20.7999992370605px;">---------------------------------------------------------------------------------------------------</strong></p>'
+Hooks:
+  multiverse: false
+  chestshop: false
+  bungeecord: false
+  notifications: false
+  disableSocialSpy: false
+  useEssentialsMotd: false
+Performances:
+  useMultiThreading: true
+Purge:
+  useAutoPurge: false
+  daysBeforeRemovePlayer: 180
+  removePlayerDat: false
+  removeEssentialsFile: false
+  defaultWorld: spawn
+  removeLimitedCreativesInventories: false
+  removeAntiXRayFile: false
+Protection:
+  enableProtection: false
+  countries: []
+  enableAntiBot: false
+  antiBotSensibility: 32
+  antiBotDuration: 2

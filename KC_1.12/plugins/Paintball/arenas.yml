@@ -1,0 +1,271 @@
+Arenas:
+  Arena-1:
+    Name: Arena-1
+    Enabled: true
+    Type: TDM
+    Config:
+      max-score: default
+      time: default
+      win-waiting-time: default
+      safe-time: default
+      hits-to-kill: default
+      lives: default
+      team-switch-cooldown: default
+      speed: default
+      currency: default
+      Countdown:
+        arena:
+          countdown: default
+          interval: default
+          no-interval: default
+        lobby:
+          countdown: default
+          interval: default
+          no-interval: default
+      Rewards:
+        Coins:
+          per-kill: default
+          per-death: default
+        Money:
+          per-kill: default
+          per-death: default
+          per-win: default
+          per-defeat: default
+      allow-join-in-progress: default
+      coins: default
+      firework-on-death: default
+      cancel-prot-on-hit: default
+      Join-Lobby:
+        per-team-chat: default
+        give-team-switcher: default
+        wool-helmet: default
+      Join-Arena:
+        per-team-chat: default
+        wool-helmet: default
+      coin-shop: default
+      Chat:
+        use-arena-chat: default
+        broadcast-winner: default
+        arena-chat: default
+        spectator-chat: default
+      teleport-on-team-switch: default
+      nametags: default
+      safe-inventory: default
+      hit-sound: default
+      paintball-accuracy: default
+      Win-Commands:
+      - default
+      Lose-Commands:
+      - default
+      Tie-Commands:
+      - default
+      Kill-Commands:
+      - default
+      Start-Commands:
+      - default
+      Leave-Commands:
+      - default
+      Join-Commands:
+      - default
+      Finish-Commands:
+      - default
+      coin-shop-type: default
+    Spectator:
+      '1': games,-1023.5,63.0,-0.5,359.63834,0.34822714
+    Min: 4
+    Max: 16
+    Teams:
+    - §9:Синий
+    - §c:Красный
+    Spawn:
+      lightred:
+        '1': games,-1056.5,67.0,-10.5,-0.19457698,-0.069158316
+      blue:
+        '1': games,-978.5,63.0,9.5,89.84825,0.8490704
+    Lobby:
+      lightred:
+        '1': games,-511.5,63.0,1024.5,-1.8904183,0.59864575
+      blue:
+        '1': games,-511.5,63.0,1024.5,-1.8904183,0.59864575
+    Join:
+    - games,-1046.0,64.0,1025.0,0.0,0.0
+  Arena-2:
+    Name: Arena-2
+    Enabled: true
+    Type: TDM
+    Config:
+      max-score: default
+      time: default
+      win-waiting-time: default
+      safe-time: default
+      hits-to-kill: default
+      lives: default
+      team-switch-cooldown: default
+      speed: default
+      currency: default
+      Countdown:
+        arena:
+          countdown: default
+          interval: default
+          no-interval: default
+        lobby:
+          countdown: default
+          interval: default
+          no-interval: default
+      Rewards:
+        Coins:
+          per-kill: default
+          per-death: default
+        Money:
+          per-kill: default
+          per-death: default
+          per-win: default
+          per-defeat: default
+      allow-join-in-progress: default
+      coins: default
+      firework-on-death: default
+      cancel-prot-on-hit: default
+      Join-Lobby:
+        per-team-chat: default
+        give-team-switcher: default
+        wool-helmet: default
+      Join-Arena:
+        per-team-chat: default
+        wool-helmet: default
+      coin-shop: default
+      Chat:
+        use-arena-chat: default
+        broadcast-winner: default
+        arena-chat: default
+        spectator-chat: default
+      teleport-on-team-switch: default
+      nametags: default
+      safe-inventory: default
+      hit-sound: default
+      paintball-accuracy: default
+      Win-Commands:
+      - default
+      Lose-Commands:
+      - default
+      Tie-Commands:
+      - default
+      Kill-Commands:
+      - default
+      Start-Commands:
+      - default
+      Leave-Commands:
+      - default
+      Join-Commands:
+      - default
+      Finish-Commands:
+      - default
+      coin-shop-type: default
+    Spectator:
+      '1': games,-511.47066924151903,63.0,0.47289099119163847,270.15173,-1.3213081
+    Min: 4
+    Max: 16
+    Teams:
+    - §9:Синий
+    - §c:Красный
+    Spawn:
+      lightred:
+        '1': games,-511.5,62.0,-77.5,359.6367,-0.9039593
+      blue:
+        '1': games,-511.5,62.0,78.5,179.7488,-1.3213607
+    Lobby:
+      blue:
+        '1': games,-511.5,63.0,1024.5,-1.9738929,0.43169636
+      lightred:
+        '1': games,-511.5,63.0,1024.5,-1.9738929,0.43169636
+    Join:
+    - games,-1046.0,64.0,1024.0,0.0,0.0
+  Arena-3:
+    Name: Arena-3
+    Enabled: true
+    Type: TDM
+    Config:
+      max-score: default
+      time: default
+      win-waiting-time: default
+      safe-time: default
+      hits-to-kill: default
+      lives: default
+      team-switch-cooldown: default
+      speed: default
+      currency: default
+      Countdown:
+        arena:
+          countdown: default
+          interval: default
+          no-interval: default
+        lobby:
+          countdown: default
+          interval: default
+          no-interval: default
+      Rewards:
+        Coins:
+          per-kill: default
+          per-death: default
+        Money:
+          per-kill: default
+          per-death: default
+          per-win: default
+          per-defeat: default
+      allow-join-in-progress: default
+      coins: default
+      firework-on-death: default
+      cancel-prot-on-hit: default
+      Join-Lobby:
+        per-team-chat: default
+        give-team-switcher: default
+        wool-helmet: default
+      Join-Arena:
+        per-team-chat: default
+        wool-helmet: default
+      coin-shop: default
+      Chat:
+        use-arena-chat: default
+        broadcast-winner: default
+        arena-chat: default
+        spectator-chat: default
+      teleport-on-team-switch: default
+      nametags: default
+      safe-inventory: default
+      hit-sound: default
+      paintball-accuracy: default
+      Win-Commands:
+      - default
+      Lose-Commands:
+      - default
+      Tie-Commands:
+      - default
+      Kill-Commands:
+      - default
+      Start-Commands:
+      - default
+      Leave-Commands:
+      - default
+      Join-Commands:
+      - default
+      Finish-Commands:
+      - default
+      coin-shop-type: default
+    Spectator:
+      '1': games,0.5,63.0,0.5,359.91748,-0.6535295
+    Min: 4
+    Max: 16
+    Teams:
+    - §9:Синий
+    - §c:Красный
+    Spawn:
+      lightred:
+        '1': games,-36.5,63.0,-3.5,269.37454,-0.7369845
+      blue:
+        '1': games,37.5,63.0,-0.5,91.09901,1.4332687
+    Lobby:
+      lightred:
+        '1': games,-511.5,63.0,1024.5,-1.8904183,0.59864575
+      blue:
+        '1': games,-511.5,63.0,1024.5,-1.8904183,0.59864575
+    Join:
+    - games,-1046.0,64.0,1023.0,0.0,0.0

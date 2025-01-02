@@ -1,0 +1,57 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'Рандомная телепортация'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'rtp'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+0:
+  COMMAND: 'rtp gothic'
+  NAME: '&eСредневековый мир'
+  LORE:
+  - Вы будете телепортированы в случайную точку карты
+  ID: '98:1'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+1:
+  COMMAND: 'rtp native'
+  NAME: '&eНормальный мир'
+  LORE:
+  - Вы будете телепортированы в случайную точку карты
+  ID: '2'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+2:
+  COMMAND: 'rtp villages'
+  NAME: '&eДеревенский мир'
+  LORE:
+  - Вы будете телепортированы в случайную точку карты
+  ID: '45'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+
+Cancel:
+  COMMAND: 'open:menu.yml'
+  NAME: '&6Назад'
+  ID: '325'
+  POSITION-X: 5
+  POSITION-Y: 5

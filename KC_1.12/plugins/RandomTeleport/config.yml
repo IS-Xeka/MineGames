@@ -1,0 +1,19 @@
+debug: false
+# Triggered when you use /rtp without any additional paramters
+# Just write your command as you would use it ingame here
+# Don't use the -p parameter, this will get added automaticly with the senders name/the specified playername
+presets:
+   native: "/rtp 200 4000 -w native -c 10"
+   gothic: "/rtp 200 4000 -w gothic -c 10"
+   villages: "/rtp 200 4000 -w villages -c 10"
+
+# add more to use /rtp <rtpname>, player needs "randomteleport.presets.<rtpname>"
+#   <rtpname>: "/rtp 1 2"
+
+msg:
+   search: "&eНачался поиск случайной точки для телепортации..."
+   teleport: "&aВы телепортированы на координаты X: {x}, Y: {y}, Z: {z}."
+   setspawnpoint: "&aТочка спавна установлена."
+   error:
+      location: "&cПроизошла ошибка при обнаружении безопасной точки"
+      cooldown: "&cВы можете телепортироваться не более одного раза в 10 секунд."

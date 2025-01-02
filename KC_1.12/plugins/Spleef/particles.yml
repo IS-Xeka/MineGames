@@ -1,0 +1,25 @@
+particles:
+  dust:
+    enabled: true
+    price: 500
+  hearts:
+    enabled: true
+    price: 1000
+  greenPath:
+    enabled: true
+    price: 2000
+  cloudtail:
+    enabled: true
+    price: 3000
+  flames:
+    enabled: true
+    price: 5000
+  spell:
+    enabled: true
+    price: 7000
+  raincloud:
+    enabled: true
+    price: 10000
+  enchantment:
+    enabled: true
+    price: 15000

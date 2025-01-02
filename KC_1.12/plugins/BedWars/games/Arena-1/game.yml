@@ -1,0 +1,249 @@
+name: Arena-1
+world: games
+loc1:
+  world: games
+  x: -895.5
+  y: 1.0
+  z: -895.5
+  pitch: 90.0
+  yaw: 160.82516479492188
+loc2:
+  world: games
+  x: -1151.5
+  y: 97.0
+  z: -1151.5
+  pitch: 87.49571228027344
+  yaw: -40.56806945800781
+lobby:
+  world: games
+  x: -511.5
+  y: 63.0
+  z: 1024.5
+  pitch: -1.2523027658462524
+  yaw: 359.00775146484375
+minplayers: 4
+regionname: Arena-1
+time: 1000
+targetmaterial: BED_BLOCK
+mainlobby:
+  world: games
+  x: -1023.5
+  y: 63.0
+  z: 1043.5
+  pitch: 1.4333548545837402
+  yaw: 359.5826416015625
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: games
+    x: -947.5
+    y: 63.0
+    z: -1015.5
+    pitch: 88.23290252685547
+    yaw: 133.63931274414062
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: games
+    x: -1031.5
+    y: 63.0
+    z: -947.5
+    pitch: 87.4816665649414
+    yaw: 114.8574447631836
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: games
+    x: -1099.5
+    y: 63.0
+    z: -1031.5
+    pitch: 88.73380279541016
+    yaw: 214.776611328125
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: games
+    x: -1015.5
+    y: 63.0
+    z: -1099.5
+    pitch: 84.2261734008789
+    yaw: 265.52935791015625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: games
+    x: -1030.5
+    y: 69.0
+    z: -945.5
+    pitch: 82.72364044189453
+    yaw: 63.99021911621094
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: games
+    x: -1101.5
+    y: 69.0
+    z: -1030.5
+    pitch: 88.99830627441406
+    yaw: 127.9319839477539
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: games
+    x: -1016.5
+    y: 69.0
+    z: -1101.5
+    pitch: 88.41398620605469
+    yaw: 250.22239685058594
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: games
+    x: -945.5
+    y: 69.0
+    z: -1016.5
+    pitch: 89.16523742675781
+    yaw: 1.994842529296875
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: games
+    x: -1021.5
+    y: 64.20000004768372
+    z: -1018.5
+    pitch: -89.74958038330078
+    yaw: 83.30767059326172
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: games
+    x: -1018.5
+    y: 64.20000004768372
+    z: -1025.5
+    pitch: -89.41567993164062
+    yaw: 107.26493072509766
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: games
+    x: -1025.5
+    y: 64.20000004768372
+    z: -1028.5
+    pitch: -89.74958038330078
+    yaw: 167.95106506347656
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: games
+    x: -1028.5
+    y: 65.20000004768372
+    z: -1022.5
+    pitch: -89.9165267944336
+    yaw: 75.1272201538086
+teams:
+  Зелёный:
+    ==: Team
+    bedfeed:
+      world: games
+      x: -947.0
+      y: 70.0
+      z: -1013.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: games
+      x: -948.5
+      y: 63.0
+      z: -1022.5
+      pitch: -0.6676239371299744
+      yaw: 90.20606994628906
+    color: GREEN
+    name: Зелёный
+    maxplayers: 4
+    bedhead:
+      world: games
+      x: -948.0
+      y: 70.0
+      z: -1013.0
+      pitch: 0.0
+      yaw: 0.0
+  Красный:
+    ==: Team
+    bedfeed:
+      world: games
+      x: -1035.0
+      y: 70.0
+      z: -947.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: games
+      x: -1024.5
+      y: 63.0
+      z: -948.5
+      pitch: -0.41722941398620605
+      yaw: 180.27516174316406
+    color: RED
+    name: Красный
+    maxplayers: 4
+    bedhead:
+      world: games
+      x: -1035.0
+      y: 70.0
+      z: -948.0
+      pitch: 0.0
+      yaw: 0.0
+  Синий:
+    ==: Team
+    bedfeed:
+      world: games
+      x: -1013.0
+      y: 70.0
+      z: -1101.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: games
+      x: -1022.5
+      y: 63.0
+      z: -1098.5
+      pitch: -0.5007082223892212
+      yaw: 0.4706040620803833
+    color: BLUE
+    name: Синий
+    maxplayers: 4
+    bedhead:
+      world: games
+      x: -1013.0
+      y: 70.0
+      z: -1100.0
+      pitch: 0.0
+      yaw: 0.0
+  Жёлтый:
+    ==: Team
+    bedfeed:
+      world: games
+      x: -1101.0
+      y: 70.0
+      z: -1035.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: games
+      x: -1098.5
+      y: 63.0
+      z: -1024.5
+      pitch: -0.8345969915390015
+      yaw: 270.2344055175781
+    color: YELLOW
+    name: Жёлтый
+    maxplayers: 4
+    bedhead:
+      world: games
+      x: -1100.0
+      y: 70.0
+      z: -1035.0
+      pitch: 0.0
+      yaw: 0.0

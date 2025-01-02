@@ -1,0 +1,7 @@
+config-version: 3
+notify:
+  any-chest: false
+  silent-chest: false
+items: {}
+settings:
+  disable-saving: false

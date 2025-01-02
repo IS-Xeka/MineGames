@@ -1,0 +1,4 @@
+command-no-permission: "&4Вы не имеете доступа к этой команде."
+
+version: "&d{plugin} v{version}."
+reload: "&d{plugin} v{version} перезагружен."

@@ -1,0 +1,8 @@
+spawns: 
+  Spawn: 
+    world: spawn
+    x: 0.5
+    y: 63.0
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0

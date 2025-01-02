@@ -1,9 +1,0 @@
-#MaxTempBanTime: 14d
-MySQL:
-  enabled: true
-  host: 127.0.0.1
-  port: 3306
-  database: sparkgames
-  user: root
-  password: F2eiz5N16eRbHF31Et58fQx9
-  table: banlist

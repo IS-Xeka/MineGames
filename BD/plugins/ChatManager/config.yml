@@ -1,5 +1,0 @@
-enable: true
-message-format: '%prefix%player §9➟%suffix %message'
-global-message-format: '%prefix%player §9➟%suffix %message'
-ranged-mode: true
-chat-range: 256.0

@@ -1,0 +1,61 @@
+cfg-version: 11
+message: '&cВы достигли границы мира.'
+round-border: false
+debug-mode: false
+whoosh-effect: false
+portal-redirection: false
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: false
+dynmap-border-message: Граница мира.
+player-killed-bad-spawn: false
+deny-enderpearl: true
+fill-autosave-frequency: 30
+fill-memory-tolerance: 500
+bypass-list-uuids: []
+prevent-block-place: false
+prevent-mob-spawn: false
+worlds:
+  spawn:
+    x: 0.0
+    z: 0.0
+    radiusX: 1024
+    radiusZ: 1024
+    wrapping: false
+  games:
+    x: 0.0
+    z: 0.0
+    radiusX: 1280
+    radiusZ: 1280
+    wrapping: false
+  native:
+    x: 0.0
+    z: 0.0
+    radiusX: 4096
+    radiusZ: 4096
+    wrapping: false
+  gothic:
+    x: 0.0
+    z: 0.0
+    radiusX: 4096
+    radiusZ: 4096
+    wrapping: false
+  villages:
+    x: 0.0
+    z: 0.0
+    radiusX: 4096
+    radiusZ: 4096
+    wrapping: false
+  nether:
+    x: 0.0
+    z: 0.0
+    radiusX: 4096
+    radiusZ: 4096
+    wrapping: false
+  ender:
+    x: 0.0
+    z: 0.0
+    radiusX: 512
+    radiusZ: 512
+    wrapping: false

@@ -1,0 +1,85 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'Кейсы'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'case'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+0:
+  PRICE: 400
+  COMMAND: 'console: givebox {player} 9901 1'
+  NAME: '&7Простой кейс'
+  ID: '342'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 400$'
+  ENCHANTMENT: protection,1
+  POSITION-X: 3
+  POSITION-Y: 2
+1:
+  PRICE: 1700
+  COMMAND: 'console: givebox {player} 9902 1'
+  NAME: '&fЖелезный кейс'
+  ID: '342'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 1700$'
+  ENCHANTMENT: protection,1
+  POSITION-X: 5
+  POSITION-Y: 2
+2:
+  PRICE: 3900
+  COMMAND: 'console: givebox {player} 9903 1'
+  NAME: '&6Золотой кейс'
+  ID: '342'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 3900$'
+  ENCHANTMENT: protection,1
+  POSITION-X: 7
+  POSITION-Y: 2
+3:
+  PRICE: 6300
+  COMMAND: 'console: givebox {player} 9904 1'
+  NAME: '&bАлмазный кейс'
+  ID: '342'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 6300$'
+  ENCHANTMENT: protection,1
+  POSITION-X: 4
+  POSITION-Y: 3
+4:
+  PRICE: 8500
+  COMMAND: 'console: givebox {player} 9905 1'
+  NAME: '&aИзумрудный кейс'
+  ID: '342'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 8500$'
+  ENCHANTMENT: protection,1
+  POSITION-X: 6
+  POSITION-Y: 3
+
+Cancel:
+  COMMAND: 'open:menu.yml'
+  NAME: '&6Назад'
+  ID: '325'
+  POSITION-X: 5
+  POSITION-Y: 5

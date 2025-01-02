@@ -1,0 +1,77 @@
+Tools:
+  Drop Chance: []
+  Sapling Replant Require Tools: false
+  Tree Destruction Require Tools: false
+  Tools List: []
+Custom Drops:
+  APPLE: 0.1
+  GOLDEN_APPLE: 0.0
+  Stick: 0.1
+  Apple: 0.05
+Main:
+  Language: en
+  Automatic Tree Destruction: true
+  Use Permissions: false
+  Sapling Replant: false
+  Apply Full Tool Damage: true
+  Ignore User Placed Blocks: true
+  Use mcMMO if Available: false
+  Destroy Only Blocks Above: false
+  Auto Plant Dropped Saplings: false
+  Toggle Default: true
+  Initial Delay: false
+Sapling Replant:
+  Time to Block Sapling Growth (Seconds): 0
+  Tree Types to Replant:
+    BigSpruce: true
+    Birch: true
+    Jungle: true
+    BigJungle: true
+    Oak: true
+    Spruce: true
+    Brown Shroom: true
+    Red Shroom: true
+    Acacia: true
+    Dark Oak: true
+  Command Time Delay (Seconds): 30
+  Bottom Block has to be Broken First: false
+  Time to Protect Sapling (Seconds): 0
+  Replant When Tree Burns Down: false
+  Block all breaking of Saplings: false
+  Delay until Sapling is replanted (seconds) (minimum 1 second): 1
+  Enforce: false
+Modding:
+  Custom Saplings: []
+  Custom Logs: []
+  Custom Tree Blocks: []
+Automatic Tree Destruction:
+  Required Lore: ''
+  When Sneaking: true
+  Forced Removal: true
+  Remove Leaves: true
+  Initial Delay (seconds): 10
+  Delay (ticks): 0
+  Tree Types:
+    Birch: true
+    Jungle: true
+    BigJungle: true
+    BigSpruce: true
+    Oak: true
+    Spruce: true
+    Brown Shroom: true
+    Red Shroom: true
+    Acacia: true
+    Dark Oak: true
+  Cooldown (seconds): 0
+Auto Plant Dropped Saplings:
+  Chance (percent): 0
+  Delay (seconds): 0
+Leaf Decay:
+  Fast Leaf Decay: true
+Worlds:
+  Enable Per World: false
+  Enabled Worlds: []
+Placed Blocks:
+  Handler Plugin Name: TreeAssist
+Debug: None
+Config Help: ''

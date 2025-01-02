@@ -1,0 +1,13 @@
+Database:
+  enabled: false
+  host: localhost
+  port: 3306
+  username: username
+  password: password
+  database: Paintball
+  max-connections: 5
+  table: Paintball_Stats
+Bungee:
+  enabled: false
+  serverID: MTY2MjQ4MzM=
+  bungeeID: BungeeServerNameHere

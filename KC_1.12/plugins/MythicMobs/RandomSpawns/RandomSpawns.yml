@@ -1,0 +1,342 @@
+01:
+  MobType: HunterL1
+  Worlds: native
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+02:
+  MobType: HunterL2
+  Worlds: native
+  Chance: 0.0095
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+03:
+  MobType: HunterL3
+  Worlds: native
+  Chance: 0.009
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+04:
+  MobType: HunterL4
+  Worlds: native
+  Chance: 0.008
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+05:
+  MobType: HunterL5
+  Worlds: native
+  Chance: 0.0075
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+06:
+  MobType: HunterL6
+  Worlds: native
+  Chance: 0.007
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+07:
+  MobType: HunterL7
+  Worlds: native
+  Chance: 0.0065
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+08:
+  MobType: HunterL8
+  Worlds: native
+  Chance: 0.006
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+09:
+  MobType: HunterL9
+  Worlds: native
+  Chance: 0.0055
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+
+# ================================================================
+
+10:
+  MobType: KnightL1
+  Worlds: gothic
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+11:
+  MobType: KnightL2
+  Worlds: gothic
+  Chance: 0.0095
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+12:
+  MobType: KnightL3
+  Worlds: gothic
+  Chance: 0.009
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+13:
+  MobType: KnightL4
+  Worlds: gothic
+  Chance: 0.008
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+14:
+  MobType: KnightL5
+  Worlds: gothic
+  Chance: 0.0075
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+15:
+  MobType: KnightL6
+  Worlds: gothic
+  Chance: 0.007
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+16:
+  MobType: KnightL7
+  Worlds: gothic
+  Chance: 0.0065
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+17:
+  MobType: KnightL8
+  Worlds: gothic
+  Chance: 0.006
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+18:
+  MobType: KnightL9
+  Worlds: gothic
+  Chance: 0.0055
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+
+# ================================================================
+
+19:
+  MobType: UndeadL1
+  Worlds: nether
+  Chance: 0.02
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype PIG_ZOMBIE
+20:
+  MobType: UndeadL2
+  Worlds: nether
+  Chance: 0.019
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype PIG_ZOMBIE
+21:
+  MobType: UndeadL3
+  Worlds: nether
+  Chance: 0.018
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype PIG_ZOMBIE
+22:
+  MobType: UndeadL4
+  Worlds: nether
+  Chance: 0.017
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype PIG_ZOMBIE
+23:
+  MobType: UndeadL5
+  Worlds: nether
+  Chance: 0.016
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype PIG_ZOMBIE
+
+# ================================================================
+
+24:
+  MobType: IronGolem1
+  Worlds: villages
+  Chance: 0.009
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+25:
+  MobType: IronGolem2
+  Worlds: villages
+  Chance: 0.008
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+26:
+  MobType: IronGolem3
+  Worlds: villages
+  Chance: 0.007
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+
+# ================================================================
+
+27:
+  MobType: RegularMob1,RegularMob2,RegularMob3,RegularMob4,RegularMob5,RegularMob6,RegularMob7,RegularMob8
+  Worlds: native,gothic,villages
+  Chance: 0.01
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+
+# ================================================================
+
+28:
+  MobType: UltraWolf
+  Worlds: native,gothic,villages
+  Chance: 0.009
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+
+# ================================================================
+
+29:
+  MobType: AngryPigZombie
+  Worlds: nether
+  Chance: 0.45
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype PIG_ZOMBIE
+30:
+  MobType: AngryEnderman
+  Worlds: ender
+  Chance: 0.45
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ENDERMAN
+
+# ================================================================
+
+31:
+  MobType: SkeletonRiderL1
+  Worlds: gothic
+  Chance: 0.015
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+32:
+  MobType: SkeletonRiderL2
+  Worlds: gothic
+  Chance: 0.014
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+33:
+  MobType: ZombieRiderL1
+  Worlds: gothic
+  Chance: 0.013
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+34:
+  MobType: ZombieRiderL2
+  Worlds: gothic
+  Chance: 0.012
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER
+
+# ================================================================
+
+35:
+  MobType: EnderStone
+  Worlds: ender
+  Chance: 0.05
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ENDERMAN
+
+# ================================================================
+
+36:
+  MobType: PhantomL1
+  Worlds: ender
+  Chance: 0.017
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ENDERMAN
+37:
+  MobType: PhantomL2
+  Worlds: ender
+  Chance: 0.016
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ENDERMAN
+38:
+  MobType: PhantomL3
+  Worlds: ender
+  Chance: 0.015
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ENDERMAN
+
+# ================================================================
+
+39:
+  MobType: Killer
+  Worlds: villages
+  Chance: 0.05
+  Priority: 1
+  Action: replace
+  Conditions:
+  - entitytype ZOMBIE,SKELETON,SPIDER,CREEPER

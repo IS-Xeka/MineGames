@@ -1,0 +1,1288 @@
+﻿HunterL1:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.295
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'jakedex'
+    Player: "&6Охотник"
+  Equipment:
+  - HunterL1MainHand:0
+  Drops:
+  - HunterL1Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+HunterL2:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'cheese654'
+    Player: "&6Охотник"
+  Equipment:
+  - HunterL2MainHand:0
+  Drops:
+  - HunterL2Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+HunterL3:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.305
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'X4tos'
+    Player: "&6Охотник"
+  Equipment:
+  - HunterL3MainHand:0
+  Drops:
+  - HunterL3Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+HunterL4:
+  Type: PIG_ZOMBIE
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.31
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'Crazygamer1122'
+    Player: "&6Охотник"
+  Equipment:
+  - HunterL4MainHand:0
+  Drops:
+  - HunterL4Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+HunterL5:
+  Type: PIG_ZOMBIE
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.315
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'Nikola2008'
+    Player: "&6Охотник"
+  Equipment:
+  - HunterL5MainHand:0
+  Drops:
+  - HunterL5Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+HunterL6:
+  Type: PIG_ZOMBIE
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.32
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'Flockhopper'
+    Player: "&6Охотник"
+  Equipment:
+  - HunterL6MainHand:0
+  Drops:
+  - HunterL6Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+HunterL7:
+  Type: PIG_ZOMBIE
+  Health: 40
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.325
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'N00bALiZA'
+    Player: "&6Охотник"
+  Equipment:
+  - HunterL7MainHand:0
+  Drops:
+  - HunterL7Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+HunterL8:
+  Type: PIG_ZOMBIE
+  Health: 40
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.33
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'xyanz'
+    Player: "&6Охотник"
+  Equipment:
+  - HunterL8MainHand:0
+  Drops:
+  - HunterL8Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+HunterL9:
+  Type: PIG_ZOMBIE
+  Health: 40
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.335
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'Magnitude_Nine'
+    Player: "&6Охотник"
+  Equipment:
+  - HunterL9MainHand:0
+  Drops:
+  - HunterL9Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+# ================================================================
+
+KnightL1:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.29
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'sadko12345'
+    Player: "&eРыцарь"
+  Equipment:
+  - KnightL1Helmet:4
+  - KnightL1Chestplate:3
+  - KnightL1Leggings:2
+  - KnightL1Boots:1
+  - KnightL1MainHand:0
+  Drops:
+  - KnightL1Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+KnightL2:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.295
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'M0RD3C41'
+    Player: "&eРыцарь"
+  Equipment:
+  - KnightL2Helmet:4
+  - KnightL2Chestplate:3
+  - KnightL2Leggings:2
+  - KnightL2Boots:1
+  - KnightL2MainHand:0
+  Drops:
+  - KnightL2Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+KnightL3:
+  Type: PIG_ZOMBIE
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'siconline'
+    Player: "&eРыцарь"
+  Equipment:
+  - KnightL3Helmet:4
+  - KnightL3Chestplate:3
+  - KnightL3Leggings:2
+  - KnightL3Boots:1
+  - KnightL3MainHand:0
+  Drops:
+  - KnightL3Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+KnightL4:
+  Type: PIG_ZOMBIE
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.305
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'Zephyri0n'
+    Player: "&eРыцарь"
+  Equipment:
+  - KnightL4Helmet:4
+  - KnightL4Chestplate:3
+  - KnightL4Leggings:2
+  - KnightL4Boots:1
+  - KnightL4MainHand:0
+  Drops:
+  - KnightL4Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+KnightL5:
+  Type: PIG_ZOMBIE
+  Health: 40
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.31
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'Istoleyourcrayon'
+    Player: "&eРыцарь"
+  Equipment:
+  - KnightL5Helmet:4
+  - KnightL5Chestplate:3
+  - KnightL5Leggings:2
+  - KnightL5Boots:1
+  - KnightL5MainHand:0
+  Drops:
+  - KnightL5Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+KnightL6:
+  Type: PIG_ZOMBIE
+  Health: 40
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.315
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'kms'
+    Player: "&eРыцарь"
+  Equipment:
+  - KnightL6Helmet:4
+  - KnightL6Chestplate:3
+  - KnightL6Leggings:2
+  - KnightL6Boots:1
+  - KnightL6MainHand:0
+  Drops:
+  - KnightL6Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+KnightL7:
+  Type: PIG_ZOMBIE
+  Health: 50
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.32
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'nayrmineman'
+    Player: "&eРыцарь"
+  Equipment:
+  - KnightL7Helmet:4
+  - KnightL7Chestplate:3
+  - KnightL7Leggings:2
+  - KnightL7Boots:1
+  - KnightL7MainHand:0
+  Drops:
+  - KnightL7Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+KnightL8:
+  Type: PIG_ZOMBIE
+  Health: 50
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.325
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'LuciferZ'
+    Player: "&eРыцарь"
+  Equipment:
+  - KnightL8Helmet:4
+  - KnightL8Chestplate:3
+  - KnightL8Leggings:2
+  - KnightL8Boots:1
+  - KnightL8MainHand:0
+  Drops:
+  - KnightL8Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+KnightL9:
+  Type: PIG_ZOMBIE
+  Health: 60
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.33
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'Zauluton'
+    Player: "&eРыцарь"
+  Equipment:
+  - KnightL9Helmet:4
+  - KnightL9Chestplate:3
+  - KnightL9Leggings:2
+  - KnightL9Boots:1
+  - KnightL9MainHand:0
+  Drops:
+  - KnightL9Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+KnightL10:
+  Type: PIG_ZOMBIE
+  Health: 60
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.335
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'BlackPantherUrC'
+    Player: "&eРыцарь"
+  Equipment:
+  - KnightL10Helmet:4
+  - KnightL10Chestplate:3
+  - KnightL10Leggings:2
+  - KnightL10Boots:1
+  - KnightL10MainHand:0
+  Drops:
+  - KnightL10Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+# ================================================================
+
+UndeadL1:
+  Type: WITHER_SKELETON
+  Health: 40
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'fireskull300'
+    Player: "&cНежить"
+  Equipment:
+  - UndeadL1MainHand:0
+  Drops:
+  - UndeadL1Drop
+
+UndeadL2:
+  Type: WITHER_SKELETON
+  Health: 50
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.31
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: '21minecraft21'
+    Player: "&cНежить"
+  Equipment:
+  - UndeadL2MainHand:0
+  Drops:
+  - UndeadL2Drop
+
+UndeadL3:
+  Type: WITHER_SKELETON
+  Health: 60
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.32
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'mattyman'
+    Player: "&cНежить"
+  Equipment:
+  - UndeadL3MainHand:0
+  Drops:
+  - UndeadL3Drop
+
+UndeadL4:
+  Type: PIG_ZOMBIE
+  Health: 70
+  Skills:
+  - potion{type=FIRE_RESISTANCE;duration=72000;level=2} @Self ~onSpawn
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.33
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'MinerConnor'
+    Player: "&cНежить"
+  Equipment:
+  - UndeadL4MainHand:0
+  Drops:
+  - UndeadL4Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+UndeadL5:
+  Type: PIG_ZOMBIE
+  Health: 80
+  Skills:
+  - potion{type=FIRE_RESISTANCE;duration=72000;level=2} @Self ~onSpawn
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.34
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'tony1231851'
+    Player: "&cНежить"
+  Equipment:
+  - UndeadL5MainHand:0
+  Drops:
+  - UndeadL5Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+# ================================================================
+
+IronGolem1:
+  Type: PIG_ZOMBIE
+  Health: 60
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    AttackSpeed: 1.0
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+  Disguise:
+    Type: IRON_GOLEM
+    ShowName: false
+  Equipment:
+  - IronGolem1Helmet:4
+  Drops:
+  - IronGolem1Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+IronGolem2:
+  Type: PIG_ZOMBIE
+  Health: 70
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    AttackSpeed: 1.0
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Disguise:
+    Type: IRON_GOLEM
+    ShowName: false
+  Equipment:
+  - IronGolem2Helmet:4
+  Drops:
+  - IronGolem2Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+IronGolem3:
+  Type: PIG_ZOMBIE
+  Health: 80
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    AttackSpeed: 1.0
+    MovementSpeed: 0.35
+    PreventOtherDrops: true
+  Disguise:
+    Type: IRON_GOLEM
+    ShowName: false
+  Equipment:
+  - IronGolem3Helmet:4
+  Drops:
+  - IronGolem3Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+# ================================================================
+
+RegularMob1:
+  Type: SKELETON
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: false
+  Equipment:
+  - RegularMob1MainHand:0
+  - RegularMob1Helmet:4
+  - RegularMob1Chestplate:3
+  - RegularMob1Leggings:2
+  - RegularMob1Boots:1
+  Drops:
+  - RegularMob1Drop
+
+RegularMob2:
+  Type: ZOMBIE
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.32
+    PreventOtherDrops: false
+  Equipment:
+  - RegularMob2MainHand:0
+  - RegularMob2Helmet:4
+  - RegularMob2Chestplate:3
+  - RegularMob2Leggings:2
+  - RegularMob2Boots:1
+  Drops:
+  - RegularMob2Drop
+
+RegularMob3:
+  Type: WITHER_SKELETON
+  Health: 40
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.34
+    PreventOtherDrops: false
+  Equipment:
+  - RegularMob3MainHand:0
+  Drops:
+  - RegularMob3Drop
+
+RegularMob4:
+  Type: PIG_ZOMBIE
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.34
+    PreventOtherDrops: false
+  Equipment: []
+  Drops:
+#  - RegularMobDrop5
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+RegularMob5:
+  Type: ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: false
+  Equipment:
+  - RegularMob6MainHand:0
+  - RegularMob6Helmet:4
+  - RegularMob6Chestplate:3
+  - RegularMob6Leggings:2
+  - RegularMob6Boots:1
+  Drops:
+  - RegularMob6Drop
+
+RegularMob6:
+  Type: SKELETON
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: false
+  Equipment:
+  - RegularMob7MainHand:0
+  - RegularMob7Helmet:4
+  - RegularMob7Chestplate:3
+  - RegularMob7Leggings:2
+  - RegularMob7Boots:1
+  Drops:
+  - RegularMob7Drop
+
+# ================================================================
+
+DangerBoss:
+  Type: WITHER_SKELETON
+  Health: 100
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.35
+    FollowRange: 32
+    PreventOtherDrops: false
+  Equipment:
+  - DangerBossMainHand:0
+  - DangerBossHelmet:4
+  - DangerBossChestplate:3
+  - DangerBossLeggings:2
+  - DangerBossBoots:1
+  Drops:
+  - DangerBossDrop
+
+DangerZOMBIE:
+  Type: ZOMBIE
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.30
+    FollowRange: 20
+    PreventOtherDrops: true
+  Equipment:
+  - DangerZOMBIEMainHand:0
+  Drops:
+  - DangerZOMBIEDrop
+
+DangerSKELETON:
+  Type: SKELETON
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.30
+    FollowRange: 20
+    PreventOtherDrops: true
+  Equipment:
+  - DangerSKELETONMainHand:0
+  Drops:
+  - DangerSKELETONDrop
+
+# ================================================================
+
+UltraWolf:
+  Type: PIG_ZOMBIE
+  Health: 10
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    AttackSpeed: 1.0
+    MovementSpeed: 0.4
+    PreventOtherDrops: true
+  Disguise:
+    Type: WOLF
+    ShowName: false
+  Equipment: []
+  Drops:
+  - UltraWolfDrop
+
+# ================================================================
+
+AngryPigZombie:
+  Type: PIG_ZOMBIE
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Angry: true
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    PreventOtherDrops: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+AngryEnderman:
+  Type: ENDERMAN
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Angry: true
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    PreventOtherDrops: false
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+# ================================================================
+
+SpiderCarrier:
+  Type: SPIDER
+  Health: 30
+  Options:
+    Silent: false
+    AttackSpeed: 1.0
+    PreventOtherDrops: false
+
+# ================================================================
+
+SkeletonRiderL1:
+  Type: SKELETON
+  Health: 30
+  Riding: SpiderCarrier
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: false
+  Equipment:
+  - SkeletonRiderL1MainHand:0
+  - SkeletonRiderL1Helmet:4
+  - SkeletonRiderL1Chestplate:3
+  - SkeletonRiderL1Leggings:2
+  - SkeletonRiderL1Boots:1
+  Drops:
+  - SkeletonRiderL1Drop
+
+SkeletonRiderL2:
+  Type: SKELETON
+  Health: 30
+  Riding: SpiderCarrier
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: false
+  Equipment:
+  - SkeletonRiderL2MainHand:0
+  - SkeletonRiderL2Helmet:4
+  - SkeletonRiderL2Chestplate:3
+  - SkeletonRiderL2Leggings:2
+  - SkeletonRiderL2Boots:1
+  Drops:
+  - SkeletonRiderL2Drop
+
+# ================================================================
+
+ZombieRiderL1:
+  Type: ZOMBIE_VILLAGER
+  Health: 40
+  Riding: SpiderCarrier
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: false
+  Equipment:
+  - ZombieRiderL1MainHand:0
+  - ZombieRiderL1Helmet:4
+  - ZombieRiderL1Chestplate:3
+  - ZombieRiderL1Leggings:2
+  - ZombieRiderL1Boots:1
+  Drops:
+  - ZombieRiderL1Drop
+
+ZombieRiderL2:
+  Type: ZOMBIE
+  Health: 40
+  Riding: SpiderCarrier
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: false
+  Equipment:
+  - ZombieRiderL2MainHand:0
+  - ZombieRiderL2Helmet:4
+  - ZombieRiderL2Chestplate:3
+  - ZombieRiderL2Leggings:2
+  - ZombieRiderL2Boots:1
+  Drops:
+  - ZombieRiderL2Drop
+
+# ================================================================
+
+EnderStone:
+  Type: SPIDER
+  Health: 20
+  Skills:
+  - explosion{yield=3} @Self ~onDeath
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+  Disguise:
+    Type: BLOCK
+    Block: ENDER_STONE
+    BlockData: 0
+    ShowName: false
+  Drops:
+  - EnderStoneDrop
+
+# ================================================================
+
+PhantomL1:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.31
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'xXKilroy69'
+    Player: "&bПризрак"
+  Equipment:
+  - PhantomL1MainHand:0
+  Drops:
+  - PhantomL1Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+PhantomL2:
+  Type: PIG_ZOMBIE
+  Health: 30
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.32
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'emmett67'
+    Player: "&bПризрак"
+  Equipment:
+  - PhantomL2MainHand:0
+  Drops:
+  - PhantomL2Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+PhantomL3:
+  Type: PIG_ZOMBIE
+  Health: 40
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.33
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'fogi'
+    Player: "&bПризрак"
+  Equipment:
+  - PhantomL3MainHand:0
+  Drops:
+  - PhantomL3Drop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+# ================================================================
+
+Killer:
+  Type: PIG_ZOMBIE
+  Health: 60
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.39
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'MiniJar'
+    Player: "&4Убийца"
+  Equipment:
+  - KillerMainHand:0
+  Drops:
+  - KillerDrop
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+# ================================================================
+
+GladiatorL1:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 16
+    AttackSpeed: 1.0
+    MovementSpeed: 0.29
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'ChromaWolf'
+    Player: "&1Гладиатор"
+  Equipment:
+  - GladiatorL1MainHand:0
+  Drops: []
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+GladiatorL2:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 16
+    AttackSpeed: 1.0
+    MovementSpeed: 0.295
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'FlamingBoy'
+    Player: "&1Гладиатор"
+  Equipment:
+  - GladiatorL2MainHand:0
+  Drops: []
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+GladiatorL3:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 16
+    AttackSpeed: 1.0
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'Luckssmith'
+    Player: "&1Гладиатор"
+  Equipment:
+  - GladiatorL3MainHand:0
+  Drops: []
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+GladiatorL4:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 16
+    AttackSpeed: 1.0
+    MovementSpeed: 0.305
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: '1ED'
+    Player: "&1Гладиатор"
+  Equipment:
+  - GladiatorL4MainHand:0
+  Drops: []
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+GladiatorL5:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 16
+    AttackSpeed: 1.0
+    MovementSpeed: 0.31
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'zenomorph4'
+    Player: "&1Гладиатор"
+  Equipment:
+  - GladiatorL5MainHand:0
+  Drops: []
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+GladiatorL6:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 16
+    AttackSpeed: 1.0
+    MovementSpeed: 0.315
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'Saldafon'
+    Player: "&1Гладиатор"
+  Equipment:
+  - GladiatorL6MainHand:0
+  Drops: []
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+GladiatorL7:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 16
+    AttackSpeed: 1.0
+    MovementSpeed: 0.32
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'SmooqyFAN'
+    Player: "&1Гладиатор"
+  Equipment:
+  - GladiatorL7MainHand:0
+  Drops: []
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+GladiatorL8:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 16
+    AttackSpeed: 1.0
+    MovementSpeed: 0.325
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'only12live'
+    Player: "&1Гладиатор"
+  Equipment:
+  - GladiatorL8Helmet:4
+  - GladiatorL8Chestplate:3
+  - GladiatorL8Leggings:2
+  - GladiatorL8Boots:1
+  - GladiatorL8MainHand:0
+  Drops: []
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+GladiatorL9:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 16
+    AttackSpeed: 1.0
+    MovementSpeed: 0.33
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: '1nj3ct0r'
+    Player: "&1Гладиатор"
+  Equipment:
+  - GladiatorL9Helmet:4
+  - GladiatorL9Chestplate:3
+  - GladiatorL9Leggings:2
+  - GladiatorL9Boots:1
+  - GladiatorL9MainHand:0
+  Drops: []
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+
+GladiatorL10:
+  Type: PIG_ZOMBIE
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 16
+    AttackSpeed: 1.0
+    MovementSpeed: 0.335
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'Sploffer'
+    Player: "&1Гладиатор"
+  Equipment:
+  - GladiatorL10Helmet:4
+  - GladiatorL10Chestplate:3
+  - GladiatorL10Leggings:2
+  - GladiatorL10Boots:1
+  - GladiatorL10MainHand:0
+  Drops: []
+  AITargetSelectors:
+  - 0 clear
+  - 1 players

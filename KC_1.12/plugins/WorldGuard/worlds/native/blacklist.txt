@@ -1,0 +1,8 @@
+[BEDROCK,SPONGE]
+on-break=deny,tell
+on-place=deny,tell
+ignore-groups=owner
+
+[SPAWNER,COMMAND_BLOCK,DRAGON_EGG,END_PORTAL,END_PORTAL_FRAME,PORTAL,BARRIER]
+on-place=deny,tell
+ignore-groups=owner

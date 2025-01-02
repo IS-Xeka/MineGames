@@ -1,0 +1,191 @@
+{
+  "toSpawn": {
+    "froms": [
+      {
+        "world": "games",
+        "x": -1024.0,
+        "y": 63.0,
+        "z": 1001.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "spawn",
+        "x": 0.5,
+        "y": 63.0,
+        "z": 0.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "toEnder": {
+    "froms": [
+      {
+        "world": "spawn",
+        "x": -527.0,
+        "y": 62.0,
+        "z": -503.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "ender",
+        "x": 0.5,
+        "y": 102.0,
+        "z": 0.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "toGothic": {
+    "froms": [
+      {
+        "world": "spawn",
+        "x": -503.0,
+        "y": 62.0,
+        "z": -497.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "gothic",
+        "x": 0.5,
+        "y": 73.0,
+        "z": 0.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "toNative": {
+    "froms": [
+      {
+        "world": "spawn",
+        "x": -512.0,
+        "y": 62.0,
+        "z": -499.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "native",
+        "x": 0.5,
+        "y": 73.0,
+        "z": 0.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "toNether": {
+    "froms": [
+      {
+        "world": "spawn",
+        "x": -497.0,
+        "y": 62.0,
+        "z": -503.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "nether",
+        "x": 0.5,
+        "y": 59.0,
+        "z": 0.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "toPortals": {
+    "froms": [
+      {
+        "world": "spawn",
+        "x": 0.0,
+        "y": 64.0,
+        "z": -18.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "spawn",
+        "x": -511.5,
+        "y": 63.0,
+        "z": -511.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "toVillages": {
+    "froms": [
+      {
+        "world": "spawn",
+        "x": -521.0,
+        "y": 62.0,
+        "z": -497.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "villages",
+        "x": 0.5,
+        "y": 65.0,
+        "z": 0.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  }
+}

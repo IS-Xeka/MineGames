@@ -1,0 +1,86 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'Варпы'
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'warp'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+1:
+  COMMAND: 'warp games'
+  NAME: '&6Games'
+  ID: '315'
+  POSITION-X: 5
+  POSITION-Y: 1
+2:
+  COMMAND: 'warp portals'
+  NAME: '&6Portals'
+  ID: '1'
+  DATA-VALUE: 4
+  POSITION-X: 3
+  POSITION-Y: 2
+3:
+  COMMAND: 'warp danger'
+  NAME: '&6Danger'
+  ID: '367'
+  POSITION-X: 4
+  POSITION-Y: 2
+4:
+  COMMAND: 'warp shop'
+  NAME: '&6Shop'
+  ID: '388'
+  POSITION-X: 5
+  POSITION-Y: 2
+5:
+  COMMAND: 'warp parkour'
+  NAME: '&6Parkour'
+  ID: '65'
+  POSITION-X: 6
+  POSITION-Y: 2
+6:
+  COMMAND: 'warp pvp'
+  NAME: '&6PvP'
+  ID: '276'
+  POSITION-X: 7
+  POSITION-Y: 2
+7:
+  COMMAND: 'warp enchant'
+  NAME: '&6Enchant'
+  ID: '403'
+  POSITION-X: 4
+  POSITION-Y: 3
+8:
+  COMMAND: 'warp food'
+  NAME: '&6Food'
+  ID: '364'
+  POSITION-X: 5
+  POSITION-Y: 3
+9:
+  COMMAND: 'warp mine'
+  NAME: '&6Mine'
+  ID: '257'
+  POSITION-X: 6
+  POSITION-Y: 3
+
+Cancel:
+  COMMAND: 'open:menu.yml'
+  NAME: '&6Назад'
+  ID: '325'
+  POSITION-X: 5
+  POSITION-Y: 5

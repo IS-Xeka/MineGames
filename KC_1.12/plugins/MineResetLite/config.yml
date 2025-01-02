@@ -1,0 +1,4 @@
+broadcast-in-world-only: true
+broadcast-nearby-only: true
+check-for-updates: false
+locale: en

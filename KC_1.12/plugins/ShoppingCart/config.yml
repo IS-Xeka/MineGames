@@ -1,0 +1,39 @@
+send-messages: false
+request-perms: false
+check-on-join: true
+#Настройки базы данных MySQL
+mysql:
+  #Хост базы данных
+  host: "127.0.0.1"
+  #Имя пользователя базы данных
+  username: "root"
+  #Пароль базы данных
+  password: "<mysql_password>"
+  #Название базы данных
+  database: "kenigcraft"
+  #Порт базы данных
+  port: "3306"
+  #Название таблицы
+  table: "shopcart"
+  #Столбики
+  columns:
+    #Нумерация
+    id: "id"
+    #Ник игрока
+    name: "player"
+    #Действие (любые цифры, что будет происходить написано в actions)
+    action: "item"
+#Какие действия будут выполняться
+actions:
+  1: "pex user {name} group set warrior;notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл Донат - §dВоитель"
+  2: "pex user {name} group set premium;notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл Донат - §2Премиум"
+  3: "pex user {name} group set creative;notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл Донат - §5Креатив"
+  4: "pex user {name} group set moderator;notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл Донат - §bМодератор"
+  5: "pex user {name} group set operator;notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл Донат - §aОператор"
+  6: "pex user {name} group set marshal;notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл Донат - §eМаршал"
+  7: "pex user {name} group set admin;notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл Донат - §6§lАдмин"
+  8: "pex user {name} group set mecenat;notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл Донат - §c§lМеценат"
+  9: "crate give Virtual MoneyCase1 1 {name};notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл ключ от &bКейса с монетами"
+  10: "crate give Virtual MoneyCase2 1 {name};notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл ключ от &6Большого кейса с монетами"
+  11: "crate give Virtual DonateCase1 1 {name};notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл ключ от &bКейса с Донатом"
+  12: "crate give Virtual DonateCase2 1 {name};notice §a§l[KenigCraft] §6§l{name}§r §aприобрёл ключ от &6Большого кейса с Донатом"

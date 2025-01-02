@@ -1,0 +1,9 @@
+chest:
+  spawn,-520,62,523: pvp
+  spawn,-523,62,520: pvp
+  spawn,-523,62,504: pvp
+  spawn,-520,62,501: pvp
+  spawn,-504,62,501: pvp
+  spawn,-501,62,504: pvp
+  spawn,-501,62,520: pvp
+  spawn,-504,62,523: pvp

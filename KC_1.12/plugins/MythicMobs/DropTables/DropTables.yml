@@ -1,0 +1,376 @@
+DangerBossDrop:
+  Conditions: []
+  Drops:
+  - DangerBossMainHand 1 0.1
+  - DangerBossHelmet 1 0.1
+  - DangerBossChestplate 1 0.1
+  - DangerBossLeggings 1 0.1
+  - DangerBossBoots 1 0.1
+  - GOLDEN_APPLE 4-16 1
+  - exp 200
+
+# ================================================================
+
+HunterL1Drop:
+  Conditions: []
+  Drops:
+  - HunterL1MainHand 1 0.5
+  - exp 5
+
+HunterL2Drop:
+  Conditions: []
+  Drops:
+  - HunterL2MainHand 1 0.5
+  - exp 10
+
+HunterL3Drop:
+  Conditions: []
+  Drops:
+  - HunterL3MainHand 1 0.5
+  - exp 15
+
+HunterL4Drop:
+  Conditions: []
+  Drops:
+  - HunterL4MainHand 1 0.5
+  - exp 20
+
+HunterL5Drop:
+  Conditions: []
+  Drops:
+  - HunterL5MainHand 1 0.5
+  - exp 30
+
+HunterL6Drop:
+  Conditions: []
+  Drops:
+  - HunterL6MainHand 1 0.5
+  - exp 40
+
+HunterL7Drop:
+  Conditions: []
+  Drops:
+  - HunterL7MainHand 1 0.5
+  - exp 60
+
+HunterL8Drop:
+  Conditions: []
+  Drops:
+  - HunterL8MainHand 1 0.5
+  - exp 80
+
+HunterL9Drop:
+  Conditions: []
+  Drops:
+  - HunterL9MainHand 1 0.5
+  - exp 100
+
+# ================================================================
+
+KnightL1Drop:
+  Conditions: []
+  Drops:
+  - KnightL1MainHand 1 0.5
+  - KnightL1Helmet 1 0.5
+  - KnightL1Chestplate 1 0.5
+  - KnightL1Leggings 1 0.5
+  - KnightL1Boots 1 0.5
+  - exp 10
+
+KnightL2Drop:
+  Conditions: []
+  Drops:
+  - KnightL2MainHand 1 0.5
+  - KnightL2Helmet 1 0.5
+  - KnightL2Chestplate 1 0.5
+  - KnightL2Leggings 1 0.5
+  - KnightL2Boots 1 0.5
+  - exp 15
+
+KnightL3Drop:
+  Conditions: []
+  Drops:
+  - KnightL3MainHand 1 0.5
+  - KnightL3Helmet 1 0.5
+  - KnightL3Chestplate 1 0.5
+  - KnightL3Leggings 1 0.5
+  - KnightL3Boots 1 0.5
+  - exp 20
+
+KnightL4Drop:
+  Conditions: []
+  Drops:
+  - KnightL4MainHand 1 0.5
+  - KnightL4Helmet 1 0.5
+  - KnightL4Chestplate 1 0.5
+  - KnightL4Leggings 1 0.5
+  - KnightL4Boots 1 0.5
+  - exp 30
+
+KnightL5Drop:
+  Conditions: []
+  Drops:
+  - KnightL5MainHand 1 0.5
+  - KnightL5Helmet 1 0.5
+  - KnightL5Chestplate 1 0.5
+  - KnightL5Leggings 1 0.5
+  - KnightL5Boots 1 0.5
+  - exp 50
+
+KnightL6Drop:
+  Conditions: []
+  Drops:
+  - KnightL6MainHand 1 0.5
+  - KnightL6Helmet 1 0.5
+  - KnightL6Chestplate 1 0.5
+  - KnightL6Leggings 1 0.5
+  - KnightL6Boots 1 0.5
+  - exp 70
+
+KnightL7Drop:
+  Conditions: []
+  Drops:
+  - KnightL7MainHand 1 0.5
+  - KnightL7Helmet 1 0.5
+  - KnightL7Chestplate 1 0.5
+  - KnightL7Leggings 1 0.5
+  - KnightL7Boots 1 0.5
+  - exp 100
+
+KnightL8Drop:
+  Conditions: []
+  Drops:
+  - KnightL8MainHand 1 0.5
+  - KnightL8Helmet 1 0.5
+  - KnightL8Chestplate 1 0.5
+  - KnightL8Leggings 1 0.5
+  - KnightL8Boots 1 0.5
+  - exp 150
+
+KnightL9Drop:
+  Conditions: []
+  Drops:
+  - KnightL9MainHand 1 0.5
+  - KnightL9Helmet 1 0.5
+  - KnightL9Chestplate 1 0.5
+  - KnightL9Leggings 1 0.5
+  - KnightL9Boots 1 0.5
+  - exp 200
+
+KnightL10Drop:
+  Conditions: []
+  Drops:
+  - KnightL10MainHand 1 0.5
+  - KnightL10Helmet 1 0.5
+  - KnightL10Chestplate 1 0.5
+  - KnightL10Leggings 1 0.5
+  - KnightL10Boots 1 0.5
+  - exp 300
+
+# ================================================================
+
+UndeadL1Drop:
+  Conditions: []
+  Drops:
+  - UndeadL1MainHand 1 0.5
+  - exp 20
+
+UndeadL2Drop:
+  Conditions: []
+  Drops:
+  - UndeadL2MainHand 1 0.5
+  - exp 30
+
+UndeadL3Drop:
+  Conditions: []
+  Drops:
+  - UndeadL3MainHand 1 0.5
+  - exp 40
+
+UndeadL4Drop:
+  Conditions: []
+  Drops:
+  - UndeadL4MainHand 1 0.5
+  - exp 50
+
+UndeadL5Drop:
+  Conditions: []
+  Drops:
+  - UndeadL5MainHand 1 0.5
+  - exp 70
+
+# ================================================================
+
+IronGolem1Drop:
+  Conditions: []
+  Drops:
+  - IRON_HELMET 1 0.1
+  - IRON_CHESTPLATE 1 0.1
+  - IRON_LEGGINGS 1 0.1
+  - IRON_BOOTS 1 0.1
+  - exp 30
+
+IronGolem2Drop:
+  Conditions: []
+  Drops:
+  - IRON_HELMET 1 0.3
+  - IRON_CHESTPLATE 1 0.3
+  - IRON_LEGGINGS 1 0.3
+  - IRON_BOOTS 1 0.3
+  - exp 50
+
+IronGolem3Drop:
+  Conditions: []
+  Drops:
+  - IRON_HELMET 1 0.5
+  - IRON_CHESTPLATE 1 0.5
+  - IRON_LEGGINGS 1 0.5
+  - IRON_BOOTS 1 0.5
+  - exp 70
+
+# ================================================================
+
+RegularMob1Drop:
+  Conditions: []
+  Drops:
+  - RegularMob1MainHand 1 0.5
+  - RegularMob1Helmet 1 0.5
+  - RegularMob1Chestplate 1 0.5
+  - RegularMob1Leggings 1 0.5
+  - RegularMob1Boots 1 0.5
+  - exp 10
+
+RegularMob2Drop:
+  Conditions: []
+  Drops:
+  - RegularMob2MainHand 1 0.5
+  - RegularMob2Helmet 1 0.5
+  - RegularMob2Chestplate 1 0.5
+  - RegularMob2Leggings 1 0.5
+  - RegularMob2Boots 1 0.5
+  - exp 20
+
+RegularMob3Drop:
+  Conditions: []
+  Drops:
+  - RegularMob3MainHand 1 0.5
+  - exp 40
+
+RegularMob6Drop:
+  Conditions: []
+  Drops:
+  - RegularMob6MainHand 1 0.5
+  - RegularMob6Helmet 1 0.5
+  - RegularMob6Chestplate 1 0.5
+  - RegularMob6Leggings 1 0.5
+  - RegularMob6Boots 1 0.5
+  - exp 30
+
+RegularMob7Drop:
+  Conditions: []
+  Drops:
+  - RegularMob7MainHand 1 0.5
+  - RegularMob7Helmet 1 0.5
+  - RegularMob7Chestplate 1 0.5
+  - RegularMob7Leggings 1 0.5
+  - RegularMob7Boots 1 0.5
+  - exp 20
+
+# ================================================================
+
+DangerHuskDrop:
+  Conditions: []
+  Drops:
+  - DangerHuskMainHand 1 0.5
+  - exp 20
+
+DangerStrayDrop:
+  Conditions: []
+  Drops:
+  - DangerStrayMainHand 1 0.5
+  - exp 20
+
+UltraWolfDrop:
+  Conditions: []
+  Drops:
+  - exp 20
+
+# ================================================================
+
+SkeletonRiderL1Drop:
+  Conditions: []
+  Drops:
+  - SkeletonRiderL1Helmet 1 0.5
+  - SkeletonRiderL1Chestplate 1 0.5
+  - SkeletonRiderL1Leggings 1 0.5
+  - SkeletonRiderL1Boots 1 0.5
+  - SkeletonRiderL1MainHand 1 0.5
+  - exp 20
+
+SkeletonRiderL2Drop:
+  Conditions: []
+  Drops:
+  - SkeletonRiderL2Helmet 1 0.5
+  - SkeletonRiderL2Chestplate 1 0.5
+  - SkeletonRiderL2Leggings 1 0.5
+  - SkeletonRiderL2Boots 1 0.5
+  - SkeletonRiderL2MainHand 1 0.5
+  - exp 30
+
+# ================================================================
+
+ZombieRiderL1Drop:
+  Conditions: []
+  Drops:
+  - ZombieRiderL1Helmet 1 0.5
+  - ZombieRiderL1Chestplate 1 0.5
+  - ZombieRiderL1Leggings 1 0.5
+  - ZombieRiderL1Boots 1 0.5
+  - ZombieRiderL1MainHand 1 0.5
+  - exp 20
+
+ZombieRiderL2Drop:
+  Conditions: []
+  Drops:
+  - ZombieRiderL2Helmet 1 0.5
+  - ZombieRiderL2Chestplate 1 0.5
+  - ZombieRiderL2Leggings 1 0.5
+  - ZombieRiderL2Boots 1 0.5
+  - ZombieRiderL2MainHand 1 0.5
+  - exp 30
+
+# ================================================================
+
+EnderStoneDrop:
+  Conditions: []
+  Drops:
+  - EnderStone 1-3 1.0
+  - exp 10
+
+# ================================================================
+
+PhantomL1Drop:
+  Conditions: []
+  Drops:
+  - PhantomL1MainHand 1 0.5
+  - exp 20
+
+PhantomL2Drop:
+  Conditions: []
+  Drops:
+  - PhantomL2MainHand 1 0.5
+  - exp 30
+
+PhantomL3Drop:
+  Conditions: []
+  Drops:
+  - PhantomL3MainHand 1 0.5
+  - exp 40
+
+# ================================================================
+
+KillerDrop:
+  Conditions: []
+  Drops:
+  - KillerMainHand 1 0.5
+  - exp 30

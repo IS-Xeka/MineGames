@@ -1,0 +1,54 @@
+#####################################################################
+#####################################################################
+###           _____      _      _____       _            __       ###
+###          |  ___|    (_)    /  ___|     | |          / _|      ###
+###          | |__ _ __  _  ___\ `--. _ __ | | ___  ___| |_       ###
+###          |  __| '_ \| |/ __|`--. \ '_ \| |/ _ \/ _ \  _|      ###
+###          | |__| |_) | | (__/\__/ / |_) | |  __/  __/ |        ###
+###          \____/ .__/|_|\___\____/| .__/|_|\___|\___|_|        ###
+###               | |                | |                          ###
+###               |_|                |_|                          ###
+###                                                               ###
+#####################################################################
+#####################################################################
+keepStatsOnArenaDelete: true
+scoreboardEnabled: false
+countdownNotifySound: BLOCK_TRIPWIRE_ATTACH
+permissibleFloorMaterials:
+  - WOOL
+  - CLAY
+  - SNOW_BLOCK
+  - STAINED_CLAY
+  - STAINED_GLASS
+allowedCommands:
+  - "/spleef *"
+  - "/spl *"
+scoreboard:
+  - '&a&lПобеды'
+  - '%wins%'
+  - '&1'
+  - '&c&lПоражения'
+  - '%losses%'
+  - '&2'
+  - '&6&lПолучено баллов'
+  - '%totalPoints%'
+  - '&3'
+  - '&a&lВсего побед'
+  - '%totalWins%'
+  - '&4'
+  - '&c&lВсего поражений'
+  - '%totalLosses%'
+# A list of allowed commands.
+joinsigns:
+  lines:
+    1: '&b[%mode%]'
+    2: '%arena%'
+    3: '%players%/%maxPlayers%'
+    4: '%state%'
+expertsOnly:
+  stats:
+    threadPoolSettings:
+      ownParameters: false
+      corePoolSize: 0
+      maximumPoolSize: 100
+      keepAliveTimeInMilliSeconds: 60000

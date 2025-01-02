@@ -1,0 +1,166 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'Оружие'
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'guns'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+1:
+  PRICE: 900
+  COMMAND: 'console: shot give {player} handgun'
+  NAME: '&eПистолет'
+  ID: '290'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 900$'
+  POSITION-X: 2
+  POSITION-Y: 1
+2:
+  PRICE: 1200
+  COMMAND: 'console: shot give {player} chaser'
+  NAME: '&eЧейзер'
+  ID: '291'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 1200$'
+  POSITION-X: 3
+  POSITION-Y: 1
+3:
+  PRICE: 1700
+  COMMAND: 'console: shot give {player} shotgun'
+  NAME: '&eАвтомат'
+  ID: '292'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 1700$'
+  POSITION-X: 5
+  POSITION-Y: 1
+4:
+  PRICE: 1500
+  COMMAND: 'console: shot give {player} hunting'
+  NAME: '&eОхотничье ружьё'
+  ID: '294'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 1500$'
+  POSITION-X: 7
+  POSITION-Y: 1
+5:
+  PRICE: 3200
+  COMMAND: 'console: shot give {player} laser'
+  NAME: '&eЛазер'
+  ID: '293'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 3200$'
+  POSITION-X: 8
+  POSITION-Y: 1
+
+#-------=====[]=====-------
+
+6:
+  PRICE: 2500
+  COMMAND: 'console: shot give {player} gauss'
+  NAME: '&eГаусс-пушка'
+  ID: '417'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 2500$'
+  POSITION-X: 3
+  POSITION-Y: 2
+7:
+  PRICE: 2800
+  COMMAND: 'console: shot give {player} bazooka'
+  NAME: '&eГранатомёт'
+  ID: '418'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 2800$'
+  POSITION-X: 5
+  POSITION-Y: 2
+8:
+  PRICE: 4800
+  COMMAND: 'console: shot give {player} bulldog'
+  NAME: '&eБульдог'
+  ID: '419'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 4800$'
+  POSITION-X: 7
+  POSITION-Y: 2
+
+#-------=====[]=====-------
+
+9:
+  PRICE: 3900
+  COMMAND: 'console: shot give {player} nuke'
+  NAME: '&eЯдерная бомба'
+  ID: '343'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 3900$'
+  POSITION-X: 5
+  POSITION-Y: 3
+10:
+  PRICE: 500
+  COMMAND: 'console: shot give {player} grenade'
+  NAME: '&eОсколочная граната'
+  ID: '337'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 500$'
+  POSITION-X: 2
+  POSITION-Y: 3
+11:
+  PRICE: 3400
+  COMMAND: 'console: shot give {player} putty'
+  NAME: '&eУправляемая взрывчатка'
+  ID: '404'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 3400$'
+  POSITION-X: 3
+  POSITION-Y: 3
+12:
+  PRICE: 3500
+  COMMAND: 'console: shot give {player} cocopops'
+  NAME: '&eКассетная бомба'
+  ID: '351:3'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 3500$'
+  POSITION-X: 7
+  POSITION-Y: 3
+13:
+  PRICE: 400
+  COMMAND: 'console: shot give {player} flashbang'
+  NAME: '&eОслепляющая граната'
+  ID: '351:8'
+  KEEP-OPEN: true
+  LORE:
+    - '&aКупить за 400$'
+  POSITION-X: 8
+  POSITION-Y: 3
+
+Cancel:
+  COMMAND: 'open:menu.yml'
+  NAME: '&6Назад'
+  ID: '325'
+  POSITION-X: 5
+  POSITION-Y: 5

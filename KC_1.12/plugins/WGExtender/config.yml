@@ -1,0 +1,55 @@
+claim:
+  vertexpand:
+    enabled: true
+  blocklimits:
+    enabled: true
+    limits:
+      player: 500000
+      warrior: 1000000
+      premium: 2000000
+      creative: 3000000
+      moderator: 5000000
+      operator: 7000000
+      marshal: 10000000
+      admin: 15000000
+      mecenat: 20000000
+regionprotect:
+  flow:
+    lava:
+      enabled: true
+    water:
+      enabled: false
+    otherliquid:
+      enabled: false
+  ignitebyplayer:
+    enabled: false
+  fire:
+    spread:
+      toregion:
+        enabled: false
+      inregion:
+        enabled: false
+    burn:
+      enabled: false
+  explosion:
+    block:
+      enabled: false
+    entity:
+      enabled: false
+  pistonmove:
+    enabled: true
+customflags:
+  damage-animals:
+    enabled: false
+  entity-interact:
+    enabled: true
+autoflags:
+  enabled: false
+  flags: {}
+restrictcommands:
+  enabled: true
+  commands:
+  - sethome
+  - esethome
+  - createhome
+  - ecreatehome

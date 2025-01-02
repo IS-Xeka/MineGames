@@ -1,1 +1,0 @@
-screen -A -m -d -S BD sh Server.sh

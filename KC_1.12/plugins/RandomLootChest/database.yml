@@ -1,0 +1,469 @@
+Chests: {}
+LocationDatabase: {}
+ItemDatabase:
+  '0':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      damage: 92
+      amount: 4
+    chance: 50
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      damage: 91
+      amount: 4
+    chance: 50
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MONSTER_EGG
+      damage: 120
+      amount: 4
+    chance: 50
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_SPADE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §7Археология III
+        enchants:
+          DIG_SPEED: 5
+    chance: 50
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 5
+    chance: 50
+  '5':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 5
+    chance: 50
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 5
+    chance: 50
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §7Посадка культур III
+        enchants:
+          DURABILITY: 3
+    chance: 50
+  '8':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+    chance: 50
+  '9':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+    chance: 50
+  '10':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+    chance: 50
+  '11':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+    chance: 50
+  '12':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_SPADE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §7Археология III
+        enchants:
+          DIG_SPEED: 2
+    chance: 50
+  '13':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §7Археология III
+        enchants:
+          DIG_SPEED: 2
+    chance: 50
+  '14':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+    chance: 50
+  '15':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §7Проращивание III
+        enchants:
+          DURABILITY: 1
+    chance: 50
+  '16':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+    chance: 50
+  '17':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+    chance: 50
+  '18':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+    chance: 50
+  '19':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+    chance: 50
+  '20':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §7Огненный шторм III
+        enchants:
+          ARROW_DAMAGE: 5
+          ARROW_KNOCKBACK: 2
+          ARROW_FIRE: 1
+          ARROW_INFINITE: 1
+    chance: 50
+  '21':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 64
+    chance: 50
+  '22':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      damage: 1
+      amount: 4
+    chance: 50
+  '23':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: COOKED_BEEF
+      amount: 8
+    chance: 50
+  '24':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BAKED_POTATO
+      amount: 16
+    chance: 50
+  '25':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MELON
+      amount: 32
+    chance: 50
+  '26':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+      amount: 4
+    chance: 50
+  '27':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+      amount: 16
+    chance: 50
+  '28':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+      amount: 32
+    chance: 50
+  '29':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CLAY_BRICK
+      amount: 64
+    chance: 50
+  '30':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_INGOT
+      amount: 32
+    chance: 50
+  '31':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_INGOT
+      amount: 16
+    chance: 50
+  '32':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND
+      amount: 16
+    chance: 50
+  '33':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: COAL
+      amount: 64
+    chance: 50
+  '34':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BONE
+      amount: 32
+    chance: 50
+  '35':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BARDING
+    chance: 50
+  '36':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_BARDING
+    chance: 50
+  '37':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BARDING
+    chance: 50
+  '38':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STALK
+      amount: 8
+    chance: 50
+  '39':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE_CRYSTALS
+      amount: 64
+    chance: 50
+  '40':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE_SHARD
+      amount: 32
+    chance: 50
+  '41':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STAR
+    chance: 50
+  '42':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GHAST_TEAR
+    chance: 50
+  '43':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MAGMA_CREAM
+      amount: 8
+    chance: 50
+  '44':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MAGMA_CREAM
+      amount: 16
+    chance: 50
+  '45':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SAND
+      amount: 64
+    chance: 50
+  '46':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      amount: 32
+    chance: 50
+  '47':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GLOWSTONE
+      amount: 16
+    chance: 50
+  '48':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: QUARTZ_BLOCK
+      amount: 32
+    chance: 50
+  '49':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEA_LANTERN
+      amount: 16
+    chance: 50
+  '50':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: HARD_CLAY
+      amount: 64
+    chance: 50
+  '51':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE
+      damage: 1
+      amount: 32
+    chance: 50
+  '52':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE
+      damage: 2
+      amount: 32
+    chance: 50
+  '53':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: COAL_BLOCK
+      amount: 32
+    chance: 50
+  '54':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BLOCK
+      amount: 16
+    chance: 50
+  '55':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LAPIS_BLOCK
+      amount: 8
+    chance: 50
+  '56':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LAPIS_BLOCK
+      amount: 16
+    chance: 50
+  '57':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD_BLOCK
+      amount: 8
+    chance: 50
+  '58':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD_BLOCK
+      amount: 16
+    chance: 50
+  '59':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_BLOCK
+      amount: 8
+    chance: 50
+  '60':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_BLOCK
+      amount: 16
+    chance: 50
+  '61':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BLOCK
+      amount: 8
+    chance: 50
+  '62':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BLOCK
+      amount: 16
+    chance: 50

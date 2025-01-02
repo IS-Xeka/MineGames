@@ -1,8 +1,0 @@
-signs:
-  creative,51,143,56:
-    redstone: false
-    owner: SiT
-    text:
-    - /menu
-    active: true
-    cooldowns: {}

@@ -1,0 +1,273 @@
+sign-title: '&8[%theme%Пейнтбол&8]'
+command-title: '&lПейнтбол'
+prefix: '&8[&3Пейнтбол&8] '
+arena-list-command: '&9Арены: %arena%'
+command-arena-info: Все команды плагина Пейнтбол
+command-create-info: Создать новую арену
+command-setflag-info: Установить точку флага
+command-delflag-info: Удалить точку флага
+command-setlocation-info: Установить позицию арены
+command-dellocation-info: Удалить позицию арены
+command-setspectate-info: Установить позицию зрителей арены
+command-delspectate-info: Удалить позицию зрителей арены
+command-remove-info: Удалить арену
+command-rename-info: Переименовать арену
+command-setmax-info: Установить максимальное количество игроков
+command-setmin-info: Установить минимальное количество игроков
+command-setteams-info: Установите цвета чата команды. пример &1,&b,&c
+command-steps-info: Список шагов арены
+command-wager-info: Установить ставку на Арене.
+command-addcoin-info: Дать монеты игроку.
+removed-all-files: Удалить все файлы.
+double-coins: Двойные монеты, активированные для остальной части игры.
+command-convert-info: Преобразование Арены в другой тип
+command-disable-info: Отключить арену
+command-enable-info: Включить арену
+command-info-info: Информация о арене
+command-reload-info: Перезагрузка всех файлов yml
+command-reset-info: Удалить статистику игроков
+command-start-info: Принудительный запуск арены
+command-stop-info: Принудительная остановка арены
+command-admin-info: Показать все команды админа
+command-setholo-info: Создать голограмму лидеров
+command-holo-info: Удалить голограммы вокруг вас
+command-kick-info: Кикнуть игрока из Пейнтбола
+command-join-info: Войти в арену
+command-leave-info: Выйти с арены
+command-list-info: Показать все арены
+command-spectate-info: Зритель арены
+command-stats-info: Посмотреть статистику игры игроков
+command-top-info: Посмотреть лидеров.
+download-holo: Пожалуйста, загрузите плагин HolographicDisplays, чтобы использовать эту функцию.
+holo-link: http://dev.bukkit.org/bukkit-plugins/holographic-displays/
+holo-set: Голограммная лидеров, установленная для вашего местоположения!
+in-arena-to-wager: Вы должны быть на арене, чтобы сделать ставку!
+amount-greater-than-0: Сумма должна быть больше нуля!
+wager-in-arena: Вы должны быть на арене, чтобы сделать ставку!
+enable-vault: Для этой функции необходимо включить Vault.
+vault-not-enough-money: У вас недостаточно денег!
+flying-enabled: Полет включен
+flying-disabled: Полет выключен
+invalid-last-location: У вас нет последнего местанахождения.
+teleporting-to-last-location: Телепортирование в последнюю позицию...
+cannot-use-while-riding: Вы не можете использовать предмет.
+valid-number: Пожалуйста введите правильное число.
+holograms-removed: Удалена голограмма &7%amount% &a.
+no-holograms-removed: Нет удаленных голограмм
+no-arenas: Нет арен.
+target-not-in-arena: Не на арене!
+not-in-arena: Вы не на арене.
+cannot-join: 'Ошибка: арена недоступна для присоединения!'
+cannot-spectate: 'Ошибка: арена недоступна для зрителей!'
+left-arena: Успешно покинул арену.
+arena-not-setup: '%arena% не была полностью настроена.'
+arena-disabled: '%arena% отключена.'
+arena-not-in-progress: '%arena% не запущена'
+not-found: Игрок '%player%' не был найден.
+in-arena: Вы уже на арене!
+arena-not-found: Нет такой арены %arena%.
+page-real-number: Укажите номер в качестве страницы.
+page-bigger: Страница не может быть ниже 0
+page-find-error: Страница %amount%/%max% не найдена.
+arena-create: '%arena% успешно создана!/n%steps%'
+arena-name-exists: Арена с именем %arena% уже существует!
+arena-remove: Арена удалена.
+arena-force-stopped: '%arena% принудительно остановлена!'
+arena-convert-same-type: Арена %arena% уже имеет тип %arena-type%.
+arena-convert-success: Арена %arena% изменила тип на %arena-type%
+invalid-arena: '%arena% является недействительной ареной.'
+invalid-team: '%team% недействительная команда. Выберите один из вариантов <%teams%>'
+invalid-stat: '%stat% недействительная статистика. Выберите один из вариантов %stats%'
+invalid-command: Неправильная команда! Пишите /Paintball чтобы посмотреть команды.
+internal-error: 'Произошла внутренняя ошибка: %error%'
+no-permission: У вас нет доступа к этой команде!
+no-sign-permission: У вас нет доступа!
+no-console-permission: Консоль не имеет доступа к этой команде!
+not-enough-arguments: Недостаточно аргументов!
+too-many-arguments: Слишком много аргументов!
+no-teams-set: '%arena% не имеет установленых команды!'
+invalid-arena-type: Недопустимый тип арены. Выберите один из вариантов <%arena-types%>
+choose-enable-or-disable: '%command% является недействительным выбором. Используйте enable или disable'
+disable-success: '%arena% отключена!'
+enable-success: '%arena% включена!'
+arena-enabled: '%arena% включена.'
+arena-is-finished: Игра закончена.
+arena-default-action: выстрел
+arena-start-countdown-header: '&aЗапуск'
+arena-start-countdown-footer: '&7%time%&a секунд!'
+arena-lobby-countdown-header: '&aОжидание'
+arena-lobby-countdown-footer: '&7%time%&a секунд!'
+arena-move-error: Вам не разрешается перемещать предметы в инвентаре!
+core-destroyed: Ваше Ядро было уничтожено!
+arena-shop-name: '&6Магазин'
+arena-no-duel-wield: Вам не разрешено владеть дуэлью!
+teleporting: '&aТелепортация в арену...'
+arena-flag-drop: '&l%secondary%%team%%theme% команда сбросила флаг!'
+arena-flag-score: '&l%secondary%%team%%theme% команда выиграла флаг!'
+arena-flag-steal: '&lИгрок %secondary%%sender%%theme% забрал флаг у %secondary%%team%%theme%!'
+arena-join-message: '%team-color%%sender%&a присоединился к арене! &7%amount%/%max%'
+arena-you-joined: '&aВы присоединились к арене!'
+arena-joined: '&aВойти в арену'
+arena-size: '&7%amount%/%max%'
+arena-team-change: '&aВы в %team-color%%team% Команде!'
+arena-cannot-break-blocks: Вы не можете ломать блоки на арене!
+arena-command-disabled: Эта команда отключена на арене.
+arena-die-header: '&4&lВы мертвы!'
+arena-die-footer: '&7Возраждение...'
+cannot-attack-own-core: Вы не можете атаковать свое!
+kick-player: '%player% кикнут из арены %arena%'
+player-not-in-arena: '%player% не в арене.'
+balancing-teams: '%theme% Баланс команды'
+error-parsing: Ошибка анализа команды
+space-filled: Извините, ваше место занято другим игроком.
+places-not-found: Извините, на этой арене нет мест.
+skull-created: Череп лидера успешно создан!
+valid-4-number: Строка 4 должна быть действительным числом.
+choose-rank-number: 'Выберите номер ранга, например: 3'
+now-spectating: Игрок &7%player% &aтеперь зритель!
+you-are-now-spectating: '&aВы зритель!'
+config-reloaded: Перезагрузка конфигурации.
+paintkillers-on: Красители вступили в силу!
+not-find-target: Не удалось найти цель.
+arena-is-fill: '%arena% заполнена!'
+scoreboard-title: '%theme%&l  Пейнтбол &f%secondary%%time%  '
+scoreboard-coins: Коинты %secondary%» %amount%
+scoreboard-kills: Убийства %secondary%» %amount%
+scoreboard-kill-streak: Серия убийств %secondary%» %amount%
+scoreboard-kd: K/D %secondary%» %amount%
+scoreboard-money: Монеты %secondary%» %amount%
+scoreboard-line: '&7&m                    '
+scoreboard-status: Статус %secondary%» %amount%
+scoreboard-lives: Жизни %secondary%» %amount%
+scoreboard-mode: Режим %secondary%» %amount%
+scoreboard-health: Здоровье %secondary%» %amount%
+scoreboard-players: Игроки %secondary%» %amount%
+scoreboard-team: Команда %secondary%» %amount%
+scoreboard-wager: Ставка %secondary%» %amount%
+item-leave-arena: '&c&lКлик%secondary% » &4Уйти с арены'
+sign-wrong-syntax: Ошибка создания Пейнтбол знака.
+sign-autojoin-created: Знак АВТО-ВХОДА успешно создан!
+sign-join-created: Знак ВХОДА успешно создан!
+sign-leave-created: Знак ВЫХОДА успешно создан!
+sign-spectate-created: Знак ЗРИТЕЛЯ успешно создан!
+sign-leaderboard-removed: Знак ЛИДЕРОВ успешно удален!
+sign-leave-removed: Знак ВЫХОДА успешно удален!
+sign-autojoin-removed: Знак АВТО-ВХОДА успешно удален!
+sign-join-removed: '%arena% Знак ВХОДА успешно удален!'
+skull-leaderboard-removed: Череп лидера успешно удален!
+sign-spectate-removed: '%arena% Знак ЛИДЕРОВ успешно удален!'
+sign-leave: '&cВыйти'
+sign-spectate: '&aЗритель'
+cannot-join-server-type: Joining is disabled for %server-type% Paintball server.
+arena-menu-vote-name: '%theme%Arena Vote'
+arena-menu-join-name: '%theme%Arena Join'
+back-to-hub: §cHub
+arena-start-message: Игра начинается
+arena-teams-not-balanced: Вы не можете изменить эту команду до тех пор, пока команды не будут сбалансированы.
+kill-confirmed: '&e&lУбийство подтверждено!'
+kill-denied: '&c&lУбийство не подтверждено!'
+ctf-short-name: CTF
+ctf-long-name: Захват флага
+ctf-description: Захватите флаг другой команды и принести его на свою базу
+tdm-short-name: TDM
+tdm-long-name: Командная битва насмерть
+tdm-description: Убить игроков другой команды
+ffa-short-name: FFA
+ffa-long-name: Один против всех
+ffa-description: Каждый сам за себя
+dom-short-name: DOM
+dom-long-name: Доминирование
+dom-description: Охрана маяков команды
+lts-short-name: LTS
+lts-long-name: Последний герой
+lts-description: Ограниченная жизнь, последняя команда победит
+rtf-short-name: RTF
+rtf-long-name: Сбросить флаг
+rtf-description: Захватите нейтральный флаг и принесите его на базу
+dtc-short-name: DTC
+dtc-long-name: Уничтожить базу
+dtc-description: Доберитесь до базы другой команды и стреляйте в нее, чтобы уничтожить
+kc-short-name: KC
+kc-long-name: Подтверждение убийства
+kc-description: После того, как вы убьете игрок, подтвердить убийство, прежде чем другая команда подтвердит
+higest-kill-streak: Самая высокая серия убийств
+team-won: Команда %team% победила!
+there-was-a-tie-between: 'Ничья '
+won: выиграл
+lost: проиграл
+you: Ты
+kd: K/D
+kills: Убийства
+deaths: Смерти
+accuracy: Точность
+shots: Выстрелы
+hits: Попадания
+games-played: Игр сыграно
+wins: Победы
+defeats: Поражения
+ties: Связи
+flags-captured: Флаги захвачены
+flags-dropped: Сброшеные флаги
+time-played: Время в игре
+no-space: Для этого элемента недостаточно места
+arena-join-permission: У вас нет разрешения присоединиться к этой арене!
+top-leaderboard-title: '%secondary%&m          %theme% Пейнтбол Toп %secondary%%page%%theme% Leaderboard %secondary%&m          '
+per-leaderboard-title: '%secondary%&m          %theme% Пейнтбол %stat% Лидеры &7%page%%theme%/&7%max% %secondary%&m          '
+top-leaderboard-layout: '%theme%#%rank% %secondary%%stat% » %theme%%sender% %secondary%- %amount%'
+per-leaderboard-layout: '%theme%#%rank%%secondary% » %theme%%sender% %secondary%- %amount%'
+you-are-protected: 'Вы защищены. Защита: %time% секунд'
+they-are-protected: 'Игрок защищен. Защита: %time% секунд'
+hit-player: Попал в игрока! %amount%/%max%
+team-full: '&rКоманда %team% заполнена!'
+must-be-arena-player: Цель должна быть игроком на арене!
+not-setup: Не установлено
+waiting: Ожидание
+disabled: Отключено
+starting: Запуск
+stopping: Стоп
+playing: Игра
+removed: Удалено
+expiration-time: '%theme%&lОкончание » %secondary%%time%%theme% секунд'
+expiration-end: '%theme%&lОкончание » %secondary%Item %item%%theme% истекло'
+protection-end: '%theme%&lЗащита » %secondary%Protection истекло'
+protection-time: '%theme%&lЗащита » %secondary%%time% §3секунд'
+team-switch-time: '%theme%&lПереключение команд » %secondary%%time%§3 секунд'
+team-switch-end: '%theme%&lПереключение команд » %secondary%Переключение команд разблокировано'
+team-switch-error: '%theme%&lПереключение команд » %secondary%Подождите, пока кулдаун переключит команду.'
+team-switch-title: Переключатель команд
+gave-coins: Вы дали &7%amount% &aмонет игроку &7%player%
+wager-gain-amount: '%theme%Total money gained from wager: %secondary%%currency%%amount%'
+missing-team-flag: §4§lError§7 » §cYou are missing you team's flag!
+game-stats: '%theme% Статистика игр '
+money1: 'Деньги: '
+kills1: 'Убийства: '
+deaths1: 'Смерти: '
+killstreak1: 'Серия убийств: '
+kd1: 'KD: '
+your-team1: 'Ваша Команда '
+tied1: связанный
+click: Клик
+join: Присоединиться
+teleporter: Телепорт
+teleport-to: 'Телепортация '
+change-team: Выбор Команды
+coin-item-error-1: У вас нет разрешения на использование этого элемента!
+coin-item-error-2: У вас недостаточно монет!
+coin-item-error-3: У вас недостаточно денег!
+lore-description: '%theme%Описание: '
+lore-lasts: '%theme%Длится: '
+lore-cost: '%theme%Стоимость: '
+lore-coins: '%theme%Монеты: '
+lore-minutes: минут
+lore-seconds: секунд
+voted-for-arena: You have voted for §7%arena%
+storage-not-empty: Перед присоединением необходимо очистить содержимое инвентаря.
+armour-not-empty: Перед присоединением вы должны очистить снять доспехи.
+extra-not-empty: Перед присоединением вы должны очистить свой инвентарь.
+max-uses-per-game: §cЭлемент достиг максимального количества применений за игру.
+max-uses-per-player: §cЭлемент достиг максимального количества применений на игрока.
+reset-flag: §l%player% сбросил флаг команды %team%!
+shot-player-format: '%team-color%%player%%secondary% %action% %died-team-color%%died%'
+arena-state-check: '%arena% is %state%.'
+stat-title: '%secondary%§m             §r %theme%%player% Статистика §r %secondary%§m             '
+player-wagered: '%player% поставил %currency%%wager-amount% (%currency%%wager-total%)'
