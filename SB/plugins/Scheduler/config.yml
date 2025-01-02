@@ -1,0 +1,17 @@
+AutoJoinCommand: []
+datacleaner:
+  awaytime: 90
+  dir: basic/playerdata
+  PexUserRemove: false
+  PexUUID: false
+consolecommand:
+  timemode:
+    enabled: true
+    times:
+      01:00:
+      - scheduler purge
+      04:10:
+      - shutdown 60
+  intervalmode:
+    enabled: false
+    intervals: {}

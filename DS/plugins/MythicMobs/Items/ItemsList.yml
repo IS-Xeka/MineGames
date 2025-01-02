@@ -1,0 +1,31 @@
+AnniBossV1Helmet:
+  Id: 306
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  - THORNS:1
+AnniBossV1Chestplate:
+  Id: 307
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  - THORNS:1
+AnniBossV1Leggings:
+  Id: 308
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  - THORNS:1
+AnniBossV1Boots:
+  Id: 309
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  - THORNS:1
+AnniBossV1MainHand:
+  Id: 261
+  Data: 0
+  Enchantments:
+  - ARROW_DAMAGE:2
+  - ARROW_FIRE:1
+  - ARROW_KNOCKBACK:1

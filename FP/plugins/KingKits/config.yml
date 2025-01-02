@@ -1,0 +1,197 @@
+# KingKits configuration
+
+# Do NOT modify this, this is for the plugin only.
+Version: '3.3'
+
+Updater:
+  # Set to 'false' if you want to disable the checking of new updates.
+  Enabled: false
+  # Set to 'true' if you want to auto-update the plugin if a new version has been found.
+  # This only works for Bukkit.
+  Update: false
+
+# MySQL authentication information and details.
+MySQL:
+  Enabled: false
+  Host: localhost
+  Port: 3306
+  Username: root
+  Password: password
+  Database: database
+
+# Set to 'true' if you want OPs to be able to drop/pickup items and do other activities even if disabled in the config.
+OP bypass: true
+
+# Every time the set number of minutes passes, player data is saved asynchronously.
+# Set to -1 to disable auto-save.
+Auto-save player data: -1.0
+
+Allow:
+  # Set to 'false' if you want players to not be able to break/place blocks.
+  Block modification: true
+  # Set to 'false' if you want to disable vanilla death messages.
+  Death messages: true
+  # Set to 'false' if you want to ban players from dropping items.
+  Item dropping: true
+  # Set to 'false' if you want to clear all items dropped when a player dies.
+  Item dropping on death: false
+  # Set to 'false' if you want to ban players from picking up items.
+  Item picking up: true
+  # Set to 'false' if you want to disable players from using mushroom stew to heal themselves.
+  Quick soup: true
+  # Set to 'false' if you do not want players to be able to right click a kit in the GUI to preview it.
+  Right click preview: true
+
+Economy:
+  Enabled: true
+  # The cost of refilling each empty bowl.
+  Cost per refill: 5.0
+  # The amount of money to give to a player when they kill another player.
+  Money per kill: 10.0
+  # The amount of money to take when a player dies
+  Money per death: 0.0
+
+Kit defaults:
+  # The value of this is the default value for "Breakable items" of a new kit.
+  Breakable items: true
+  # The value of this is the default value for "Command alias" of a new kit.
+  Command alias: false
+  # The value of this is the default value for "Commands" of a new kit.
+  Commands: []
+  # The value of this is the default value for "Cooldown" of a new kit.
+  Cooldown: 5.0
+  # The value of this is the default value for "Cost" of a new kit.
+  Cost: 0.0
+  # The value of this is the default value for "Killstreak commands" of a new kit.
+  Killstreak commands: {}
+  # The value of this is the default value for "Max health" of a new kit.
+  Max health: 20.0
+  # The value of this is the default value for "Walk speed" of a new kit.
+  Walk speed: 0.2
+
+Kit GUI:
+  # The size of the GUI inventory.
+  Size: 36
+  # Set to 'true' if the Kit GUI should open when a player joins.
+  Show on join: false
+  # Set to 'true' if the Kit GUI should open when a player respawns.
+  Show on respawn: false
+  GUI Item:
+    # The material of the item that opens the Kit GUI when right clicked.
+    Type: Nothing
+    # The data value/durability of the item that opens the Kit GUI when right clicked. Set to -1 if the data value should be ignored.
+    Data: 0
+  Next button:
+    Type: Stone Button
+    Name: <colour>Next
+  Previous button:
+    Type: Stone Button
+    Name: <colour>Back
+
+Multi-inventories:
+  # Set this to 'false' if this plugin should handle player inventory clearing when a player changes worlds. Set to 'true' if this plugin should not handle player inventories when changing worlds.
+  Enabled: false
+  # The name of the plugin that handles inventories per world.
+  Plugin: Multiverse-Inventories
+
+Score:
+  Chat prefix: '&6[&a%d&6] &f'
+  Enabled: false
+  Max: 2147483647
+  Per death: 0
+  Per kill: 2
+
+Should:
+  # If a player should automatically respawn when they die, without the respawn GUI showing up.
+  Auto-respawn: true
+  # If the plugin to clear a player's inventory when choosing a kit.
+  Clear items on kit selection: false
+  # If a player's score should be reset to 0 when they auto-unlock a kit.
+  Decrease score on auto-unlock: false
+  # If items should drop when a player has a full inventory.
+  Drop items on full inventory: false
+  # If this plugin should lock the food level at a specific amount.
+  Lock food level: false
+  # If players should be prevented from going into Creative mode when using a kit.
+  Prevent creative: false
+  # If this plugin should clear a player's inventory and their kit status when they die.
+  Remove kit on death: true
+  # If a player's inventory should be cleared when they leave in a PvP world.
+  Remove kit on leave: false
+  # If this plugin should clear all online players' inventories when this plugin is unloaded.
+  Remove items on reload: false
+  # If all potion effects should be removed when a player leaves.
+  Remove potion effects on leave: true
+  # If all potion effects should be removed when this plugin is unloaded.
+  Remove potion effects on reload: true
+  # If right clicking a compass targets the nearest player.
+  Set compass to nearest player: false
+  # If this plugin should set the player's max health to the max health set in the kit config.
+  Set max health to kit max health: true
+  # Whether or not to set the player's gamemode to the server's default when they choose a kit.
+  Set to default gamemode on kit selection: true
+  # If a GUI opens up with a list of all the items in a kit when a player chooses a kit that they do not have permission to use.
+  Show kit preview: false
+  # If the list of kits should be sorted alphanumerically.
+  Sort kits alphanumerically: false
+  # Whether or not to list kits players don't have access to.
+  Use permissions for kit list: false
+
+Sign:
+  Kit:
+    # The text on the first line of a kit sign.
+    # Set to '' to disable kit signs.
+    Unregistered: '[Kit]'
+    # The text on the first line of a sign required to be registered as a kit sign.
+    Valid: '[&1Kit&0]'
+    # The text on the first line of a sign shown when a kit sign is broken/invalid.
+    Invalid: '[&cKit&0]'
+  Kit list:
+    # The text on the first line of a kit list sign.
+    # Set to '' to disable kit list signs.
+    Unregistered: '[KList]'
+    # The text on the first line of a sign required to be registered as a kit list sign.
+    Valid: '[&1KList&0]'
+  Refill sign:
+    # The text on the first line of a refill sign.
+    # Set to '' to disable refill signs.
+    Unregistered: '[KRefill]'
+    # The text on the first line of a sign required to be registered as a refill sign.
+    Valid: '[&1KRefill&0]'
+
+# A list of world names where this plugin works on.
+PvP Worlds:
+- All
+
+# The way the kits are listed, there are three options:
+# Text - List of chat messages sent with the kit names.
+# Fancy - List of clickable messages sent with the kit names.
+# GUI - A menu shows up with all the kits and their icons.
+Kit list mode: GUI
+
+One kit per life: true
+
+# A list of commands to run when a player dies. <player> is automatically replaced with the dead player's username.
+Commands to run on death: []
+
+# A list of item IDs that, when dropped and dropping items is disabled, are dropped but get removed when on the floor.
+Drop animation IDs:
+- 282
+- 374
+
+# The food level to lock a player's food level at.
+Food level lock: 20
+
+# The amount of health to heal a player by when they quick soup. 1 heart = 2 health.
+Quick soup heal: 5.0
+
+Command:
+  Kit: true
+  Kit create: true
+  Kit delete: true
+  Kit rename: true
+  User kit create: true
+  User kit delete: true
+  User kit rename: true
+  Preview kit: true
+  Refill: true

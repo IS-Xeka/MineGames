@@ -1,0 +1,106 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'SkyBlock'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'menu'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item-id/data-value to 0)
+  # In this case it will open with a book (right click)
+  open-with-item:
+    item-id: 0
+    left-click: true
+    right-click: true
+    data-value: 0
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Info:
+  COMMAND: 'warp shop'
+  NAME: '&cМагазин'
+  ID: 399
+  POSITION-X: 4
+  POSITION-Y: 3
+Trade:
+  COMMAND: 'warp trade'
+  NAME: '&cРынок'
+  ID: 388
+  POSITION-X: 6
+  POSITION-Y: 3
+Create:
+  COMMAND: 'is create'
+  NAME: '&cСоздать остров'
+  ID: 2
+  POSITION-X: 5
+  POSITION-Y: 2
+PvP:
+  COMMAND: 'warp pvp'
+  NAME: '&cPvP-арена'
+  ID: 267
+  POSITION-X: 5
+  POSITION-Y: 3
+Mine:
+  COMMAND: 'warp mine'
+  NAME: '&cАвто-шахта'
+  ID: 257
+  POSITION-X: 7
+  POSITION-Y: 3
+Mob:
+  COMMAND: 'warp zombie'
+  NAME: '&cЗомби'
+  ID: 397
+  DATA-VALUE: 2
+  POSITION-X: 3
+  POSITION-Y: 3
+Home:
+  COMMAND: 'is home'
+  NAME: '&cТелепортироваться домой'
+  ID: 355
+  POSITION-X: 4
+  POSITION-Y: 2
+Rank:
+  COMMAND: 'is rank'
+  NAME: '&cЛучшие острова'
+  ID: 340
+  POSITION-X: 6
+  POSITION-Y: 2
+Unlock:
+  COMMAND: 'is unlock'
+  NAME: '&cОткрыть остров'
+  LORE:
+    - '&bДоступно для &6[Легенда] &bи выше.'
+  ID: 381
+  POSITION-X: 6
+  POSITION-Y: 4
+Lock:
+  COMMAND: 'is lock'
+  NAME: '&cЗакрыть остров'
+  LORE:
+    - '&bДоступно для &6[Легенда] &bи выше.'
+  ID: 368
+  POSITION-X: 4
+  POSITION-Y: 4
+Help:
+  COMMAND: 'is help'
+  NAME: '&cПомощь'
+  LORE:
+    - '&7Отобразить список команд.'
+  ID: 421
+  POSITION-X: 5
+  POSITION-Y: 4

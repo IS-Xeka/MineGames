@@ -1,0 +1,99 @@
+groups:
+  Player:
+    permissions:
+    - Anni.JoinPhase.*
+    - Anni.kits.Берсерк
+    - Anni.kits.Колдун
+    - Anni.kits.Лучник
+    - Anni.kits.Инженер
+    - Anni.kits.Подрывник
+    - Anni.kits.Шахтёр
+    - Anni.kits.Скорпион
+    - Anni.kits.Алхимик
+    - Anni.kits.Спринтер
+    - Anni.kits.Фермер
+    - CraftConomy.money.pay
+    - CraftConomy.money.balance
+    - ChestCommands.open.*
+    - -Bukkit.command.*
+    - -MineCraft.command.*
+    options:
+      prefix: '&3'
+      suffix: '&f'
+      default: true
+  Premium:
+    inheritance:
+    - Player
+    permissions:
+    - TimeIsMoney.Premium
+    - Anni.Money.x2
+    - Anni.kits.Акробат
+    - Anni.kits.Халк
+    - Anni.kits.Ниндзя
+    - Anni.kits.Инноватор
+    options:
+      prefix: '&a[Премиум] '
+      suffix: '&b'
+      default: false
+  Gladiator:
+    inheritance:
+    - Premium
+    permissions:
+    - TimeIsMoney.Gladiator
+    - Anni.kits.Чародей
+    - Anni.kits.Гладиатор
+    - Anni.kits.Строитель
+    - Anni.kits.Танк
+    options:
+      prefix: '&e[Гладиатор] '
+      suffix: '&d'
+      default: false
+  Legend:
+    inheritance:
+    - Gladiator
+    permissions:
+    - TimeIsMoney.Legend
+    - Anni.kits.Транспортер
+    - Anni.kits.Подводник
+    - Anni.kits.Шпион
+    - Anni.kits.Разведчик
+    options:
+      prefix: '&6[Легенда] '
+      suffix: '&2'
+      default: false
+  Emperor:
+    inheritance:
+    - Legend
+    permissions:
+    - TimeIsMoney.Emperor
+    - Anni.kits.Ледоход
+    - Anni.kits.Убийца
+    - Anni.kits.Поджигатель
+    - Anni.kits.Музыкант
+    options:
+      prefix: '&c[Император] '
+      suffix: '&6'
+      default: false
+  Helper:
+    inheritance:
+    - Emperor
+    permissions:
+    - AAC.notify
+    - ChatGuard.mute
+    - ChatGuard.unmute
+    - FigAdmin.tempban
+    - FigAdmin.unban
+    - FigAdmin.kick
+    options:
+      prefix: '&b[Помощник] '
+      suffix: '&e'
+      default: false
+  Owner:
+    permissions:
+    - '*'
+    options:
+      prefix: '&4&l[Создатель] '
+      suffix: '&c'
+      default: false
+users: {}
+schema-version: 1

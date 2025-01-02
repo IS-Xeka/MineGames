@@ -1,0 +1,93 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'Меню'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'menu'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+1:
+  COMMAND: 'open:weapon.yml'
+  NAME: '&aОружие'
+  ID: '417'
+  LORE:
+   - '&bКупить оружие'
+  POSITION-X: 3
+  POSITION-Y: 2
+2:
+  COMMAND: 'open:ammo.yml'
+  NAME: '&aПатроны'
+  ID: '332'
+  LORE:
+   - '&bКупить патроны'
+  POSITION-X: 4
+  POSITION-Y: 2
+3:
+  COMMAND: 'open:perms.yml'
+  NAME: '&aКоманды'
+  ID: '264'
+  LORE:
+   - '&bСписок команд и возможностей'
+  POSITION-X: 5
+  POSITION-Y: 2
+4:
+  COMMAND: 'open:warps.yml'
+  NAME: '&aВарпы'
+  ID: '368'
+  LORE:
+   - '&bТелепортироваться на варпы'
+  POSITION-X: 6
+  POSITION-Y: 2
+5:
+  COMMAND: 'open:random.yml'
+  NAME: '&aРандомная телепортация'
+  ID: '345'
+  LORE:
+  - 'Телепортироваться в случайную точку карты'
+  POSITION-X: 7
+  POSITION-Y: 2
+6:
+  COMMAND: 'open:cases.yml'
+  NAME: '&aКейсы'
+  ID: '342'
+  LORE:
+   - '&bОткрыть кейсы и испытать удачу'
+  POSITION-X: 4
+  POSITION-Y: 3
+7:
+  COMMAND: 'open:kits.yml'
+  NAME: '&aНаборы'
+  ID: '267'
+  LORE:
+   - '&bПолучить различные наборы'
+  POSITION-X: 5
+  POSITION-Y: 3
+8:
+  COMMAND: 'aa menu'
+  NAME: '&aСпособности'
+  ID: '340'
+  LORE:
+   - '&bОтобразить информацию о способностях'
+  POSITION-X: 6
+  POSITION-Y: 3
+
+Close:
+  NAME: '&cЗакрыть меню'
+  ID: '159:14'
+  POSITION-X: 5
+  POSITION-Y: 5

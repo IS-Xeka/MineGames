@@ -1,0 +1,11 @@
+IPHub-Key: MTA4OTpjY2ZPTWpncFJzVnNPaXd4N0dTS0pQNE8zb3E1QmNBSw==
+ProxyCheck-Key: 70n103-028i06-510771-ir5237
+IPQualityScore-Key: ONB4QHevecqI3HoXPf66aX9G9iijXQra
+Messages:
+  VPNKickMessage: §cВаш IP адрес заблокирован (VPN/Proxy).
+  NoPermissionMsg: §cВы не имеете доступа к данной команде.
+  NoCheckedKickMessage: "§cНе удалось проверить соединение."
+ipBlacklist: []
+ipWhitelist:
+- 46.17.45.120
+- 185.212.148.78

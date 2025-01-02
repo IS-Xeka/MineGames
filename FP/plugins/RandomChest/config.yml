@@ -1,0 +1,177 @@
+select-tool: 289
+remove-tool: 353
+chestset:
+  fighting:
+    min: 1
+    max: 3
+    customname: "Chest"
+    powered: false
+    break: false
+    respawn: [30, 60]
+    items:
+      - id: 373
+        potion-type: INSTANT_DAMAGE
+        potion-level: 1
+        potion-splash: true
+        amount: 1
+      - id: 373
+        potion-type: INSTANT_HEAL
+        potion-level: 1
+        potion-splash: true
+        amount: 1
+      - id: 373
+        potion-type: POISON
+        potion-level: 1
+        potion-splash: true
+        amount: 1
+      - id: 373
+        potion-type: REGEN
+        potion-level: 1
+        potion-splash: true
+        amount: 1
+      - id: 373
+        potion-type: SLOWNESS
+        potion-level: 1
+        potion-splash: true
+        amount: 1
+      - id: 373
+        potion-type: SPEED
+        potion-level: 1
+        potion-splash: true
+        amount: 1
+      - id: 373
+        potion-type: STRENGTH
+        potion-level: 1
+        potion-splash: true
+        amount: 1
+      - id: 283
+        enchantments:
+          - name: KNOCKBACK
+            level: 2
+          - name: FIRE_ASPECT
+            level: 1
+          - name: DURABILITY
+            level: 3
+      - id: 272
+        enchantments:
+          - name: DAMAGE_ALL
+            level: 1
+      - id: 267
+        enchantments:
+          - name: DAMAGE_ALL
+            level: 2
+          - name: KNOCKBACK
+            level: 1
+        enchantments:
+          - name: FIRE_ASPECT
+            level: 2
+          - name: DURABILITY
+            level: 1
+      - id: 283
+        enchantments:
+          - name: KNOCKBACK
+            level: 4
+          - name: FIRE_ASPECT
+            level: 2
+      - id: 272
+        enchantments:
+          - name: DAMAGE_ALL
+            level: 3
+          - name: KNOCKBACK
+            level: 2
+      - id: 267
+        enchantments:
+          - name: KNOCKBACK
+            level: 1
+          - name: DAMAGE_ALL
+            level: 1
+      - id: 261
+        enchantments:
+          - name: ARROW_FIRE
+            level: 1
+          - name: ARROW_INFINITE
+            level: 1
+      - id: 261
+        enchantments:
+          - name: ARROW_DAMAGE
+            level: 3
+          - name: DURABILITY
+            level: 3
+      - id: 261
+        enchantments:
+          - name: ARROW_KNOCKBACK
+            level: 1
+          - name: ARROW_INFINITE
+            level: 1
+      - id: 261
+        enchantments:
+          - name: ARROW_DAMAGE
+            level: 3
+          - name: ARROW_FIRE
+            level: 1
+          - name: ARROW_KNOCKBACK
+            level: 2
+      - id: 261
+        enchantments:
+          - name: ARROW_INFINITE
+            level: 1
+      - id: 314
+        enchantments:
+          - name: PROTECTION_ENVIRONMENTAL
+            level: 1
+          - name: THORNS
+            level: 3
+      - id: 315
+        enchantments:
+          - name: PROTECTION_ENVIRONMENTAL
+            level: 1
+          - name: THORNS
+            level: 3
+      - id: 316
+        enchantments:
+          - name: PROTECTION_ENVIRONMENTAL
+            level: 1
+          - name: THORNS
+            level: 3
+      - id: 317
+        enchantments:
+          - name: PROTECTION_ENVIRONMENTAL
+            level: 1
+          - name: THORNS
+            level: 3
+      - id: 261
+        amount: 1
+      - id: 262
+        amount: 5
+      - id: 262
+        amount: 10
+      - id: 262
+        amount: 18
+      - id: 262
+        amount: 23
+      - id: 283
+        amount: 1
+      - id: 272
+        amount: 1
+      - id: 267
+        amount: 1
+      - id: 368
+        amount: 1
+      - id: 366
+        amount: 3
+      - id: 366
+        amount: 5
+      - id: 320
+        amount: 1
+      - id: 320
+        amount: 2
+      - id: 364
+        amount: 2
+      - id: 364
+        amount: 6
+      - id: 400
+        amount: 2
+      - id: 400
+        amount: 3
+      - id: 322
+        amount: 1

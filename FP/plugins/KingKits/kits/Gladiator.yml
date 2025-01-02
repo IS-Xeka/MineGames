@@ -1,0 +1,66 @@
+  Cost: 300.0
+  Name: Gladiator
+  Commands: []
+  Cooldown: 0
+
+  Armour:
+    Leggings:
+      Data: 0
+      Enchantments:
+        THORNS: 2
+        PROTECTION_ENVIRONMENTAL: 2
+      Type: CHAINMAIL_LEGGINGS
+    Chestplate:
+      Data: 0
+      Enchantments:
+        THORNS: 2
+        PROTECTION_ENVIRONMENTAL: 2
+      Type: CHAINMAIL_CHESTPLATE
+    Boots:
+      Data: 0
+      Enchantments:
+        THORNS: 2
+        PROTECTION_ENVIRONMENTAL: 2
+      Type: CHAINMAIL_BOOTS
+    Helmet:
+      Data: 0
+      Enchantments:
+        THORNS: 2
+        PROTECTION_ENVIRONMENTAL: 2
+      Type: CHAINMAIL_HELMET
+
+  Items:
+    Offhand:
+      Type: Shield
+    Slot 5:
+      Type: ARROW
+      Amount: 64
+      Data: 0
+    Slot 4:
+      Type: GOLDEN_APPLE
+      Amount: 8
+      Data: 0
+    Slot 3:
+      Type: GOLDEN_APPLE
+      Amount: 8
+      Data: 1
+    Slot 2:
+      Type: GRILLED_PORK
+      Amount: 64
+      Data: 0
+    Slot 1:
+      Type: BOW
+      Amount: 1
+      Data: 0
+      Enchantments:
+        ARROW_KNOCKBACK: 2
+        ARROW_DAMAGE: 3
+        ARROW_FIRE: 1
+    Slot 0:
+      Type: STONE_SWORD
+      Amount: 1
+      Data: 0
+      Enchantments:
+        DAMAGE_ALL: 2
+        FIRE_ASPECT: 2
+        KNOCKBACK: 2

@@ -1,0 +1,15 @@
+enabled: true
+wordwrap: false
+delay: 60
+permissionsenabled: false
+chatformat: '%msg'
+messageinrandomorder: false
+updatechecking: false
+messagesinconsole: false
+requireplayersonline: false
+dontrepeatrandommessages: false
+messages:
+    default:
+    - '&8---=====&7[&6Spark Games&7]&8=====---%n&2» &fЧтобы сменить скин, используйте:%n&2» &f/skin [Ник]%n&2» &fПример: /skin Notch'
+    - '&8---=====&7[&6Spark Games&7]&8=====---%n&2» &fПриобретайте Донат на нашем сайте - sparkgames.ru%n&2» &fДонат выдаётся автоматически, сразу после оплаты%n&2» &fСписок команд и возможностей - http://vk.com/topic-60068344_32516165'
+    - '&8---=====&7[&6Spark Games&7]&8=====---%n&2» &fСражайтесь, зарабатывайте монеты%n&2» &fНа монеты покупайте оружие, доспехи и прочее%n&2» &fНа карте можно найти сундуки с вещами'

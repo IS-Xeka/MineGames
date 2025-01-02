@@ -1,0 +1,21 @@
+compatibilityMode: true
+disabled-worlds-whitelist: false
+disabled-worlds: []
+Scoreboard:
+  Title: '&6&lИнформация'
+  Update-delay: 2
+  Items:
+    '&bОнлайн': '%online%'
+    '&aБаланс': '%money%'
+    '&2Убийств': '%kills%'
+    '&9Смертей': '%deaths%'
+enable-pvpstats: true
+Temp-Scoreboard-enabled: false
+Temp-Scoreboard:
+  Title: ''
+  Type: ''
+  Color: '&2'
+  Items: 5
+  Intervall-show: 20
+  Intervall-disappear: 20
+pluginUpdate: false

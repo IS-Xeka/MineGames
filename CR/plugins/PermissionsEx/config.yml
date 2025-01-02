@@ -1,0 +1,24 @@
+multiserver:
+  use-netevents: true
+permissions:
+  debug: false
+  allowOps: false
+  user-add-groups-last: false
+  log-players: false
+  createUserRecords: false
+  backend: sql
+  informplayers:
+    changes: false
+  basedir: plugins/PermissionsEx
+  backends:
+    sql:
+      uri: mysql://127.0.0.1/permissions?useUnicode=true&characterEncoding=UTF-8
+      password: F2eiz5N16eRbHF31Et58fQx9
+      user: root
+      aliases:
+        permissions: creative_permissions
+        permissions_inheritance: general_inheritance
+        permissions_entity: general_entity
+      type: sql
+updater: false
+alwaysUpdate: false

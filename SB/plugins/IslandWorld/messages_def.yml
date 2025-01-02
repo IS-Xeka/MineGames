@@ -1,0 +1,248 @@
+# DO NOT CHANGE THAT FILE! Make own messages_YOURLANG.yml and change in config language!
+error-no-perms: Вы не имеете доступа к этой команде.
+error-no-perms-biome: Вы не имеете прав использовать этот биом.
+error-regen: Регенерация в процессе, попробуйте позже.
+error-start: Ошибка запуска IslandWorld, проверьте логи.
+error-world: Невозможно определить правильный мир.
+error-have-island: У вас уже есть остров.
+error-no-island: У вас нет острова.
+error-schematic: У вас нет права использовать схема (%name%).
+error-schematic-not-exists: Схема (%name%) не существует.
+error-current-world: Вы не имеете прав на использование этой команды в текущем мире.
+error-delay: Пожалуйста, подождите (%time% минут) перед использованием этой команды.
+error-calc-delay: Пожалуйста, подождите (%time% минут) перед использованием этой команды.
+error-no-free: У нас нет свободных островов, сообщите Администратору.
+error-get-free: Проблема со свободными островами, сообщите Администратору.
+error-helping: Вы не можете создать остров, пока вы участник другого острова.
+error-wg-region: Проблема с приватом WorldGuard на вашем острове, сообщите Администратору.
+error-no-island-party: У вас нет острова или приглашений.
+error-outside: Вы не можете установить Sethome вне своего острова.
+error-expell: На острове нет игроков.
+error-expell-outside: Этот игрок не на вашем острове.
+error-add-have-island: Невозможно добавить игрока на остров, он уже владеет другим.
+error-add-have-party: Невозможно добавить игрока на остров, он уже приглашён на другой.
+error-add-limit: Невозможно добавить игрока на остров, вы привысили лимит приглашений.
+error-add-already: Игрок %name% уже добавлен на ваш остров.
+error-not-online: Игрок %name% не в сети, или не существует.
+error-remove-not-added: Игрок %name% не добавлен на ваш остров.
+error-tp-have-island: Вы не можете использовать телепорт, пока у вас есть остров.
+error-tp-no-party: Вы не имеете права телепортироваться на остров %name%.
+error-tp-no-island: Игрок %name% не имеет острова.
+error-no-player: Вы пытаетесь телепортироваться к неверному игроку.
+error-leave: Вы не были приглашены на этот остров.
+error-fixhome: Возникла ошибка при проверке вашего острова, сообщите Администратору.
+error-no-visit: Эта команда не разрешена.
+error-visit-no-island: Игрок %name% не имеет острова.
+error-visit-owner-wait: Нельзя послать запрос на визит, %name% не ответил на предыдущий запрос.
+error-visit-visitor-wait: Нельзя послать запрос на визит, они не ответили на предыдушие запросы.
+error-visit-no-player: Неверное имя игрока, или игрок оффлайн.
+error-visit-owner-no-reply: Вы не ответили на запрос игрока %name%. Запрос удалён.
+error-visit-visitor-no-reply: '%name% не ответил на ваш запрос. Запрос удалён.'
+error-visit-request-you-deny: Вы отменили запрос игрока %name%.
+error-visit-request-deny: '%name% отменил ваш запрос'
+error-visit-spawn: Нельзя посетить остров %name%, проблема со спавном.
+error-visit-your-spawn: '%name% хочет посетить ваш остров, но у вас проблема со спавном.'
+error-visit-self: Вы не можете посетить собственный остров.
+error-visits-blocked: Телепортация заблокирована.
+error-visits-not-blocked: Телепортация разблокирована.
+error-visits-blocked-here: Телепортация на остров игрока %name% не заблокирована.
+error-party-owner-no-reply: Вы не ответили на запрос игрока %name%.
+error-party-visitor-no-reply: '%name% не ответил на ваш запрос.'
+error-party-owner-wait: Нельзя отправить запрос на приглашение, %name% не ответил на предыдуший.
+error-party-visitor-wait: Вы не можете ответить на приглашение запрос. Вы ждёте ответа.
+error-delete-respond: Вы не ответили на удаление запроса.
+error-delete-comm: Нельзя использовать эту команду, ожидание на удаление ответа.
+error-no-region-here: Вы не в регионе острова.
+error-tp-while-falling: Вы не можете телепортироваться в падении.
+error-teleport-break: Вы не будете телепортированы потому, что сдвинулись.
+error-home-limit: Вы не можете установить более %count% домов.
+error-home-to-much: Permission verified, removed %count% home locations.
+error-no-home: Дом %name% не найден.
+error-is-no-home: На вашем острове нет установленного дома.
+error-outside-island: Вы вне своего острова.
+error-invalid-biome: 'Ошибка, неверный биом: %biome%.'
+error-rank-not-updated: Произошла ошибка при подключении к базе данных.
+error-tp-not-safe: Некуда встать. Используйте /is fixhome для переопределения точки дома.
+error-sethome-loc: Нельзя установить дом тут. Вы должны стоять на твёрдом блоке.
+error-already-opened: Ваш остров уже открыт.
+error-already-closed: Ваш остров уже закрыт.
+error-create-limit: У вас слишком много остворов (%limit%).
+error-no-more-extend: Вы не можете больше расширять свой остров.
+error-chaow-have: Player %name% have own island
+error-chaow-help: Player %name% is helping on some island
+error-chaow-dele: Island is on delete list, cannot change owner.
+error-chaow-ok: Owner changed from %oldname% to %newname%.
+error-create-blocked: Island creation in progress. Access to that command is temporary blocked.
+info-biome: 'Биом в вашей локации: %biome%.'
+info-biomes: 'Список биомов:'
+info-biome-changed: Биом на острове изменён на %biome%.
+info-biome-chunk-changed: Биом на текущем чанке изменён на %biome%.
+info-visit-visitor-tp: '%name% телепортировался на ваш остров.'
+info-visit-visitor-tp-open: '%name% посетил ваш остров.'
+info-visit-visitor: Телепортированы на остров %name%.
+info-visit-visitor-open: Вы посещаете остров %name%.
+info-created-wait: Пожалуйста, подождите. Ваш остров в процессе генерации...
+info-created: Остров создан.
+info-deleted: Остров удалён.
+info-loc-changed: Локация изменена.
+info-expell: Вы исключили %count% игроков с острова.
+info-expelled: Вы были исключены с острова %name%.
+info-expell-op: '%name% is bypassing your expell command.'
+info-add-ok: Игрок %name% был добавлен на ваш остров.
+info-added-ok: Игрок %name% добавил вас на их остров.
+info-remove-ok: Игрок %name% удалил вас из своего острова.
+info-remove-admin: Администратор удалил %name% из вашего острова.
+info-removed-ok: Игрок %name% удалил вас из их острова.
+info-removed-admin: Администратор удалил вас из участников острова.
+info-leave-ok: Удалены из острова %name%.
+info-tele-spawn: Телепортированы на спавн.
+info-fixhome: Координаты точки дома переопределены.
+info-changeowner-disabled: That command is not available on our server.
+info-lock-disabled: Блокировка не доступна на этом сервере.
+info-lock-self: Вы не можете закрыть себя.
+info-lock-member: Игрок %nick% учасник вашего острова, нельзя закрыть его.
+info-lock-already: Игрок %nick% уже заблокирован.
+info-lock-ok: Ваш остров заблокирован.
+info-lock-name-ok: Игрок %name% заблокирован, и не может пользоваться вашим островом.
+info-flying-disabled: Данная функция отключена в конфигурации сервера.
+info-flying-on: Полёт включён.
+info-flying-off: Полёт выключен.
+info-flying-dis: You cannot fly outside your island
+info-flying-dis-tele: Disabled flying since its not allowed outside island.
+info-unlock-ok: Ваш остров разблокирован.
+info-unlock-all: All players removed from blocked list.
+info-unlock-name-ok: Игрок %name% удалён из списка заблокированных, он может пользоваться вашим островом.
+info-unlock-name-no: Player %name% is not blocked.
+info-lock-move: Остров заблокирован, вы не можете войти.
+info-visit-request: Запрос на телепортацию отправлен игроку %name%.
+info-visit-need-answer: '%name% запросил телепортацию на ваш остров. Чтобы принять, введите &b/island accept&a; отклонить &b/island deny'
+info-party-request: Приглашение отправлено игроку %name%.
+info-party-need-answer: '%name% пригласив вас в участники своего острова. Используйте &b/island join&a чтобы принять запрос'
+info-party-joined: Вы добавлены в участники острова %name%.
+info-party-joined-owner: Игрок %name% был добавлен в участники вашего острова.
+info-party-joined-admin-player: Администратор добавил вас в участники острова %name%
+info-party-joined-admin-owner: Администратор добавил игрока %name% в участкики вашего острова.
+info-delete-added: Вы уверены? Введите &b/is delete&a чтобы подтвердить.
+info-teleported: Телепортированы.
+info-teleport-after: Телепортация через %time% сек. Не двигайтесь.
+info-admin-teleported: Администратор телепортировал вас на ваш остров.
+info-telporting: Телепортация...
+info-tp-wait: Уже ожидаете телепортации.
+info-tp-to-island: Телепортированы на остров %name%.
+info-home-set: Дом установлен.
+info-homes: 'Ваши дома: &b%list%'
+info-home-deleted: Дом %name% удалён.
+info-homes-deleted: All home locations deleted.
+info-entered: Вы вошли на территорию острова %name%.
+info-quitted: Вы покинули территорию острова.
+info-points: Ваш остров набрал %points% очков.
+info-for-points: '%name% имеет очков: %points%.'
+info-rank: 'Лучшие острова:'
+info-rank-last: 'Последнее обновление статистики:'
+info-rank-island: 'Чтобы посчитать очки острова, используйте: /island calc&a'
+info-player-leave: Игрок %name% покинул ваш остров.
+info-island-opened: Остров открыт для публичного доступа, теперь игроки могут посетить его в любой момент, даже когда вы не на сервере.
+info-island-opened-offline: Остров открыт для публичного доступа, игроки могут постить его в любой момент.
+info-island-closed: Остров закрыт, теперь вы должны принимать запросы на посещения.
+info-visits-blocked: Запросы телепортации на ваш остров запрещены.
+info-visits-allowed: Запросы телепортации на ваш остров разрешены.
+info-extended-ok: 'Island extended, new size: %size%, new spacing: %spacing%.'
+info-extend-disabled: Данная функция отключена в конфигурации сервера.
+info-spawn-switcher-disabled: Spawn switcher is disabled
+info-welcome-clear: Welcome message cleared.
+info-welcome-set: Welcome message changed.
+info-isinfo-separator: '&a-----------'
+info-isinfo-header: '&aИнформация острова: &b'
+info-isinfo-position: '&aПозиция: &e'
+info-isinfo-owner: '&aВладелец: &e'
+info-isinfo-points: '&aОчков: &e'
+info-isinfo-schematic: '&aСхема: &e'
+info-isinfo-lock: '&aЗакрыт: &e'
+info-isinfo-purgeprotect: '&aЗащищен от очистки: &e'
+info-isinfo-members: '&aУчастники: &e'
+info-isinfo-block: '&aЗаблокирован: &e'
+info-isinfo-open: '&aОбщественный: &e'
+info-isinfo-openoff: '&aПосещение без Владельца: &e'
+info-isinfo-visitblock: '&aТелепортация: &e'
+info-isinfo-created: '&aСоздан: &e'
+info-isinfo-lastlogin: '&aВладелец онлайн: &e'
+info-isinfo-createlimit: '&aНомер острова: &e'
+info-isinfo-size: '&aРазмер острова: &e'
+info-isinfo-spacing: '&aRegion spacing: &e'
+info-isinfo-onlinetime: '&aOwner online time: &e'
+info-isinfo-partymax: '&aMax party: &e'
+info-isinfo-homemax: '&aMax homes: &e'
+info-isinfo-spawn-mobs: '&aMobs spawn: &e'
+info-isinfo-spawn-animals: '&aAnimals spawn: &e'
+info-gui-homes: '&1Homes'
+info-gui-location: '&eLocation: &6'
+info-gui-coords: '&3Coords:'
+info-gui-header-pointlist: Block point values
+info-gui-list-next: Next page
+info-gui-list-previous: Previous page
+info-pointlist-line: '&6Material: &e%material%, &6points: &b%points%'
+info-creating-island: '&6Создание нового острова: %perc%%'
+info-changing-def-biome: '&6Установка биома по умолчанию...'
+info-spawn-mobs-state: '&aСтатус спавна монстров теперь: &e%state%'
+info-spawn-animals-state: '&aСтатус спавна животных теперь: &e%state%'
+com-usage: '&bSky&fBlock &bкоманды:'
+com-command-create: '&a/is create &7- Создать новый остров'
+com-command-delete: '&a/is delete &7- Удалить свой остров'
+com-command-info: '&a/is info &7- Отобразить информацию о острове'
+com-command-sethome: '&a/is sethome [название] &7- Установить точку дома'
+com-command-delhome: '&a/is delhome [название] &7- Удалить точку дома'
+com-command-home: '&a/is home <название> [list] &7- Телепортироваться на остров'
+com-command-fixhome: '&a/is fixhome &7- Сбросить координаты точки дома'
+com-command-spawn: '&a/is spawn &7- Телепортироваться на спавн'
+com-command-expell: '&a/is expell [игрок] &7- Выгнать игрока с острова'
+com-command-add: '&a/is add <игрок> &7- Пригласить игрока в участники вашего острова'
+com-command-remove: '&a/is remove <Игрок> &7- Удалить игрока из участников вашего острова'
+com-command-leave: '&a/is leave &7- Покинуть остров и удалиться из участников'
+com-command-tp: '&a/is tp <игрок> &7- Телепортироватся на остров игрока'
+com-command-visit: '&a/is visit <игрок> &7- Отправить запрос на телепортацию'
+com-command-lock: '&a/is lock [игрок] &7- Заблокировать свой остров, или определённого игрока'
+com-command-unlock: '&a/is unlock [игрока] &7- Разблокировать свой остров, или определённого игрока'
+com-command-pointinfo: '&a/is pointinfo <page> &7- shows information about block points.'
+com-command-calc: '&a/is calc &7- Посчитать количесво очков вашего острова'
+com-command-rank: '&a/is rank &7- Посмотреть топ лучших островов'
+com-command-open: '&a/is open <offline> &7- Открыть ваш остров для посетителей'
+com-command-close: '&a/is close &7- Закрыть ваш остров для посетителей'
+com-command-biomelist: '&a/is biomelist &7- Отобразить список доступных биомов'
+com-command-biomeshow: '&a/is biomeshow &7- Показать биомы в текущей позиции'
+com-command-biomeset: '&a/is biomeset <биом> &7- Изменить биом вашего острова'
+com-command-biomechunkset: '&a/is biomechunkset <биом> &7- Изменить биом в текущей области'
+com-command-fly: '&a/is fly &7- Включить или отключить полёт на вашем острове'
+com-command-changeowner: '&a/is changeowner <PName> &7- change owner of your island.'
+com-command-welcome: '&a/is welcome <text|clear> &7- set or clear welcome message.'
+com-command-extend: '&a/is extend &7- extends your island.'
+com-command-mobs: '&a/is mobs &7- изменить режим спавна мобов.'
+com-command-animals: '&a/is animals &7- change animal spawn on/off on your island.'
+eco-failed: Недостаточно монет на вашем балансе, необходимо (%cost%).
+eco-taken: $%cost% taken from your account.
+error-cha: Проблема с этим соревнованием.
+error-cha-id: Неверный ID соревнования.
+error-cha-order: Невозможно найти финиш %id%, вы должны пройти предыдущие соревнования.
+info-cha-header: 'Соревнование [%id%] : '
+info-cha-already: Уже завершено.
+info-cha-completed: Соревнование %id% завершено.
+info-cha-reward-added: Награда была добавлена в ваш инвентарь.
+info-cha-greward-added: Глобальная награда была добавлена в ваш инвентарь.
+info-cha-eco-reward-added: Вам выдано Денежное вознагрождение.
+info-cha-geco-reward-added: Global money reward ($%count%) added into your balance.
+info-cha-item-missing: Нужный предмет отсутствует, нельзя завершить.
+info-cha-no-req-item: Это соревнование не имеет нужный предмет.
+info-cha-list-header: '&b--------- Соревнования: %from%/%max% ---------'
+info-cha-reward-global: 'Награда за завершение: &2%count%&a штук(и) предмета &2%item%'
+info-cha-eco-reward-global: 'Reward for completing challenges: &2$%count%.'
+info-cha-reward: 'Награда: &2%count%&a штук(и) предмета &2%item%'
+info-cha-eco-reward: 'Денежное вознагрождение: &2$%count%'
+info-cha-repetable: '&2[П]'
+info-cha-line: '%col%%id%. %rep% &e%descr%'
+info-extend-ok: 'Остров расширен, новые координаты границ: %spacing%.'
+com-command-chalist: '&a/is challenges list &7- Список соревнований'
+com-command-chacomplete: '&a/is challenges complete <id> &7- Завершить соревнование'
+sign-perm-create: Вы не имеете права создавать эту табличку.
+sign-perm-use: Вы не имеете права использовать эту табличку.
+sign-second: Вторая линия должна быть номером соревнования или "all"
+sign-created: Табличка соревнований создана.
+sign-unknown: Неизвестный тип таблички.

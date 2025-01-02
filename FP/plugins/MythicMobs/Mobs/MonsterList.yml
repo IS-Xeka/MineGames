@@ -1,0 +1,191 @@
+﻿WarriorL1:
+  Type: VINDICATOR
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.295
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'jakedex'
+    Player: "&6Воитель"
+  Equipment:
+  - WarriorL1MainHand:0
+  Drops:
+  - WarriorL1Drop
+
+WarriorL2:
+  Type: VINDICATOR
+  Health: 30
+  Skills:
+  - damage{amount=2;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'MeBo'
+    Player: "&6Воитель"
+  Equipment:
+  - WarriorL2MainHand:0
+  Drops:
+  - WarriorL2Drop
+
+WarriorL3:
+  Type: VINDICATOR
+  Health: 40
+  Skills:
+  - damage{amount=3;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.305
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'geoffroy5'
+    Player: "&6Воитель"
+  Equipment:
+  - WarriorL3MainHand:0
+  Drops:
+  - WarriorL3Drop
+
+WarriorL4:
+  Type: VINDICATOR
+  Health: 20
+  Skills:
+  - damage{amount=1;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.29
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'sadko12345'
+    Player: "&6Воитель"
+  Equipment:
+  - WarriorL4Helmet:4
+  - WarriorL4Chestplate:3
+  - WarriorL4Leggings:2
+  - WarriorL4Boots:1
+  - WarriorL4MainHand:0
+  Drops:
+  - WarriorL4Drop
+
+WarriorL5:
+  Type: VINDICATOR
+  Health: 30
+  Skills:
+  - damage{amount=2;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.295
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'M0RD3C41'
+    Player: "&6Воитель"
+  Equipment:
+  - WarriorL5Helmet:4
+  - WarriorL5Chestplate:3
+  - WarriorL5Leggings:2
+  - WarriorL5Boots:1
+  - WarriorL5MainHand:0
+  Drops:
+  - WarriorL5Drop
+
+WarriorL6:
+  Type: VINDICATOR
+  Health: 40
+  Skills:
+  - damage{amount=3;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'siconline'
+    Player: "&6Воитель"
+  Equipment:
+  - WarriorL6Helmet:4
+  - WarriorL6Chestplate:3
+  - WarriorL6Leggings:2
+  - WarriorL6Boots:1
+  - WarriorL6MainHand:0
+  Drops:
+  - WarriorL6Drop
+
+WarriorL7:
+  Type: WITHER_SKELETON
+  Health: 40
+  Skills:
+  - damage{amount=3;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'fireskull300'
+    Player: "&6Воитель"
+  Equipment:
+  - WarriorL7MainHand:0
+  Drops:
+  - WarriorL7Drop
+
+WarriorL8:
+  Type: WITHER_SKELETON
+  Health: 50
+  Skills:
+  - damage{amount=4;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.31
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: '21minecraft21'
+    Player: "&6Воитель"
+  Equipment:
+  - WarriorL8MainHand:0
+  Drops:
+  - WarriorL8Drop
+
+WarriorL9:
+  Type: WITHER_SKELETON
+  Health: 60
+  Skills:
+  - damage{amount=5;pkb=true} @Target ~onAttack
+  Options:
+    Silent: false
+    FollowRange: 32
+    AttackSpeed: 1.0
+    MovementSpeed: 0.32
+    PreventOtherDrops: true
+  Disguise:
+    Type: player
+    Skin: 'mattyman'
+    Player: "&6Воитель"
+  Equipment:
+  - WarriorL9MainHand:0
+  Drops:
+  - WarriorL9Drop

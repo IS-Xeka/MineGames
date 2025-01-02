@@ -1,0 +1,78 @@
+groups:
+  Player:
+    permissions:
+    - CraftConomy.money.pay
+    - CraftConomy.money.balance
+    - BW.otherstats
+    - MyKits.kit.Player
+    - ChestCommands.open.*
+    - CustomJoinItems.give.*
+    - -Bukkit.command.*
+    - -Minecraft.command.*
+    options:
+      prefix: '&3'
+      suffix: '&f'
+      default: true
+  Premium:
+    inheritance:
+    - Player
+    permissions:
+    - MyKits.kit.Premium
+    - TimeIsMoney.Premium
+    options:
+      prefix: '&a[Премиум] '
+      suffix: '&b'
+      default: false
+  Gladiator:
+    inheritance:
+    - Premium
+    permissions:
+    - MyKits.kit.Gladiator
+    - TimeIsMoney.Gladiator
+    options:
+      prefix: '&e[Гладиатор] '
+      suffix: '&d'
+      default: false
+  Legend:
+    inheritance:
+    - Gladiator
+    permissions:
+    - MyKits.kit.Legend
+    - TimeIsMoney.Legend
+    options:
+      prefix: '&6[Легенда] '
+      suffix: '&2'
+      default: false
+  Emperor:
+    inheritance:
+    - Legend
+    permissions:
+    - MyKits.kit.Emperor
+    - TimeIsMoney.Emperor
+    options:
+      prefix: '&c[Император] '
+      suffix: '&6'
+      default: false
+  Helper:
+    inheritance:
+    - Emperor
+    permissions:
+    - AAC.notify
+    - ChatGuard.mute
+    - ChatGuard.unmute
+    - FigAdmin.tempban
+    - FigAdmin.unban
+    - FigAdmin.kick
+    options:
+      prefix: '&b[Помощник] '
+      suffix: '&e'
+      default: false
+  Owner:
+    permissions:
+    - '*'
+    options:
+      prefix: '&4&l[Создатель] '
+      suffix: '&c'
+      default: false
+users: {}
+schema-version: 1

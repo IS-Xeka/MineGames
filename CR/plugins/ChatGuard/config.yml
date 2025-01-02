@@ -1,0 +1,58 @@
+Version: 5
+Check for updates: false
+Hard mode: false
+swear settings:
+    enabled: true
+    inform admins: false
+    max warnings: 3
+    custom replacement: ''
+caps settings:
+    enabled: true
+    inform admins: false
+    max warnings: 3
+    max caps percent: 50
+    min message lenght: 7
+flood settings:
+    enabled: true
+    inform admins: false
+    max warnings: 3
+    flood time: 5
+    message cooldown: 3
+    flood levels: 1
+spam settings:
+    enabled: true
+    inform admins: false
+    max warnings: 3
+    custom replacement: ''
+    max numbers: 5
+Messages:
+    cancel if violation: true
+    replacement: ''
+    enable character whitelist: true
+Warnings settings:
+    enabled: true
+    separate: false
+    max count: 3
+Punishment settings:
+    enabled: true
+    reasons: {}
+    max mute time: 7d
+    commands:
+        custom: true
+        common commands:
+            - cg mute {Player} 300
+        swear commands:
+            - cg mute {Player} 300
+        caps commands:
+            - cg mute {Player} 300
+        flood commands:
+            - cg mute {Player} 300
+        spam commands: {}
+Substitutions: {}
+Other settings:
+    check signs: false
+    check commands: ['/msg:0', '/w:0', '/r:0', '/mail:0', '/m:0', '/t:0', '/bc:0', '/ebc:0', '/broadcast:0', '/ebroadcast:0', '/bcast:0', '/ebcast:0', '/whisper:0', '/emsg:0', '/tell:0', '/er:0', '/reply:0', '/ereply:0', '/action:0', '/describe:0', '/eme:0', '/me:0', '/eaction:0', '/edescribe:0', '/etell:0', '/ewhisper:0', '/pm:0', '/shout:0', '/eshout:0', '/epm:0']
+    debug level: 0
+    use packets: false
+    check items: false
+    event priority: HIGHEST

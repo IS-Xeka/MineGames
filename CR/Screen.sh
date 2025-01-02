@@ -1,0 +1,1 @@
+screen -A -m -d -S CR sh Server.sh

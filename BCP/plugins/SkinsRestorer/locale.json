@@ -1,0 +1,12 @@
+{
+  "PLAYER_SKIN_CHANGE_SKIN_DATA_CLEARED": "§aВаш скин был аннулирован.",
+  "PLAYER_SKIN_CHANGE_COOLDOWN": "§cВы можете менять скин не более одного раза в 30 секунд.",
+  "PLAYER_SKIN_CHANGE_SUCCESS": "§aВаш скин успешно изменён, перезайдите на сервер, чтобы изменения вступили в силу.",
+  "PLAYER_SKIN_CHANGE_FAILED": "§cНе удалось подгрузить скин: ",
+  "INVALID_COMMAND_ARGUMENTS": "§eИспользуйте - /skin \u003cник\u003e",
+  "SKIN_FETCH_FAILED_NO_PREMIUM_PLAYER": "§cДанный ник не имеет скина.",
+  "SKIN_FETCH_FAILED_NO_SKIN_DATA": "§cСкин с таким именем не найден.",
+  "SKIN_FETCH_FAILED_PARSE_FAILED": "§cНе удалось распознать данные скина.",
+  "SKIN_FETCH_FAILED_RATE_LIMITED": "§cПревышен лимит.",
+  "SKIN_FETCH_FAILED_ERROR": "§cПроизошла ошибка."
+}

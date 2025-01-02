@@ -1,0 +1,115 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: 'Выберите цвет брони'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+White:
+  COMMAND: 'pvpkit White'
+  NAME: '&fWhite (белый)'
+  LORE:
+    - '&f&l› &5&oКожаный шлем'
+    - '&f&l› &5&oКожаный нагрудник'
+    - '&f&l› &5&oКожаные штаны'
+    - '&f&l› &5&oКожаные ботинки'
+    - '&f&l› &5&oКаменный меч'
+    - '&f&l› &5&oЛук'
+    - '&f&l› &5&oСтрелы &d(x16)'
+    - '&f&l› &5&oСтейки &d(x4)'
+  ID: 298
+  ENCHANTMENT: efficiency,1
+  COLOR: 255,255,255
+  POSITION-X: 3
+  POSITION-Y: 2
+
+Blue:
+  COMMAND: 'pvpkit Blue'
+  NAME: '&9Blue (синий)'
+  LORE:
+    - '&f&l› &5&oКожаный шлем'
+    - '&f&l› &5&oКожаный нагрудник'
+    - '&f&l› &5&oКожаные штаны'
+    - '&f&l› &5&oКожаные ботинки'
+    - '&f&l› &5&oКаменный меч'
+    - '&f&l› &5&oЛук'
+    - '&f&l› &5&oСтрелы &d(x16)'
+    - '&f&l› &5&oСтейки &d(x4)'
+  ID: 298
+  ENCHANTMENT: efficiency,1
+  COLOR: 000,000,255
+  POSITION-X: 4
+  POSITION-Y: 2
+
+Green:
+  COMMAND: 'pvpkit Green'
+  NAME: '&2Green (зеленый)'
+  LORE:
+    - '&f&l› &5&oКожаный шлем'
+    - '&f&l› &5&oКожаный нагрудник'
+    - '&f&l› &5&oКожаные штаны'
+    - '&f&l› &5&oКожаные ботинки'
+    - '&f&l› &5&oКаменный меч'
+    - '&f&l› &5&oЛук'
+    - '&f&l› &5&oСтрелы &d(x16)'
+    - '&f&l› &5&oСтейки &d(x4)'
+  ID: 298
+  ENCHANTMENT: efficiency,1
+  COLOR: 000,255,000
+  POSITION-X: 5
+  POSITION-Y: 2
+
+Red:
+  COMMAND: 'pvpkit Red'
+  NAME: '&4Red (красный)'
+  LORE:
+    - '&f&l› &5&oКожаный шлем'
+    - '&f&l› &5&oКожаный нагрудник'
+    - '&f&l› &5&oКожаные штаны'
+    - '&f&l› &5&oКожаные ботинки'
+    - '&f&l› &5&oКаменный меч'
+    - '&f&l› &5&oЛук'
+    - '&f&l› &5&oСтрелы &d(x16)'
+    - '&f&l› &5&oСтейки &d(x4)'
+  ID: 298
+  ENCHANTMENT: efficiency,1
+  COLOR: 255,000,000
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+Yellow:
+  COMMAND: 'pvpkit Yellow'
+  NAME: '&eYellow (жёлтый)'
+  LORE:
+    - '&f&l› &5&oКожаный шлем'
+    - '&f&l› &5&oКожаный нагрудник'
+    - '&f&l› &5&oКожаные штаны'
+    - '&f&l› &5&oКожаные ботинки'
+    - '&f&l› &5&oКаменный меч'
+    - '&f&l› &5&oЛук'
+    - '&f&l› &5&oСтрелы &d(x16)'
+    - '&f&l› &5&oСтейки &d(x4)'
+  ID: 298
+  ENCHANTMENT: efficiency,1
+  COLOR: 255,255,000
+  POSITION-X: 7
+  POSITION-Y: 2
+
+Exit:
+  NAME: '&6Назад'
+  COMMAND: 'open:kits.yml'
+  ID: 330
+  POSITION-X: 5
+  POSITION-Y: 4

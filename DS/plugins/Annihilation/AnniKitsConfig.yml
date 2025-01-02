@@ -1,0 +1,444 @@
+StarterKits:
+  EnableAllKits: false
+  KillOnChangeKitAwayNexus: true
+  DistanceToKillOnAwayNexus: 64
+  Gladiador:
+    Name: Гладиатор
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы получите набор для'
+    - '&bзащиты кристалла вашей команды'
+    - '&bот вражеских рейдов.'
+    - 'Способности:'
+    - '&cДетектор проникновения'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Детектор'
+    Coutdown: 60
+  Acrobat:
+    Name: Акробат
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы не будете получать урон'
+    - '&bот падений, что даст'
+    - '&bпреимущества в некоторых случаях.'
+    - 'Способности:'
+    - '&cАкробатический прыжок'
+    Disable: false
+    Free: false
+    Jump-Reuse-Message: '&8Вы снова можете использовать акробатический &6прыжок'
+  Transporter:
+    Name: Транспортер
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы будете проводником'
+    - '&bдля своей команды. Создавайте'
+    - '&bнезаметные порталы к базе'
+    - '&bпротивника, чтобы вашей комадне не'
+    - '&bприходлось пересекать местность.'
+    - 'Способности:'
+    - '&cСоздание порталов'
+    Disable: false
+    Free: false
+    TransporterItemName: '&6Сделать портал'
+  Bard:
+    Name: Музыкант
+    Kit Description:
+    - '&6Описание:'
+    - '&bИспользуйте свой музыкальный'
+    - '&bинструмент, чтобы помогать товарищам'
+    - '&bпо команде, или навредить противнику,'
+    - '&bподобравшись к ним на базу.'
+    - 'Способности:'
+    - '&cБаян Бога'
+    Disable: false
+    Free: false
+  Berserker:
+    Name: Берсерк
+    Kit Description:
+    - '&6Описание:'
+    - '&bПри каждом убийстве противника'
+    - '&bдобавляется одна единица'
+    - '&bздоровья. Максимум: 13 единиц.'
+    - 'Способности:'
+    - '&cНет'
+    Disable: false
+    Free: false
+  Hulk:
+    Name: Халк
+    Kit Description:
+    - '&6Описание:'
+    - '&bЕсли вас окружили противники'
+    - '&bиспользуйте &6&lМега удар'
+    - '&bчтобы нанести вред всем противникам'
+    - '&bнаходящихся поблизости. Если рядом'
+    - '&bокажется союзник, он получит регенерацию.'
+    - 'Способности:'
+    - '&cМега удар'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Мега удар'
+    Coutdown: 20
+  Ninja:
+    Name: Ниндзя
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы не будете получать урон'
+    - '&bот падений. Также сможете'
+    - '&bиспользовать способность &6Ботинки прыгучести.'
+    - 'Способности:'
+    - '&cБотинки прыгучести'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Ботинки прыгучести'
+    Coutdown: 20
+    GiveInmunity: true
+  Scout:
+    Name: Разведчик
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы всегда будете передвигаться быстрее'
+    - '&bостальных. Вы также можете использовать'
+    - '&bспособность &6Гарпун &bдля'
+    - '&bтого, чтобы взбираться на высоты.'
+    - 'Способности:'
+    - '&cГарпун'
+    Disable: false
+    Free: false
+    GrappleItemName: '&6Гарпун'
+    AllowGrappleDamage: true
+  Archer:
+    Name: Лучник
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы получите всё необходимое'
+    - '&bдля ведения дистанционного боя.'
+    - 'Способности:'
+    - '&cПолучить стрелы'
+    Disable: false
+    Free: false
+    SpecialItemName: '&eПолучить стрелы'
+    Coutdown: 60
+  Enchanter:
+    Name: Чародей
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы будете получать больше'
+    - '&bопыта за добычу руды. Также'
+    - '&bесть шанс получить пузырьки'
+    - '&bс опытом.'
+    - 'Способности:'
+    - '&cНет'
+    Disable: false
+    Free: false
+  IceMan:
+    Name: Ледоход
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы можете очень быстро'
+    - '&bпередвигаться по воде,'
+    - '&bтак как она будет замерзать.'
+    - '&bБудете замедлять'
+    - '&bпротивника во время атаки.'
+    - 'Способности:'
+    - '&cЗаморозка'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Заморозка'
+    Coutdown: 0
+  AquaMan:
+    Name: Подводник
+    Kit Description:
+    - '&6Описание:'
+    - '&bДанный набор позволит'
+    - '&bобрести очевидное преимущество'
+    - '&bперед противником в воде.'
+    - 'Способности:'
+    - '&cПодводное дыхание'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Подводное дыхание'
+    Coutdown: 60
+  Tinkerer:
+    Name: Инноватор
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы получите возможность использовать'
+    - '&bсвои технологии на поле битвы,'
+    - '&bчтобы помочь своей команде.'
+    - 'Способности:'
+    - '&cНет'
+    Disable: false
+    Free: false
+  Enginner:
+    Name: Инженер
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы получите возможность использовать'
+    - '&b&6Управляемую бомбу &bпротив'
+    - '&bсооружения противника.'
+    - 'Способности:'
+    - '&cУправляемая бомба'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Управляемая бомба'
+    Coutdown: 30
+  Bomber:
+    Name: Подрывник
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы сможете использовать'
+    - '&bмины против вражеских команд.'
+    - '&bНа своих ваши мины'
+    - '&bдействовать не будут.'
+    - 'Способности:'
+    - '&cНет'
+    Disable: false
+    Free: false
+  Assassin:
+    Name: Убийца
+    Kit Description:
+    - '&6Описание:'
+    - '&bПолучите преимущество'
+    - '&bиспользовав способность &6Рывок.'
+    - '&bВы сможете сделать двойной'
+    - '&bпрожок и на несколько секунд'
+    - '&bполучите невидимость и скорость.'
+    - 'Способности:'
+    - '&cРывок'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Рывок'
+    Coutdown: 20
+  Builder:
+    Name: Строитель
+    Kit Description:
+    - '&6Описание:'
+    - '&bС данным набором ваша'
+    - '&bцель будет создание'
+    - '&bзащитных сооружений с помощью'
+    - '&bпоставок блоков через'
+    - '&bспособность &6Стройматериалы'
+    - 'Способности:'
+    - '&cСтройматериалы'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Стройматериалы'
+    Coutdown: 60
+  Spy:
+    Name: Шпион
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы получите возможность'
+    - '&bнезаметно проникать'
+    - '&bна вражеские базы, чтобы'
+    - '&bнаносить вред противнику.'
+    - '&bпрямо на их территории.'
+    - 'Способности:'
+    - '&cНевидимость'
+    Disable: false
+    Free: false
+  Miner:
+    Name: Шахтёр
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы будете выступать помощником.'
+    - '&bПоддерживая свою команду ресурсами.'
+    - '&bВы добавыете ресурсы в два раза быстрее.'
+    - '&bТакже можете использовать способнобсть'
+    - '&b&6Золотой копатель&b, чтобы руда'
+    - '&bвосстанавливалась быстрее.'
+    - 'Способности:'
+    - '&cЗолотой копатель'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Золотой копатель'
+    Coutdown: 90
+  Scorpio:
+    Name: Скорпион
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы сможете использовать &6Крюк,'
+    - '&bчтобы притянуть противника к себе.'
+    - 'Способности:'
+    - '&cКрюк'
+    Disable: false
+    Free: false
+    HookItemName: '&6Крюк'
+  Alchemist:
+    Name: Алхимик
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы получите все необходимое'
+    - '&bдля зельеварения.'
+    - 'Способности:'
+    - '&cКнига заклинаний'
+    Disable: false
+    Free: false
+    SpecialItemName: '&bКнига заклинаний'
+    Coutdown: 60
+    BrewingStandOwnerMessage: '&cВарочный стол от &6%w'
+  Pyro:
+    Name: Поджигатель
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы сможете использовать'
+    - '&bогонь против противника.'
+    - '&bСпособность &6Огненный шторм'
+    - '&bдаст возможность поджечь противника.'
+    - '&bТакже при атаке противник будет в огне.'
+    - 'Способности:'
+    - '&cОгненный шторм'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Огненный шторм'
+    Coutdown: 10
+  Tank:
+    Name: Танк
+    Kit Description:
+    - '&6Описание:'
+    - '&bДанный комплект позволит'
+    - '&bдержать оборону в самый сложный'
+    - '&bмомент максимально долго.'
+    - 'Способности:'
+    - '&cНет'
+    Disable: false
+    Free: false
+  BloodMage:
+    Name: Колдун
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы сможете использовать'
+    - '&b&6Иссушение &bпротив противников.'
+    - '&bДанная способность уменьшает здоровье'
+    - '&bна две единицы, а также добавляет'
+    - '&bэффект &eИссушение&b.'
+    - 'Способности:'
+    - '&cИссушение'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Иссушение'
+    Coutdown: 10
+  Flash:
+    Name: Спринтер
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы получите возможность'
+    - '&bускориться в нужный момент.'
+    - 'Способности:'
+    - '&cУвеличить скорость'
+    Disable: false
+    Free: false
+    SpecialItemName: '&6Увеличить скорость'
+    Coutdown: 25
+    Speed-Seconds: 10
+  Farmer:
+    Name: Фермер
+    Kit Description:
+    - '&6Описание:'
+    - '&bВы получите все необходимое'
+    - '&bдля обеспечения команды провизией.'
+    - 'Способности:'
+    - '&cНет'
+    Disable: false
+    Free: false
+  Alien:
+    Name: Alien
+    Kit Description: []
+    Disable: true
+    Free: false
+    SpecialItemName: '&eAlienTeleport'
+    Coutdown: 50
+  Lumberjack:
+    Name: Lumberjack
+    Kit Description: []
+    Disable: true
+    Free: false
+    SpecialItemName: '&eBrute Force'
+    Coutdown: 30
+  Thor:
+    Name: Thor
+    Kit Description: []
+    Disable: true
+    Free: false
+    SpecialItemName: '&6Hammer'
+    Coutdown: 20
+    HammerDamage: 3
+  Inmobilizer:
+    Name: Inmobilizer
+    Kit Description: []
+    Disable: true
+    Free: false
+    SpecialItemName: '&eInmobilezer'
+    Coutdown: 30
+  Warrior:
+    Name: Warrior
+    Kit Description: []
+    Disable: true
+    Free: false
+  Vampire:
+    Name: Vampire
+    Kit Description: []
+    Disable: true
+    Free: false
+    SpecialItemName: '&eTransform'
+    Coutdown: 120
+  Defender:
+    Name: Defender
+    Kit Description: []
+    Disable: true
+    Free: false
+  Wizard:
+    Name: Wizard
+    Kit Description: []
+    Disable: true
+    Free: false
+    SpecialItemName: '&6Wand'
+    Coutdown: 25
+  Dasher:
+    Name: Dasher
+    Kit Description: []
+    Disable: true
+    Free: false
+    SpecialItemName: '&bBlink'
+    Coutdown: 6
+  Electrizer:
+    Name: Electrizer
+    Kit Description: []
+    Disable: true
+    Free: false
+  Mercenary:
+    Name: Mercenary
+    Kit Description: []
+    Disable: true
+    Free: false
+    SpecialItemName: '&eMark of Death'
+    Coutdown: 30
+  Succubus:
+    Name: Succubus
+    Kit Description: []
+    Disable: true
+    Free: false
+    SuccubusItemName: '&eLife Drain'
+  Babaro:
+    Name: Babaro
+    Kit Description: []
+    Disable: true
+    Free: false
+    Sword-Punch-Level: 3
+  Swapper:
+    Name: Swapper
+    Kit Description: []
+    Disable: true
+    Free: false
+    SpecialItemName: '&bSwapper'
+    Coutdown: 20
+  Trepador:
+    Name: Trepador
+    Kit Description: []
+    Disable: true
+    Free: false
+    GrappleItemName: '&6Grapple'
+    AllowGrappleDamage: true
+    Coutdown: 7
+    Fall-Immunity-seconds: 7

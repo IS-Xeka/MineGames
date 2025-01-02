@@ -1,0 +1,15 @@
+Spawn:
+  x: 0.500
+  y: 134.000
+  z: 0.500
+  pitch: 0
+  yaw: 90
+  world: basic
+Worlds:
+- basic
+Prefix: ''
+TpJoin: true
+Time:
+  enable: false
+  time: 5
+  message: секунд

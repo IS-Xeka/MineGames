@@ -1,0 +1,8 @@
+Spout GUI enabled: false
+LoginScreen:
+  enabled: false
+  exit button: ''
+  exit message: ''
+  login button: ''
+  title: ''
+  text: []

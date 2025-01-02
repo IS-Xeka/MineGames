@@ -1,0 +1,31 @@
+System:
+  Setup: false
+  QuickSetup:
+    Enable: false
+    Currency:
+      Name: монет
+      NamePlural: монет
+      Minor: монет
+      MinorPlural: монет
+      Sign: $
+    StartBalance: 50.0
+    PriceBank: 200.0
+    DisplayMode: long
+  CheckNewVersion: false
+  Case-sentitive: false
+  CreateOnLogin: true
+  SilentGiveCommand: true
+  Logging:
+    Enabled: false
+  Database:
+    Type: mysql
+    Address: 127.0.0.1
+    Port: 3306
+    Username: root
+    Password: F2eiz5N16eRbHF31Et58fQx9
+    Db: economy
+    Prefix: spark_
+    Poolsize: 10
+    ConvertFromH2: false
+Database:
+  dbVersion: 1

@@ -1,0 +1,21 @@
+cd /d "%~dp0"
+
+DEL plugins\AccountGuard.jar
+DEL plugins\AntiBot.jar
+DEL plugins\AuthMe.jar
+DEL plugins\EssentialsXChat.jar
+DEL plugins\ShoppingCart.jar
+DEL plugins\VPNBlocker.jar
+DEL plugins\UltraPoints.jar
+DEL plugins\SkinsRestorer.jar
+DEL plugins\OpenBoard.jar
+DEL plugins\ViaRewind.jar
+
+RD /S /Q plugins\AccountGuard
+RD /S /Q plugins\AntiBot
+RD /S /Q plugins\AuthMe
+RD /S /Q plugins\ShoppingCart
+RD /S /Q plugins\VPNBlocker
+RD /S /Q plugins\SkinsRestorer
+
+pause

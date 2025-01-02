@@ -1,0 +1,177 @@
+#=========================================#
+#                                         #
+#            Advanced Abilities           #
+#     the best abilities/skills plugin    #
+#             Author: AnyBody             #
+#                                         #
+#=========================================#
+#                                         #
+#          Ability configuration          #
+#                                         #
+#=========================================#
+
+# Set to false if you don't want this ability enabled.
+enable: true
+
+# Set the name of ability, this is not the id.
+name: 'Противоядие'
+
+# Set the max level to this ability.
+max_level: 8
+
+# Add worlds name here to disable ability in those worlds.
+disabled_worlds: []
+
+# If you want to use this, you have to set to true the option "worldguard_support" in settings.yml.
+# Add WorldGuard's regions name here to disable ability in those regions.
+disabled_regions: []
+
+# Add Faction's ids here to disable ability in those factions.
+disabled_factions: []
+
+# Item is displayed in the menu as <MATERIAL_ID>,<MATERIAL_DATA>,<MATERIAL_AMOUNT>,<IS_ENCHANTMENT>.
+logo_item: 379,0,1,false
+
+# Levels will be added automatically from 1 to the 'max_level' number.
+# You can create a description section in a level section to replace default description.
+level:
+  '1':
+    # Set a percentage of the damage.
+    percentage: 10
+
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 2100
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, for example: 'permission=example.example'.
+    # - price: Set a price to buy this level, for example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, for example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, for example: 'by_level=50'.
+    buying_options:
+    - price=50
+    - currency=vault
+  '2':
+    # Set a percentage of the damage.
+    percentage: 15
+
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 4200
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, for example: 'permission=example.example'.
+    # - price: Set a price to buy this level, for example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, for example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, for example: 'by_level=50'.
+    buying_options:
+    - price=100
+    - currency=vault
+  '3':
+    # Set a percentage of the damage.
+    percentage: 22
+
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 6300
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, for example: 'permission=example.example'.
+    # - price: Set a price to buy this level, for example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, for example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, for example: 'by_level=50'.
+    buying_options:
+    - price=200
+    - currency=vault
+  '4':
+    # Set a percentage of the damage.
+    percentage: 25
+
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 8400
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, for example: 'permission=example.example'.
+    # - price: Set a price to buy this level, for example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, for example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, for example: 'by_level=50'.
+    buying_options:
+    - price=1000
+    - currency=vault
+  '5':
+    # Set a percentage of the damage.
+    percentage: 27
+
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 10500
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, for example: 'permission=example.example'.
+    # - price: Set a price to buy this level, for example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, for example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, for example: 'by_level=50'.
+    buying_options:
+    - price=2000
+    - currency=vault
+  '6':
+    # Set a percentage of the damage.
+    percentage: 30
+
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 12600
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, for example: 'permission=example.example'.
+    # - price: Set a price to buy this level, for example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, for example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, for example: 'by_level=50'.
+    buying_options:
+    - price=5000
+    - currency=vault
+  '7':
+    # Set a percentage of the damage.
+    percentage: 32
+
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 14700
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, for example: 'permission=example.example'.
+    # - price: Set a price to buy this level, for example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, for example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, for example: 'by_level=50'.
+    buying_options:
+    - price=10000
+    - currency=vault
+  '8':
+    # Set a percentage of the damage.
+    percentage: 36
+
+    # This depends on RPG system, players need to have this exp to get this level.
+    xp_needed: 16800
+
+    # You can customize this purchase adding conditions.
+    # Conditions:
+    # - permission: Set a permission to buy this level, for example: 'permission=example.example'.
+    # - price: Set a price to buy this level, for example: 'price=1000'
+    # - currency: Set a currency type to the price, default is 'vault', all: [none, vault, playerpoints] also you can hook your money plugin using the API.
+    # - by_items: Add items like price, for example: 'by_items=5,0,1; 276,0,1,ENCHANTMENTS=KNOCKBACK:1-SHARPNESS:1'. Use ';' to add another item.
+    # - by_level: Set a player xp level like price, for example: 'by_level=50'.
+    buying_options:
+    - price=20000
+    - currency=vault
+
+
+# Do not change anything of this, old versions file will be moved to 'outdated' folder.
+configuration_version: '1.0.0'

@@ -1,0 +1,6 @@
+mysql:
+  host: "127.0.0.1"
+  username: "root"
+  password: "F2eiz5N16eRbHF31Et58fQx9"
+  database: "sparkgames"
+  port: "3306"

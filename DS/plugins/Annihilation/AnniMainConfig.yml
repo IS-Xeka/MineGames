@@ -1,0 +1,60 @@
+useMOTD: false
+EnableSpectatorMode: true
+Use-Kits-Shop-Item: true
+Use-AutoLapiz: false
+Use-Old-Enchant-System: false
+Use-Specific-Tool: true
+Use-PermissionsEx-Prefix: true
+Use-Strike-Lightning-Effect-OnJoin: true
+Use-PrivateChest: true
+Use-PrivateChest-Command: false
+PrivateChest-Slots: 9
+Show-Title-on-Phase-Start: true
+Use-BossBar: true
+Use-PhaseBar: false
+Remove-Invisibility-on-BlockBreak: true
+Remove-Invisibility-on-Hit-Nexus: true
+Remove-Invisibility-on-Damage: true
+Show-Title-on-Team-Dead: true
+Diamonds-Spawn-Phase: 3
+Use-Blood-Effect: true
+Use-kits-and-Menu: true
+Use-Commpas-To-Go-To-Lobby: true
+End-Of-Game-Countdown: 5
+GameVars:
+  DefaultGameMode: adventure
+  AutoStart:
+    'On': false
+    PlayersToStart: 4
+    CountdownTime: 60
+  AutoRestart:
+    'On': true
+    Command: stop
+    PlayersToAutoRestart: 0
+    MinimalPhaseToRestart: 2
+    CountdownTime: 15
+  MapLoading:
+    Voting: true
+    Max-Maps-For-Voting: 10
+    UseMap: plugins/Annihilation/Worlds/
+  BossMapLoading:
+    DefaultBossMap: world
+    Use-Boss-Map: false
+  Team-Balancing:
+    'On': true
+    Tolerance: 4
+    Max-Players: 0
+  EndGameCommands:
+    ForPlayers: []
+    ForConsole:
+    - stop
+  GoToLobbyCommpas:
+    Use: false
+    Command: lobby
+  Fortune:
+    'On': true
+    Diamond: true
+    Emerald: true
+    Coal: true
+    Iron: false
+    Gold: false

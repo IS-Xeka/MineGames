@@ -1,0 +1,246 @@
+# Visit Bukkit Page (http://dev.bukkit.org/bukkit-plugins/islandworld/) for more informations about all config options
+# 
+# Print debug messages?
+debug: false
+island-debug: false
+version-check: false
+language: def
+date-format: yyyy-MM-dd HH:mm
+world-isle: skyworld
+world-spawn: basic
+world-block-id: 0
+island-height: 63
+island-y-move: 0
+island-size: 200
+region-spacing: 1
+region-step: 0
+delete-step: 20
+delete-delay: 5
+skip-create-check: false
+max-count: 100
+track-uuid: false
+use-bimap: false
+snail-mode: false
+use-world-edit: true
+use-gui: false
+schematics:
+- normal
+schematic-move: 25
+on-create:
+- sethome
+on-delete:
+- sethome
+teleport-delay: 1
+movement-break-tp: true
+skip-tp-home-check: false
+skip-tp-visit-check: false
+time-limit: 60
+fixhome-limit: 0
+calc-limit: 10
+create-limit: 0
+auto-save: 30
+backup-on-start: false
+backup-max-days: 0
+inv-clear:
+  create: true
+  delete: true
+  leave: true
+  remove: false
+ec-clear:
+  create: true
+  delete: true
+  leave: true
+  remove: false
+eco-reset: false
+allow-visit: true
+strict-party: true
+helper-allowed: []
+party-limit: 3
+party-limits:
+  vip: 6
+  svip: 9
+home-limit: 3
+home-limits:
+  vip: 6
+  svip: 9
+obsidian-break: true
+obsidian-limit: true
+request-time: 30
+rank-size: 10
+reload-time: 30
+auto-purge: 30
+purge-check-members: false
+purge-points: 0
+purge-delay: 15
+falling-block-tp: true
+remove-mob-on-tp: false
+respawn-on-island: skip
+spawn-from-nether: false
+spawn-on-quit: false
+fast-kill: false
+holo-spawns:
+  enabled: false
+  text: Spawn
+  item: NETHER_STAR
+party-prefix: none
+chat-prefix: none
+chat-prefix-without-island: true
+check-lock-open-flags: true
+owner-change-allowed: false
+island-lock: true
+item-protection: false
+spawn-switcher: true
+island-flying: false
+spawn-flying: false
+liquid-listeners: false
+negative-build: true
+default-biome: forest
+per-biome-perms: false
+per-biome-cost: false
+calc-on-enter: false
+remove-chest-shops: false
+remove-lockette: false
+flags:
+  move-info: true
+  pvp: false
+  chest-acces: false
+  use-egg: false
+  use-vehicle: false
+  use-boat: false
+  item-pickup: false
+  item-drop: true
+  death-item-drop: true
+  use-portal: false
+  use-villager: false
+  kill-animals: false
+  kill-monster: false
+  kill-golems: false
+  potion-throw: false
+  egg-throw: false
+  shear: false
+  fire-damage: true
+  fall-damage: true
+allowed-list:
+- '26'
+blocked-list:
+- '383:56'
+ignored-list:
+- '7'
+ignored-inventory-list:
+- WRITTEN_BOOK:0
+level-divider: 25600
+material-points:
+  '4': 2
+  '1': 2
+  '5': 2
+  '17': 3
+  '22': 8
+  '24': 3
+  '35': 4
+  '41': 12
+  '42': 10
+  '47': 5
+  '49': 4
+  '57': 16
+  '61': 3
+  '87': 2
+  '88': 5
+  '95': 4
+  '98': 2
+  '116': 10
+  '123': 9
+  '133': 15
+  '138': 20
+  '155': 3
+  '159': 2
+  '160': 2
+  '162': 3
+  '169': 7
+database:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  pass: F2eiz5N16eRbHF31Et58fQx9
+  base: skyblock
+  table: island_stats
+  useSSL: true
+pathway:
+  width: 0
+  height: 150
+  block: '44:2'
+economy-enabled: false
+command-cost:
+  commandname: 200
+dynmap:
+  enabled: false
+  debug: true
+  ispertick: 50
+  timetick: 1
+  updatetime: 3600
+  regionstyle:
+    strokeColor: '#00FF00'
+    strokeOpacity: 0.7
+    strokeWeight: 3
+    fillColor: '#00FF00'
+    fillOpacity: 0.3
+use-config-items: false
+normal-items:
+- LAVA_BUCKET 1
+- WATER_BUCKET 2
+- SAPLING 1
+- RED_MUSHROOM 2
+- BROWN_MUSHROOM 2
+- APPLE 10
+- MELON 10
+- STRING 10
+- BONE 10
+special-items:
+- LAVA_BUCKET 1
+- WATER_BUCKET 1
+- WATER_BUCKET 1
+- SEEDS 4
+- PUMPKIN_SEEDS 4
+- MELON_SEEDS 4
+- INK_SACK 4 3
+- SAPLING 3
+- SAPLING 3 1
+- SAPLING 3 2
+- RED_MUSHROOM 10
+- BROWN_MUSHROOM 10
+- APPLE 10
+- CARROT 10
+- MELON 10
+- STRING 20
+- BONE 20
+use-awe: true
+awe-group:
+  maxJobs: 10
+  cleanOnLogout: true
+  defaultMode: true
+  renderer:
+    blocks: 10000
+    time: 75
+  queue:
+    limit-hard: 200000
+    limit-soft: 100000
+  messages:
+    progress-bar: false
+    progress-chat: false
+    talkative: false
+    progress-bar-min: 100
+  disableUndo: false
+clean-inventory: false
+clean-inventory-leave: false
+clean-ender-chest: false
+clean-inventory-exit: false
+delete-challenges: true
+party-limit-vip: 5
+home-limit-vip: 5
+skip-completed: false
+challenges-order: false
+use-signs: true
+layer-delete-delay: 5
+set-home: false
+spawn:
+  yaw: 90.0
+  pitch: 0.0

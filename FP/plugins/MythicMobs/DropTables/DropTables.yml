@@ -1,0 +1,65 @@
+WarriorL1Drop:
+  Conditions: []
+  Drops:
+  - WarriorL1MainHand 1 0.5
+  - exp 5
+
+WarriorL2Drop:
+  Conditions: []
+  Drops:
+  - WarriorL2MainHand 1 0.5
+  - exp 10
+
+WarriorL3Drop:
+  Conditions: []
+  Drops:
+  - WarriorL3MainHand 1 0.5
+  - exp 15
+
+WarriorL4Drop:
+  Conditions: []
+  Drops:
+  - WarriorL4MainHand 1 0.5
+  - WarriorL4Helmet 1 0.5
+  - WarriorL4Chestplate 1 0.5
+  - WarriorL4Leggings 1 0.5
+  - WarriorL4Boots 1 0.5
+  - exp 10
+
+WarriorL5Drop:
+  Conditions: []
+  Drops:
+  - WarriorL5MainHand 1 0.5
+  - WarriorL5Helmet 1 0.5
+  - WarriorL5Chestplate 1 0.5
+  - WarriorL5Leggings 1 0.5
+  - WarriorL5Boots 1 0.5
+  - exp 15
+
+WarriorL6Drop:
+  Conditions: []
+  Drops:
+  - WarriorL6MainHand 1 0.5
+  - WarriorL6Helmet 1 0.5
+  - WarriorL6Chestplate 1 0.5
+  - WarriorL6Leggings 1 0.5
+  - WarriorL6Boots 1 0.5
+  - exp 20
+
+WarriorL7Drop:
+  Conditions: []
+  Drops:
+  - WarriorL7MainHand 1 0.5
+  - exp 20
+
+WarriorL8Drop:
+  Conditions: []
+  Drops:
+  - WarriorL8MainHand 1 0.5
+  - exp 30
+
+WarriorL9Drop:
+  Conditions: []
+  Drops:
+  - WarriorL9MainHand 1 0.5
+  - exp 40

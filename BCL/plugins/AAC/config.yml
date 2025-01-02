@@ -1,0 +1,228 @@
+hitbox:
+   enabled: true
+   lenience: 0.65
+   cancel: true
+   max_reach: 3.5
+   move_compensation: 6.0
+   min_vl: 4
+   reduce_delay: 60
+   thresholds:
+      10: "aacstaffnotify {player} §dподозрение на использование §cHitbox §2(пинг = {ping}, TPS = {tps})"
+      25: "aackick {player} Использование читов запрещено (5DzJP0)."
+badpackets:
+   enabled: true
+   cancel_threshold: 50
+   max_moves: 10
+   thresholds:
+      100: "aacstaffnotify {player} §dподозрение на использование §cPacketHack §2(пинг = {ping}, TPS = {tps})"
+      350: "aackick {player} Использование читов запрещено (45MSCe)."
+criticals:
+   enabled: true
+   cancel_false_hit: true
+   jump_delay: 5
+   thresholds:
+      8: "aackick {player} Использование читов запрещено (LfVE09)."
+fastbow:
+   enabled: true
+   lenience_ms: 130
+   block_ticks: 100
+   min_vl: 8
+   thresholds:
+      5: "aacstaffnotify {player} §dподозрение на использование §cFastBow §2(пинг = {ping}, TPS = {tps})"
+      25: "aackick {player} Использование читов запрещено (b6sKR2)."
+fightspeed:
+   enabled: true
+   max_hit: 15
+   max_swing: 35
+   consistent_check: true
+   consistent_threshold: 25
+   thresholds:
+      10: "aacstaffnotify {player} §dподозрение на использование §cFightSpeed §2(пинг = {ping}, TPS = {tps})"
+      30: "aackick {player} Использование читов запрещено (LyU28A)."
+fly:
+   enabled: true
+   tolerance: 0.015
+   e_tolerance: 0.015
+   vl_multiplier: 6.0
+   min_vl: 28
+   vel_ticks: 30
+   teleport: true
+   abilities: true
+   reduce_delay: 20
+   reset_pitch: false
+   thresholds:
+      200: "aacstaffnotify {player} §dподозрение на использование §cFlyHack §2(пинг = {ping}, TPS = {tps})"
+      300: "aackick {player} Использование читов запрещено (nCZ76e)."
+speed:
+   enabled: true
+   threshold: 0.005
+   vel_ticks: 30
+   vl_multiplier: 6.0
+   max_sneak_toggles: 15
+   max_use_toggles: 35
+   min_vl: 36
+   reduce_delay: 20
+   item_scalar: 0.5
+   sneak_scalar: 0.63
+   soul_sand_scalar: 0.7
+   check_sprint_direction: true
+   check_slowness_effect: true
+   check_cobwebs: true
+   strict_velocity_checking: true
+   thresholds:
+      250: "aacstaffnotify {player} §dподозрение на использование §cSpeedHack §2(пинг = {ping}, TPS = {tps})"
+      500: "aackick {player} Использование читов запрещено (ih0tc8)."
+derp:
+   enabled: true
+   thresholds:
+      1: "aackick {player} Использование читов запрещено (2QXXa6)."
+knockback:
+   enabled: false
+   tick_delay: 9
+   add_ping: true
+   max_ping: 500
+   min_knockback_dist: 0.01
+   min_knockback_time: 2
+   thresholds: {}
+noswing:
+   enabled: true
+   thresholds:
+      20: "aacstaffnotify {player} §dподозрение на использование §cNoSwing §2(пинг = {ping}, TPS = {tps})"
+      40: "aackick {player} Использование читов запрещено (d7e5vz)."
+regen:
+   enabled: true
+   cancel_regen: true
+   min_regen_delay: 3600
+   min_satiated_delay: 450
+   thresholds:
+      10: "aacstaffnotify {player} §dподозрение на использование §cRegenHack §2(пинг = {ping}, TPS = {tps})"
+      20: "aackick {player} Использование читов запрещено (52jYiM)."
+killaura:
+   enabled: true
+   suspicious_vl: 4
+   check_duration: 40
+   check_mobs: true
+   cancel_hit: true
+   min_vl: 6
+   thresholds:
+      30: "aacstaffnotify {player} §dподозрение на использование §cKillAura §2(пинг = {ping}, TPS = {tps})"
+      75: "aackick {player} Использование читов запрещено (i8Nin0)."
+heuristics:
+   enabled: true
+   min_confidence: 75
+   exempt:
+    - "P/XX?"
+   thresholds:
+      1: "aacstaffnotify {player} §dподозрение на использование §cHeuristic §2(пинг = {ping}, TPS = {tps})"
+      2: "aackick {player} Использование читов запрещено (R5n3lU)."
+nofall:
+   enabled: true
+   required_velocity: -0.2
+   deal_damage: true
+   thresholds:
+      10: "aacstaffnotify {player} §dподозрение на использование §cNoFall §2(пинг = {ping}, TPS = {tps})"
+      30: "aackick {player} Использование читов запрещено (fLd20d)."
+jesus:
+   enabled: true
+   teleport: true
+   thresholds:
+      15: "aacstaffnotify {player} §dподозрение на использование §cJesus §2(пинг = {ping}, TPS = {tps})"
+      30: "aackick {player} Использование читов запрещено (6ipQK7)."
+phase:
+   enabled: true
+   exclude:
+    - "ANVIL"
+    - "CHEST"
+    - "ENDER_CHEST"
+    - "TRAPPED_CHEST"
+    - "SOIL"
+    - "AIR"
+    - "STATIONARY_WATER"
+    - "WATER"
+    - "STATIONARY_LAVA"
+    - "LAVA"
+    - "WATER_LILY"
+    - "PISTON_MOVING_PIECE"
+   thresholds:
+      40: "aacstaffnotify {player} §dподозрение на использование §cPhase §2(пинг = {ping}, TPS = {tps})"
+fastuse:
+   enabled: true
+   ms_to_use: 1200
+   thresholds:
+      2: "aacstaffnotify {player} §dподозрение на использование §cFastUse §2(пинг = {ping}, TPS = {tps})"
+      5: "aackick {player} Использование читов запрещено (e77cVY)."
+fastbreak:
+   enabled: true
+   let_ticks: 2
+   cancel_break: true
+   check_delay: true
+   cancel_vl: 1
+   thresholds:
+      10: "aacstaffnotify {player} §dподозрение на использование §cFastBreak §2(пинг = {ping}, TPS = {tps})"
+      15: "aackick {player} Использование читов запрещено (5O5YHi)."
+fastplace:
+   enabled: true
+   max_place_per_second: 10
+   cancel_place: true
+   cancel_vl: 4
+   thresholds:
+      15: "aacstaffnotify {player} §dподозрение на использование §cFastPlace §2(пинг = {ping}, TPS = {tps})"
+      30: "aackick {player} Использование читов запрещено (ro8j1s)."
+nuker:
+   enabled: true
+   max_breaks_per_second: 40
+   vl_divisor: 41
+   thresholds:
+      5: "aacstaffnotify {player} §dподозрение на использование §cNuker §2(пинг = {ping}, TPS = {tps})"
+      10: "aackick {player} Использование читов запрещено (qP41oV)."
+interact:
+   enabled: true
+   cancel_liquids: true
+   cancel_ghost_block: true
+   cancel_dead: true
+   cancel_item_attack: true
+   cancel_ghost_attack: true
+   cancel_vl_interact: 5
+   cancel_vl_place: 5
+   cancel_vl_break: 0
+   thresholds:
+      20: "aacstaffnotify {player} §dподозрение на использование §cInteractHack §2(пинг = {ping}, TPS = {tps})"
+      40: "aackick {player} Использование читов запрещено (gFpP62)."
+velocity:
+   enabled: true
+   check_length: 30
+   max_tp_dist: 3.0
+   use_velocity_setbacks: true
+   check_direction: true
+   min_vl: 10
+   vl_normal: 2
+   vl_no_packet: 0
+   thresholds:
+      20: "aacstaffnotify {player} §dподозрение на использование §cVelocityHack"
+      30: "aackick {player} Использование читов запрещено (JHV4P2)."
+spam:
+   enabled: true
+   whitelist: []
+   message_limit: 4
+   chat_speed: 10
+   thresholds:
+      10: "aacstaffnotify {player} §dслишком быстро отправляет сообщения в чат."
+      15: "aackick {player} Вы слишком быстро отправляете сообщения в чат."
+move:
+   enabled: true
+   min_balance: -80
+   cancel_threshold: 10
+   reset_level: -1
+   balance_cap: 15
+   decay: 15
+   tp_accept_threshold: 0.001
+   thresholds:
+      250: "aacstaffnotify {player} §dподозрение на использование §cMovementHack §2(пинг = {ping}, TPS = {tps})"
+      1000: "aackick {player} Использование читов запрещено (En83ng)."
+
+ban_threshold: 4
+ban_command: "tempban {player} 1 d Использование читов запрещено."
+kick_ticks: 0
+log_file: true
+aackick_broadcast: false
+usetps: true

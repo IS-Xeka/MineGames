@@ -1,0 +1,195 @@
+account_already_exists: '§4This account already exists!'
+account_changed: '§2Account changed!'
+account_is_ignoring_acl: The account is now ignoring the ACL!
+account_is_not_ignoring_acl: The account is now following the ACL!
+account_manager_loaded: Account Manager Loaded!
+account_not_exist: '§4Игрок не найден'
+amount_changed: '§2Amount changed!'
+bank_account_created: '§2The account has been created!'
+bank_account_deleted: Bank account deleted
+bank_account_empty: '§2The §f%s §2bank Account is empty.'
+bank_account_list: 'List of bank accounts: %s'
+bank_account_not_enough_money_create: '§4You don''t have enough money to create a bank account! You need §f%s'
+bank_balance_cmd_help: /bank balance <Account Name> - Check the balance of a account.
+bank_cant_deposit: '§4You can''t deposit in this account!'
+bank_create_cmd_help: /bank create <Account Name> - Create a bank account
+bank_delete_cmd_help: /bank delete <Name> - Delete a bank account that you own.
+bank_delete_not_owner: '§4You aren''t this bank owner!'
+bank_deposit_cmd_help: /bank deposit <Account Name> <Amount> [Currency] - Deposit money in a bank account.
+bank_flag_set: '§2The flag §f%s §2for the player §f%s §2has been set to §f%s'
+bank_give_cmd_help: /bank give <Account Name> <Amount> [Currency] [World] - Give money in a bank account.
+bank_give_success: '§2Deposited §f%s§2 from the §f%s§2 bank Account.'
+bank_help_cmd_help: /bank - Shows bank help
+bank_help_title: '§2 ======== Bank Commands ========'
+bank_ignoreacl_cmd_help: /bank ignoreacl <Account Name>  - Ignore the ACL system for that account.
+bank_list_cmd_help: /bank list - List all the bank accounts you have access
+bank_not_enough_money: '§4The bank account doesn''t have enough money!'
+bank_perm_cmd_help: /bank perm <Account Name> <deposit/withdraw/acl/show> <Player Name> <true/false> - Modify the permission of a player
+bank_price_modified: '§2Bank price modified!'
+bank_set_cmd_help: /bank set <Account Name> <Amount> [Currency] [World]- Set a balance in a account.
+bank_set_success: '§2Set §f%s §2in the §f%s §2bank Account.'
+bank_statement: '§2Bank Statement:'
+bank_take_cmd_help: /bank take <Account Name> <Amount> [Currency] [World]- Take money from a account.
+bank_take_success: '§2Taken §f%s §2from the §f%s §2bank Account.'
+bank_withdraw_cmd_help: /bank withdraw <Account Name> <Amount> [Currency] - Withdraw money in a account.
+cant_check_bank_statement: '§4You can''t check this bank account statement'
+cant_modify_acl: '§4You can''t modify the ACL of this account!'
+cant_withdraw_bank: '§4You can''t withdraw in this account!'
+checking_new_version: Checking if there's a new version.
+closing_db_link: Closing the connection to the database.
+command_disabled_setup_mode: '§4This command is disabled while Craftconomy is under setup mode! Type /ccsetup to configure the plugin.'
+command_prefix: '§2[§fЭкономика§2]§f '
+command_usage: 'Usage: %s'
+config_bankprice_cmd_help: /craftconomy bankprice <Amount> - Change the price to create a bank account.
+config_cmd_help: /craftconomy - shows config command help
+config_format_cmd_help: /craftconomy format <long/small/sign/signfront/majoronly> - Set the display format.
+config_help_title: '§2 ======== Craftconomy Commands ========'
+config_holdings_cmd_help: /craftconomy holdings <Amount> - Set the default amount of money of a user account.
+config_reload_help_cmd: /craftconomy reload - Reload craftconomy.
+convert_done: Conversion done!
+convert_save_access: Converting bank access... (3/9)
+convert_save_account: Converting accounts... (1/9)
+convert_save_balance: Converting balances... (2/9)
+convert_save_config: Converting config... (5/9)
+convert_save_currency: Converting currencies... (4/9)
+convert_save_exchange: Converting exchange... (7/9)
+convert_save_log: Converting logs... (9/9)
+convert_save_payday: Converting payday... (6/9)
+convert_save_worldgroup: Converting worldgroups... (8/9)
+craftconomy_clearlog_cmd_help: /craftconomy clearlog <Time in days> - Clear the log table from entries olders than the value provided
+craftconomy_reloaded: Craftconomy has been reloaded!
+currency_add_cmd_help: /currency add <Name> <Name Plural> <Minor> <Minor Plural> <Sign> - Add a currency.
+currency_added: '§2Currency added!'
+currency_already_exists: '§4This currency already exists!'
+currency_changed: '§2Currency changed!'
+currency_default_cmd_help: /currency default <Name> - Set a currency as the default one.
+currency_delete_cmd_help: /currency delete <Name> - Delete a currency §4It also deletes all balance with this currency.
+currency_deleted: '§2Currency deleted!'
+currency_edit_cmd_help: /currency edit <name/nameplural/minor/minorplural/sign> <Currency Name> <new Value> - Modify a currency.
+currency_empty_value: '§4Can''t change a currency value to empty (Aka \)'
+currency_exchange_cmd_help: /currency exchange <Currency from> <Currency to> <amount> - set a currency exchange rate
+currency_exchange_set: Currency exchange set!
+currency_help_cmd_help: /currency - shows currency command help
+currency_help_title: '§2 ======== Currency Commands ========'
+currency_info_cmd_help: /currency info <Name> - Display the information about a currency.
+currency_info_minor: '§2Minor: §f%s'
+currency_info_minor_plural: '§2Minor plural: §f%s'
+currency_info_name: '§2Name: §f%s'
+currency_info_name_plural: '§2Name Plural: §f%s'
+currency_list_cmd_help: /currency list - List all the currencies
+currency_list_title: '§2====== §fCurrencies §2======'
+currency_manager_loaded: Currency Manager Loaded!
+currency_modified: '§2Currency modified!'
+currency_not_exist: '§4That currency doesn''t exist!'
+currency_rates_cmd_help: /currency rates - Show all the exchange rates available.
+database_connect_error: 'A error occured while trying to connect to the database. Message received: %s'
+database_manager_loaded: Database Manager Loaded!
+default_currency_set: '%s §2has been set as the default currency!'
+default_holding_modified: '§2Default holdings modified!'
+default_settings_loaded: Default settings loaded!
+deposited: '§2Deposited §f%s §2in the §f%s §2bank Account.'
+disabled_changed: '§2Disabled changed!'
+error_occured: '§2A error occured. Check the console for any errors!'
+error_write_log: 'Error while writing the transaction logger! Error is: %s'
+exchange_done: '§f%s %s §2has been converted to §f%s %s'
+format_modified: '§2long balance format changed!'
+group_addworld_cmd_help: /ccgroup addworld <Group Name> <World Name> - Add a world to a world group.
+group_already_exist: '§4This world group already exist!'
+group_create_cmd_help: /ccgroup create <Name> - Create a world group.
+group_created: World group created!
+group_delworld_cmd_help: /ccgroup delworld <World Name> - Remove a world from his group. Reverting it to the default group.
+group_help_cmd_help: /ccgroup - Shows ccgroup help.
+group_help_title: '§2 ======== Group Commands ========'
+group_not_exist: '§4This world group doesn''t exist!'
+group_world_added: World added to the group!
+interval_changed: '§2Interval changed!'
+invalid_amount: '§4Invalid amount!'
+invalid_disabled: '§4Invalid disabled mode! Valid values are: true/false'
+invalid_edit_mode: '§4Invalid Edit mode.'
+invalid_flag: '§4Invalid flag!'
+invalid_interval: '§4Invalid interval!'
+invalid_library: 'Invalid library URL for: %s. Full error is: %s'
+invalid_mode: '§4Invalid mode!'
+invalid_page: '§4Invalid page!'
+invalid_status: '§4Invalid status! Valid values are: wage/tax'
+invalid_time_log: Invalid time! It needs to be a positive number!
+invalid_type: '§4Invalid type!'
+loaded_setup_mode: Loading Craftconomy in setup mode. Please type /ccsetup to start the setup.
+loading_account_manager: Loading the Account Manager
+loading_curency_manager: Loading the Currency Manager
+loading_currency_manager: Loading the Currency manager.
+loading_database_manager: Loading the Database Manager
+loading_default_settings: Loading default settings.
+loading_payday_manager: Loading the PayDay manager.
+log_cleared: The log table has been cleared up to the time you said!
+metric_start_error: 'Unable to load Metrics! The error is: %s'
+money_all_cmd_help: /money all - Display your balance on all the worlds
+money_all_title: '§eБаланс'
+money_balance_cmd_help: /money balance <Player Name> - Display the balance of a player
+money_create_cmd_help: /money create <Name> - Create a account
+money_create_success: '§2 Account created!'
+money_delete_cmd_help: /money delete <Name> - Delete a account
+money_delete_success: '§2The account §f%s §2has been deleted!'
+money_exchange_cmd_help: /money exchange <Current Currency> <New Currency> <Amount> -Exchange a currency
+money_give_cmd_help: /money give <Player Name> <Amount> [Currency] [World] - Give money to someone
+money_give_received: '§2Received §f%s §2from §f%s'
+money_give_send: '§2Gave §f%s §2to §f%s'
+money_help_cmd_help: /money help - Shows money help
+money_help_title: '§2 ======== Money Commands ========'
+money_infinite_cmd_help: /money infinite <Account Name> - Put a account in infinite money mode.
+money_infinite_set_false: The account is no more infinite!
+money_infinite_set_true: The account is now infinite!
+money_log_cmd_help: /money log <page> [Account Name] - Show the account log
+money_log_header: '§2 Money Log | Page §f%s §2 | Account §f%s'
+money_main_cmd_help: /money  - List your balance
+money_pay_cmd_help: /money pay <Ник> <Количество> - Отправить монеты игроку
+money_pay_received: '§eВы получили §6%s §eот §f%s'
+money_pay_sent: '§eВы отправили §6%s §eна баланс §f%s'
+money_set: '§2Set §f%s §2balance to §f%s'
+money_set_cmd_help: /money set <Player Name> <Amount> [Currency] [World] - set a balance of someone
+money_set_other: '§2Your money has been set to §f%s §2by §f%s'
+money_take: '§2Took §f%s §2from §f%s'
+money_take_cmd_help: /money take <Player Name> <Amount> [Currency] [World] - take money from someone
+money_take_other: '§f%s §2has been removed from your account by§f%s'
+money_top_cmd_help: /money top <Currency> [Page] [World] - Shows the top list
+money_top_header: '§2 Money Top | Page §f%s §2 | World §f%s'
+name_changed: '§2Name changed!'
+no_exchange_rate: '§4No exchange rate from §f%s §4to §f%s!'
+no_permission: '§4You don''t have permissions!'
+not_enough_money: '§4Недостаточно монет для совершения этого действия.'
+payday_already_exist: '§4There''s already a payday named like that!'
+payday_create_cmd_help: /payday create <Name> <Interval> <wage/tax> <Amount> [Account] [Currency Name] [World Name] - Create a new payday
+payday_create_success: '§2Payday added! Add the permission node §f%s §2to the players you want to add this payday!'
+payday_delete_cmd_help: /payday delete <Name> - Delete a PayDay.
+payday_help_cmd_help: /payday - shows payday command help
+payday_help_title: '§2 ======== PayDay Commands ========'
+payday_info_account: '§2Account: §f%s'
+payday_info_amount: '§2Amount: §f%s'
+payday_info_cmd_help: /payday info <Payday Name> - Show information about a payday.
+payday_info_interval: '§2Interval: §f%s'
+payday_info_title: '§2 ======== §f%s information §2========'
+payday_info_type_tax: '§2Type: §fTax'
+payday_info_type_wage: '§2Type: §fWage'
+payday_invalid_mode: '§4Invalid mode. only wage or tax is supported!'
+payday_list_cmd_help: /payday list - List all payday
+payday_list_title: '§2 ========= §fPayday list §2========='
+payday_manager_loaded: PayDay Manager loaded!
+payday_modify_cmd_help: /payday modify <Name> <Name/status/disabled/interval/amount/account/currency/World> <Value> - Modify a payday setting.
+payday_not_found: '§4PayDay not found!'
+payday_removed: '§2Payday removed!'
+payday_with_name_already_exist: '§4There''s already a payday with this name!'
+player_not_exist: '§4The player doesn''t exist!'
+rates_header: '§2[Currency rates]'
+ready: Ready!
+running_old_version: 'Running a old version of Craftconomy! New version is: %s'
+starting_database_convert: Starting database convertion to MySQL. This can take come time.
+status_changed: '§2Status changed!'
+subcommand_not_exist: '§4This subcommand doesn''t exist!'
+unable_close_db_link: 'Unable to close the database connection! Reason is: %s'
+user_only_command: '§4This command should only be used by players!'
+world_already_in_group: '§4This world is already in a group! Please remove it with §f/ccgroup delworld %s'
+world_changed: '§2World changed!'
+world_group_manager_loaded: World Group Manager loaded!
+world_not_exist: '§4This world doesn''t exist!'
+world_not_in_group: '§4This world isin''t in a group!'
+world_removed_from_group: The world has been removed from the group! It has been set to the default group.

@@ -1,0 +1,38 @@
+# Glass Pane Colors: 
+# WITHE
+# ORANGE
+# MAGENTA
+# BLUE
+# YELLOW
+# GREEN
+# BLACK
+# RED
+# PINK
+# CYAN
+MenuTitle: '&2%PLAYER% - выбрать класс'
+FinalLore: '&6--------------------------'
+Unlocked: '&aДоступен'
+Locked: '&cЗаблокирован'
+Space:
+  Use: false
+  StartInSlot: 18
+  Spaces: 9
+  Material: STAINED_GLASS_PANE
+  Name: ""
+  Color: WHITE
+UnlockedKitsSpace:
+  Use: false
+  Material: STAINED_GLASS_PANE
+  SpaceBetweenKits: 9
+  Name: ""
+  Color: GREEN
+NextPageButton:
+  Material: ARROW
+  Name: '&aСледующая страница'
+BackPageButton:
+  Material: ARROW
+  Name: '&cВернуться'
+BackgroundItems:
+  Material: AIR
+  Color: ""
+  Name: ""

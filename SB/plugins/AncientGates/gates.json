@@ -1,0 +1,31 @@
+{
+  "toLobby": {
+    "froms": [
+      {
+        "world": "basic",
+        "x": -2.0,
+        "y": 34.0,
+        "z": 9.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "bungeetos": [
+      {
+        "server": "Lobby",
+        "world": "lobby",
+        "x": "0.5",
+        "y": "63.0",
+        "z": "0.5",
+        "pitch": "0.0",
+        "yaw": "-90.0"
+      }
+    ],
+    "bungeetype": "LOCATION",
+    "entities": false,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  }
+}
