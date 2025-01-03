@@ -1,0 +1,177 @@
+# # options.debug: must the debug output be printed?
+# # options.difficulty: what is the server diffeculty?
+# # options.locale: what set of lang files must be used, supported: en_US, nl_NL, de_DE, it_IT
+# # spawnGroup: used to set withs worlds have what spawn, difficult to use. see official site for details
+options:
+  debug: false
+  difficulty: 2
+  locale: en_US
+  usecreativemode: false
+  usecreativemodeinv: true
+  blockEnderChestInCrea: false
+  useEndPortalHandler: false
+  useportalhandler: false
+  useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+  craftbukkitHooks: true
+worlds:
+  BedWars-1:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-10:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-11:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-12:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-13:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-14:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-2:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-3:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-4:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-5:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-6:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-7:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-8:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-9:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  Lobby:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-15:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-16:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-17:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  BedWars-18:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false
+  MainLobby:
+    seed: 0
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+    flags:
+      SAVEON: false

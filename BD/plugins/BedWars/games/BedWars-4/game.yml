@@ -1,0 +1,249 @@
+name: BedWars-4
+world: BedWars-4
+loc1:
+  world: BedWars-4
+  x: 128.5
+  y: 128.0
+  z: 128.5
+  pitch: 88.79999542236328
+  yaw: 134.2494354248047
+loc2:
+  world: BedWars-4
+  x: -127.5
+  y: 8.0
+  z: -127.5
+  pitch: 90.0
+  yaw: 308.84918212890625
+lobby:
+  world: Lobby
+  x: 0.5
+  y: 63.0
+  z: 0.5
+  pitch: 3.450018882751465
+  yaw: -1.4999897480010986
+minplayers: 8
+regionname: BedWars-4
+time: 1000
+targetmaterial: BED_BLOCK
+mainlobby:
+  world: MainLobby
+  x: 0.5
+  y: 63.0
+  z: 0.5
+  pitch: 0.0
+  yaw: -90.0
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: BedWars-4
+    x: -74.5
+    y: 66.0
+    z: 8.5
+    pitch: 90.0
+    yaw: 229.79971313476562
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: BedWars-4
+    x: -7.5
+    y: 66.0
+    z: -74.5
+    pitch: 90.0
+    yaw: 106.79973602294922
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: BedWars-4
+    x: 75.5
+    y: 66.0
+    z: -7.5
+    pitch: 90.0
+    yaw: -111.00029754638672
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: BedWars-4
+    x: 8.5
+    y: 66.0
+    z: 75.5
+    pitch: 90.0
+    yaw: 22.799697875976562
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: BedWars-4
+    x: -14.5
+    y: 67.0
+    z: 89.5
+    pitch: 90.0
+    yaw: 3.74967098236084
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: BedWars-4
+    x: -88.5
+    y: 67.0
+    z: -14.5
+    pitch: 90.0
+    yaw: 103.19953155517578
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: BedWars-4
+    x: 15.5
+    y: 67.0
+    z: -88.5
+    pitch: 90.0
+    yaw: 195.5995330810547
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: BedWars-4
+    x: 89.5
+    y: 67.0
+    z: 15.5
+    pitch: 90.0
+    yaw: 293.0995178222656
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: BedWars-4
+    x: 2.5
+    y: 63.0
+    z: 2.5
+    pitch: 88.6500015258789
+    yaw: -20.249977111816406
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: BedWars-4
+    x: -1.5
+    y: 63.000000004768374
+    z: 2.5
+    pitch: 90.0
+    yaw: 93.5999984741211
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: BedWars-4
+    x: -1.5
+    y: 63.000000004768374
+    z: -1.5
+    pitch: 90.0
+    yaw: 187.19996643066406
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: BedWars-4
+    x: 2.5
+    y: 63.0
+    z: -1.5
+    pitch: 90.0
+    yaw: 280.64996337890625
+teams:
+  Зелёный:
+    ==: Team
+    bedfeed:
+      world: BedWars-4
+      x: 1.0
+      y: 66.0
+      z: -90.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: BedWars-4
+      x: 1.5
+      y: 64.0
+      z: -75.5
+      pitch: 0.7500095367431641
+      yaw: -0.8999779224395752
+    color: GREEN
+    name: Зелёный
+    maxplayers: 4
+    bedhead:
+      world: BedWars-4
+      x: 1.0
+      y: 66.0
+      z: -91.0
+      pitch: 0.0
+      yaw: 0.0
+  Красный:
+    ==: Team
+    bedfeed:
+      world: BedWars-4
+      x: 90.0
+      y: 66.0
+      z: 1.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: BedWars-4
+      x: 76.5
+      y: 64.0
+      z: 1.5
+      pitch: 0.29999053478240967
+      yaw: 88.9500503540039
+    color: RED
+    name: Красный
+    maxplayers: 4
+    bedhead:
+      world: BedWars-4
+      x: 91.0
+      y: 66.0
+      z: 1.0
+      pitch: 0.0
+      yaw: 0.0
+  Синий:
+    ==: Team
+    bedfeed:
+      world: BedWars-4
+      x: -1.0
+      y: 66.0
+      z: 90.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: BedWars-4
+      x: -0.5
+      y: 64.0
+      z: 76.5
+      pitch: 5.608796982414788E-6
+      yaw: 178.64999389648438
+    color: BLUE
+    name: Синий
+    maxplayers: 4
+    bedhead:
+      world: BedWars-4
+      x: -1.0
+      y: 66.0
+      z: 91.0
+      pitch: 0.0
+      yaw: 0.0
+  Жёлтый:
+    ==: Team
+    bedfeed:
+      world: BedWars-4
+      x: -90.0
+      y: 66.0
+      z: -1.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: BedWars-4
+      x: -75.5
+      y: 64.0
+      z: -0.5
+      pitch: 0.9000051021575928
+      yaw: -91.05001068115234
+    color: YELLOW
+    name: Жёлтый
+    maxplayers: 4
+    bedhead:
+      world: BedWars-4
+      x: -91.0
+      y: 66.0
+      z: -1.0
+      pitch: 0.0
+      yaw: 0.0

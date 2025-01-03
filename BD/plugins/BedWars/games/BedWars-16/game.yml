@@ -1,0 +1,249 @@
+name: BedWars-16
+world: BedWars-16
+loc1:
+  world: BedWars-16
+  x: -127.5
+  y: 20.00000000476837
+  z: -127.5
+  pitch: 87.89998626708984
+  yaw: -32.25018310546875
+loc2:
+  world: BedWars-16
+  x: 128.5
+  y: 160.00000000476837
+  z: 128.5
+  pitch: 90.0
+  yaw: 101.09981536865234
+lobby:
+  world: Lobby
+  x: 0.5
+  y: 63.0
+  z: 0.5
+  pitch: 3.300006866455078
+  yaw: -0.8999995589256287
+minplayers: 8
+regionname: BedWars-16
+time: 1000
+targetmaterial: BED_BLOCK
+mainlobby:
+  world: MainLobby
+  x: 0.5
+  y: 63.0
+  z: 0.5
+  pitch: 0.0
+  yaw: -90.0
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: BedWars-16
+    x: -1.5
+    y: 63.0
+    z: -95.5
+    pitch: 90.0
+    yaw: -186.9003143310547
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: BedWars-16
+    x: 93.5
+    y: 63.0
+    z: -0.5
+    pitch: 90.0
+    yaw: -85.65019989013672
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: BedWars-16
+    x: 1.5
+    y: 63.0
+    z: 94.5
+    pitch: 86.54998779296875
+    yaw: -358.9503479003906
+- ==: RessourceSpawner
+  name: bronze
+  location:
+    world: BedWars-16
+    x: -92.5
+    y: 63.0
+    z: 3.5
+    pitch: 90.0
+    yaw: -254.70021057128906
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: BedWars-16
+    x: -83.5
+    y: 64.0
+    z: 2.5
+    pitch: 90.0
+    yaw: -30.000221252441406
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: BedWars-16
+    x: -0.5
+    y: 64.00000000476837
+    z: -86.5
+    pitch: 86.99999237060547
+    yaw: -115.05023956298828
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: BedWars-16
+    x: 84.5
+    y: 64.00000000476837
+    z: 0.5
+    pitch: 87.74999237060547
+    yaw: -12.450222969055176
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: BedWars-16
+    x: 0.5
+    y: 64.0
+    z: 85.5
+    pitch: 90.0
+    yaw: 72.7497787475586
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: BedWars-16
+    x: 2.5
+    y: 63.0
+    z: 2.5
+    pitch: 90.0
+    yaw: -4.799984931945801
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: BedWars-16
+    x: 0.5
+    y: 63.000000004768374
+    z: 4.5
+    pitch: 87.30000305175781
+    yaw: 54.000022888183594
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: BedWars-16
+    x: -1.5
+    y: 63.000000004768374
+    z: 2.5
+    pitch: 89.39997863769531
+    yaw: 165.75003051757812
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: BedWars-16
+    x: 0.5
+    y: 63.000000004768374
+    z: 0.5
+    pitch: 90.0
+    yaw: 265.4999694824219
+teams:
+  Зелёный:
+    ==: Team
+    bedfeed:
+      world: BedWars-16
+      x: -10.0
+      y: 72.0
+      z: -91.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: BedWars-16
+      x: -9.5
+      y: 63.0
+      z: -92.5
+      pitch: 1.4999890327453613
+      yaw: -0.2999267578125
+    color: GREEN
+    name: Зелёный
+    maxplayers: 4
+    bedhead:
+      world: BedWars-16
+      x: -10.0
+      y: 72.0
+      z: -90.0
+      pitch: 0.0
+      yaw: 0.0
+  Красный:
+    ==: Team
+    bedfeed:
+      world: BedWars-16
+      x: 88.0
+      y: 72.0
+      z: -9.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: BedWars-16
+      x: 90.5
+      y: 63.0
+      z: -8.5
+      pitch: 0.4499836564064026
+      yaw: -270.1501770019531
+    color: RED
+    name: Красный
+    maxplayers: 4
+    bedhead:
+      world: BedWars-16
+      x: 87.0
+      y: 72.0
+      z: -9.0
+      pitch: 0.0
+      yaw: 0.0
+  Синий:
+    ==: Team
+    bedfeed:
+      world: BedWars-16
+      x: 9.0
+      y: 72.0
+      z: 89.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: BedWars-16
+      x: 9.5
+      y: 63.0
+      z: 91.5
+      pitch: 0.599984347820282
+      yaw: -180.00022888183594
+    color: BLUE
+    name: Синий
+    maxplayers: 4
+    bedhead:
+      world: BedWars-16
+      x: 9.0
+      y: 72.0
+      z: 88.0
+      pitch: 0.0
+      yaw: 0.0
+  Жёлтый:
+    ==: Team
+    bedfeed:
+      world: BedWars-16
+      x: -88.0
+      y: 72.0
+      z: 11.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: BedWars-16
+      x: -89.5
+      y: 63.0
+      z: 11.5
+      pitch: 0.8999778032302856
+      yaw: -89.85015869140625
+    color: YELLOW
+    name: Жёлтый
+    maxplayers: 4
+    bedhead:
+      world: BedWars-16
+      x: -87.0
+      y: 72.0
+      z: 11.0
+      pitch: 0.0
+      yaw: 0.0

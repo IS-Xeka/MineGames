@@ -1,0 +1,34 @@
+version: 3
+player not found: §4Игрок не найден.
+global mute: §cЧат выключен Администратором сервера.
+global mute enabled: §4Чат временно недоступен.
+global mute disabled: §2Работа чата восстановлена.
+no permissions: §cУ вас нет прав для выполнения данной команды.
+inform swear: '§c[Server] §7Зафиксирован мат от §6{PLAYER}, §7сообщение: §c{MESSAGE}'
+inform flood: '§c[Server] §7Зафиксирован флуд от §6{PLAYER}, §7сообщение: §c{MESSAGE}'
+inform spam: '§c[Server] §7Зафиксирован спам от §6{PLAYER}, §7сообщение: §c{MESSAGE}'
+inform caps: '§c[Server] §7Зафиксирован капс от §6{PLAYER}, §7сообщение: §c{MESSAGE}'
+wait cooldown: §6Подождите немного, прежде чем отправлять сообщение.
+warn capsing: §cВаше сообщение было проигнорировано.
+warn flooding: §cВаше сообщение было проигнорировано.
+warn swearing: §cВаше сообщение было проигнорировано.
+warn spamming: §cВаше сообщение было проигнорировано.
+warn format: ' {CURRENT}/{MAX}'
+successfully: §3Выполнено успешно.
+swear: мат
+caps: капс
+flood: флуд
+spam: спам
+minutes: минут
+hours: часов
+days: дней
+sec: секунд
+you are muted: §cВы не можете использовать чат.
+player muted: §6Доступ к чату заблокирован на §c{TIME}
+already muted: §eИгроку уже заблокирован чат.
+default reason: Причина отсутствует
+is not muted: §aИгроку не заблокирован чат.
+muted: Muted
+'yes': '&4YES'
+'no': '&3NO'
+expiration time: Mute expires
