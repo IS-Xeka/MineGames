@@ -1,0 +1,8 @@
+AuthMe:
+  MaxPerTime: 16
+  isLoginAuthMe: false
+  Time: 30
+  Punish: banip %player Выявлена попытка подбора паролей, сообщите Администратору
+  Commands:
+  - /l
+  - /login

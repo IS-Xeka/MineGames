@@ -1,0 +1,6 @@
+debug-mode: false
+color-logs: false
+shutdown-message: "&eСервер будет автоматически перезагружен через &7{timeleft}&e."
+cancel-message: "&eАвтоматическая перезагрузка была отменена&e."
+notify-every: 20
+shutdown-commands: []

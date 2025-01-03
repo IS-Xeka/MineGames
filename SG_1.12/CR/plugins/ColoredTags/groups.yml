@@ -1,0 +1,7 @@
+default: '&3'
+Premium: '&a[Премиум] '
+Gladiator: '&e[Гладиатор] '
+Legend: '&6[Легенда] '
+Emperor: '&c[Император] '
+Helper: '&b[Помощник] '
+Owner: '&4&l[Создатель] '

@@ -1,0 +1,74 @@
+  Cost: 300.0
+  Name: Emperor
+  Commands: []
+  Cooldown: 0
+
+  Armour:
+    Leggings:
+      Data: 0
+      Enchantments:
+        THORNS: 4
+        PROTECTION_ENVIRONMENTAL: 4
+      Type: DIAMOND_LEGGINGS
+    Chestplate:
+      Data: 0
+      Enchantments:
+        THORNS: 4
+        PROTECTION_ENVIRONMENTAL: 4
+      Type: DIAMOND_CHESTPLATE
+    Boots:
+      Data: 0
+      Enchantments:
+        THORNS: 4
+        PROTECTION_ENVIRONMENTAL: 4
+      Type: DIAMOND_BOOTS
+    Helmet:
+      Data: 0
+      Enchantments:
+        THORNS: 4
+        PROTECTION_ENVIRONMENTAL: 4
+      Type: DIAMOND_HELMET
+
+  Items:
+    Offhand:
+      Type: Shield
+    Slot 7:
+      Type: ARROW
+      Amount: 64
+      Data: 0
+    Slot 6:
+      Type: ARROW
+      Amount: 64
+      Data: 0
+    Slot 5:
+      Type: ARROW
+      Amount: 64
+      Data: 0
+    Slot 4:
+      Type: ARROW
+      Amount: 64
+      Data: 0
+    Slot 3:
+      Type: GOLDEN_APPLE
+      Amount: 32
+      Data: 1
+    Slot 2:
+      Type: COOKED_BEEF
+      Amount: 64
+      Data: 0
+    Slot 1:
+      Type: BOW
+      Amount: 1
+      Data: 0
+      Enchantments:
+        ARROW_KNOCKBACK: 2
+        ARROW_DAMAGE: 5
+        ARROW_FIRE: 2
+    Slot 0:
+      Type: DIAMOND_SWORD
+      Amount: 1
+      Data: 0
+      Enchantments:
+        DAMAGE_ALL: 4
+        FIRE_ASPECT: 2
+        KNOCKBACK: 2

@@ -1,0 +1,53 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&2&lКреатив'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'menu'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item-id/data-value to 0)
+  # In this case it will open with a book (right click)
+  open-with-item:
+    item-id: 264
+    left-click: false
+    right-click: true
+1:
+  COMMAND: 'p home'
+  NAME: '&aТелепортироваться на свой участок'
+  LORE: []
+  ID: 355
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+2:
+  COMMAND: 'p auto'
+  NAME: '&aЗанять любой свободный участок'
+  LORE: []
+  ID: 264
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+3:
+  COMMAND: 'p list mine'
+  NAME: '&aПросмотреть список своих участков'
+  LORE: []
+  ID: 339
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+Close:
+  NAME: '&cЗакрыть меню'
+  ID: '159:14'
+  POSITION-X: 5
+  POSITION-Y: 4

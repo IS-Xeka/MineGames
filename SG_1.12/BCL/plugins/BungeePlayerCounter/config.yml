@@ -1,0 +1,46 @@
+name: '&bSpark Games: &6%totalplayercount%'
+enableServerIndicator: false
+interval: 5
+automaticDisplay: false
+datasource: default
+offlinePrefix: '&6● &c'
+onlinePrefix: '&a● &e'
+serverIndicator: ''
+proxyIP: 94.130.116.180:25565
+
+groups:
+  Lobby:
+    displayName: Lobby
+    display: true
+    servers: Lobby
+    address: 127.0.0.1:5439
+  BedWars:
+    displayName: BedWars
+    display: true
+    servers: BedWars
+    address: 127.0.0.1:5441
+  Creative:
+    displayName: Creative
+    display: true
+    servers: Creative
+    address: 127.0.0.1:5443
+  Fighting:
+    displayName: Fighting
+    display: true
+    servers: Fighting
+    address: 127.0.0.1:5445
+  SkyBlock:
+    displayName: SkyBlock
+    display: true
+    servers: SkyBlock
+    address: 127.0.0.1:5447
+  Destroyer:
+    displayName: Destroyer
+    display: true
+    servers: Destroyer
+    address: 127.0.0.1:5449
+  Survival:
+    displayName: Survival
+    display: true
+    servers: Survival
+    address: 127.0.0.1:5451

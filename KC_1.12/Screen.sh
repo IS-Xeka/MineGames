@@ -1,1 +1,0 @@
-screen -A -m -d -S KC sh Server.sh

@@ -1,0 +1,106 @@
+groups:
+  Player:
+    permissions:
+    - CraftConomy.money.pay
+    - CraftConomy.money.balance
+    - PlayerSkulls.skull
+    - ChestCommands.open.*
+    - KeepItems.save
+    - Plots.permpack.basic
+    - Plots.permpack.basicflags
+    - Plots.plot.1
+    - -Bukkit.command.*
+    - -Minecraft.command.*
+    options:
+      prefix: '&3'
+      suffix: '&f'
+      default: true
+  Premium:
+    inheritance:
+    - Player
+    permissions:
+    - Plots.plot.3
+    - TimeIsMoney.Premium
+    options:
+      prefix: '&a[Премиум] '
+      suffix: '&b'
+      default: false
+  Gladiator:
+    inheritance:
+    - Premium
+    permissions:
+    - Worldedit.selection.expand
+    - Worldedit.selection.hpos
+    - Worldedit.selection.pos
+    - Worldedit.wand
+    - WorldEdit.region.set
+    - WorldEdit.region.walls
+    - WorldEdit.history.undo
+    - WorldEdit.history.redo
+    - FAWE.plotsquared
+    - FAWE.plotsquared.member
+    - Plots.plot.5
+    - TimeIsMoney.Gladiator
+    options:
+      prefix: '&e[Гладиатор] '
+      suffix: '&d'
+      default: false
+  Legend:
+    inheritance:
+    - Gladiator
+    permissions:
+    - WorldEdit.region.faces
+    - WorldEdit.generation.sphere
+    - WorldEdit.generation.cylinder
+    - WorldEdit.generation.pyramid
+    - Plots.plot.7
+    - TimeIsMoney.Legend
+    options:
+      prefix: '&6[Легенда] '
+      suffix: '&2'
+      default: false
+  Emperor:
+    inheritance:
+    - Legend
+    permissions:
+    - WorldEdit.clipboard.copy
+    - WorldEdit.clipboard.paste
+    - WorldEdit.clipboard.rotate
+    - Worldedit.clipboard.save
+    - Worldedit.schematic.save
+    - Worldedit.schematic.list
+    - Worldedit.clipboard.load
+    - Worldedit.schematic.load
+    - WorldEdit.region.replace
+    - WorldEdit.superpickaxe
+    - WorldEdit.superpickaxe.area
+    - WorldEdit.superpickaxe.recursive
+    - Plots.plot.9
+    - TimeIsMoney.Emperor
+    options:
+      prefix: '&c[Император] '
+      suffix: '&6'
+      default: false
+  Helper:
+    inheritance:
+    - Emperor
+    permissions:
+    - AAC.notify
+    - ChatGuard.mute
+    - ChatGuard.unmute
+    - FigAdmin.tempban
+    - FigAdmin.unban
+    - FigAdmin.kick
+    options:
+      prefix: '&b[Помощник] '
+      suffix: '&e'
+      default: false
+  Owner:
+    permissions:
+    - '*'
+    options:
+      prefix: '&4&l[Создатель] '
+      suffix: '&c'
+      default: false
+users: {}
+schema-version: 1

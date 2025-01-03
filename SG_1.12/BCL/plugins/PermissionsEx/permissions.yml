@@ -1,0 +1,100 @@
+groups:
+  Player:
+    permissions:
+    - CraftConomy.money.pay
+    - CraftConomy.money.balance
+    - ChestCommands.open.*
+    - CustomJoinItems.give.*
+    - AdvancedLobby.general.voidteleport
+    - AdvancedLobby.general.jumppad
+    - AdvancedLobby.general.chatenabled
+    - -Bukkit.command.*
+    - -Minecraft.command.*
+    options:
+      prefix: '&3'
+      suffix: '&f'
+      default: true
+  Premium:
+    inheritance:
+    - Player
+    permissions:
+    - TrailGUI.commands.clearall
+    - TrailGUI.trails.Cloud
+    - TrailGUI.trails.Enchantment
+    - TrailGUI.trails.Spark
+    - TrailGUI.trails.Flame
+    - LibsDisguises.undisguise
+    - LibsDisguises.disguise.zombie
+    - LibsDisguises.disguise.skeleton
+    - LibsDisguises.disguise.spider
+    - LibsDisguises.disguise.creeper
+    options:
+      prefix: '&a[Премиум] '
+      suffix: '&b'
+      default: false
+  Gladiator:
+    inheritance:
+    - Premium
+    permissions:
+    - TrailGUI.trails.Rainbow
+    - TrailGUI.trails.Snow
+    - TrailGUI.trails.MagicCrit
+    - LibsDisguises.disguise.Witch
+    - LibsDisguises.disguise.Sheep
+    - LibsDisguises.disguise.Cow
+    options:
+      prefix: '&e[Гладиатор] '
+      suffix: '&d'
+      default: false
+  Legend:
+    inheritance:
+    - Gladiator
+    permissions:
+    - TrailGUI.trails.Criticals
+    - TrailGUI.trails.Slime
+    - TrailGUI.trails.Note
+    - TrailGUI.trails.Portal
+    - LibsDisguises.disguise.Pig
+    - LibsDisguises.disguise.Horse
+    - LibsDisguises.disguise.Ocelot
+    - LibsDisguises.disguise.Wolf
+    options:
+      prefix: '&6[Легенда] '
+      suffix: '&2'
+      default: false
+  Emperor:
+    inheritance:
+    - Legend
+    permissions:
+    - TrailGUI.trails.Smoke
+    - TrailGUI.trails.MobSpell
+    - TrailGUI.trails.Lighter
+    - LibsDisguises.disguise.Enderman
+    - LibsDisguises.disguise.Blaze
+    - LibsDisguises.disguise.Slime
+    options:
+      prefix: '&c[Император] '
+      suffix: '&6'
+      default: false
+  Helper:
+    inheritance:
+    - Emperor
+    permissions:
+    - AAC.notify
+    - ChatGuard.mute
+    - ChatGuard.unmute
+    - FigAdmin.tempban
+    - FigAdmin.unban
+    - FigAdmin.kick
+    options:
+      prefix: '&b[Помощник] '
+      suffix: '&e'
+      default: false
+  Owner:
+    permissions:
+    - '*'
+    options:
+      prefix: '&4&l[Создатель] '
+      suffix: '&c'
+      default: false
+users: {}

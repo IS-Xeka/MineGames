@@ -1,0 +1,53 @@
+  Cost: 0.0
+  Name: Red
+  Commands: []
+  Cooldown: 0
+
+  Armour:
+    Leggings:
+      Data: 0
+      Dye:
+        Red: 255
+        Green: 0
+        Blue: 0
+      Type: LEATHER_LEGGINGS
+    Chestplate:
+      Data: 0
+      Dye:
+        Red: 255
+        Green: 0
+        Blue: 0
+      Type: LEATHER_CHESTPLATE
+    Boots:
+      Data: 0
+      Dye:
+        Red: 255
+        Green: 0
+        Blue: 0
+      Type: LEATHER_BOOTS
+    Helmet:
+      Data: 0
+      Dye:
+        Red: 255
+        Green: 0
+        Blue: 0
+      Type: LEATHER_HELMET
+  Items:
+    Slot 3:
+      Type: ARROW
+      Amount: 16
+      Data: 0
+    Slot 2:
+      Type: COOKED_BEEF
+      Amount: 4
+      Data: 0
+    Slot 0:
+      Type: STONE_SWORD
+      Amount: 1
+      Data: 0
+    Slot 1:
+      Type: BOW
+      Amount: 1
+      Data: 0
+  Offhand:
+    Type: Shield

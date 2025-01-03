@@ -1,0 +1,53 @@
+##############  ANNI SCOREBOARD CONFIG ########## (Max Letters: 20) ###
+AnniScoreboard:
+  Use-New-Scoreboard: false
+  Name: '&6&lКарта: {MAP}'
+  
+  Team-Nexus-Line: '{TEAM_COLORED_NAME} Nexus: &a{TEAM_HEALTH}'
+  Current-Phase-Line: '&5Текущая фаза:&b '
+  
+  Next-Phase-Time-Line: '&5Next Phase in &d{NEXT_PHASE_TIME}'
+  Use-Phase-Time-Line: false
+  
+  Played-Time-Line: '&5Played Time: &d{PLAYED_TIME}'
+  Use-Played-Time-Line: false
+  
+  Current-Date-Line: '&7{CURRENT_DATE_LINE}'
+  Use-Current-Date-Line: false
+  
+  DeathSymbol: '&4&lX'
+  Lines:
+  - '{CURRENT_DATE_LINE}'
+  - ''
+  - '{RED_NEXUS_LINE}'
+  - '{BLUE_NEXUS_LINE}'
+  - '{GREEN_NEXUS_LINE}'
+  - '{YELLOW_NEXUS_LINE}'
+  - ''
+  - '{NEXT_PHASE_LINE}'
+  - '{PLAYED_TIME_LINE}'
+  - ''
+  - '{CURRENT_PHASE_LINE}'
+  - ''
+  - '&6&lwww.SpigotMC.com'
+
+#######################################################################
+# Variables:                                                          #
+#                                                                     #
+# {TEAM_COLOR} = Team Color.                                          #
+# {TEAM_NAME} = Team name Without Colors.                             #
+# {TEAM_COLORED_NAME} = Team name With Colors.                        #
+# {MAP} = Map Name.                                                   #
+# {TEAM_HEALTH} = Team Health.                                        #
+# {NEXT_PHASE_TIME} = Next Phase Time.                                #
+# {PLAYED_TIME} = Total Played Time.                                  #
+# ------------------------------------------------------------------- #
+# ------------------------------------------------------------------- #
+# Lines:                                                              #
+#                                                                     #                            
+# {CURRENT_DATE_LINE} = Show Current Date.                            #
+# {NEXT_PHASE_LINE} = Time for the next phase.                        #
+# {PLAYED_TIME_LINE} = Total Played Time.                             #
+# {CURRENT_PHASE_LINE} = Next Phase Line.                             #
+#                                                                     #
+#######################################################################

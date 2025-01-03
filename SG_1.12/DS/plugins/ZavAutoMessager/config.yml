@@ -1,0 +1,16 @@
+enabled: true
+wordwrap: false
+delay: 60
+permissionsenabled: false
+chatformat: '%msg'
+messageinrandomorder: false
+updatechecking: false
+messagesinconsole: false
+requireplayersonline: false
+dontrepeatrandommessages: false
+messages:
+    default:
+    - '&8---=====&7[&6Spark Games&7]&8=====---%n&2» &fЧтобы сменить скин, используйте:%n&2» &f/skin [Ник]%n&2» &fПример: /skin Notch'
+    - '&8---=====&7[&6Spark Games&7]&8=====---%n&2» &fПриобретайте Донат на нашем сайте - sparkgames.ru%n&2» &fДонат выдаётся автоматически, сразу после оплаты%n&2» &fСписок команд и возможностей вы можете узнать на лобби'
+    - '&8---=====&7[&6Spark Games&7]&8=====---%n&2» &fНе давайте противнику приблизиться к кристаллу вашей команды%n&2» &fИщите нестандартные способы уничтожить кристал противника%n&2» &fИсход игры зависит от каждого игрока в команде'
+    - '&8---=====&7[&6Spark Games&7]&8=====---%n&2» &fЗа убийство Боссов выдаётся награда%n&2» &fИщите Боссов на карте%n&2» &fБоссы появляются после третьей фазы'

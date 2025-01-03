@@ -1,0 +1,105 @@
+#=========================================#
+#                                         #
+#            Advanced Abilities           #
+#     the best abilities/skills plugin    #
+#             Author: AnyBody             #
+#                                         #
+#=========================================#
+#                                         #
+#          Settings configuration         #
+#                                         #
+#=========================================#
+
+
+# Set a system type, it will be the main system.
+# Types: rpg, money.
+system: money
+
+
+# If you are using a custom language (not default) you can share it with @AnyBody (SpigotMC), Author will add it to the default
+#  and the file will have your name in the top.
+# You don't have to add 'messages_' prefix, if you want use 'messages_es' then set to 'es'.
+# Languages are in the '/languages' folder.
+locale: ru
+
+
+# Set a data storage type to store players data.
+# Data storage types: mysql, local.
+data_storage: mysql
+
+# Do not change this, if you do, the plugin might cause errors.
+data_storage_version: 1.0.0
+
+
+# If you want to disable events in regions use this.
+worldguard_support: true
+
+
+# If you want to disable events in factions use this.
+factions_support: false
+
+
+# Set to true to players can open the menu using the command '/abilities' instead of '/abilities menu'.
+menu_commands_simple_command: false
+
+# Add worlds name here to disable them when a player uses a command of plugin.
+# This works to menu and open commands.
+menu_commands_disabled_worlds: []
+
+# Add regions name here to disable them when a player uses a command of plugin, to this you need WorldGuard plugin and have "worldguard_support" to 'true'.
+# Use '*' to disable commands in all regions.
+# This works to menu and open commands.
+menu_commands_disabled_regions: []
+
+# Add factions id to disable them when a player uses a command of plugin.
+# You can add 'WarZone' to disable commands in War Zone faction.
+# Use '*' to disable commands in all factions.
+# This works to menu and open commands.
+menu_commands_disabled_factions: []
+
+
+# Set to true to players can have an item to open abilities menu.
+menu_item_enable: false
+
+# Add worlds name here to enable the item in those worlds, use '*' to add all worlds.
+menu_item_enabled_worlds:
+- '*'
+
+
+# Item will be added in this inventory slot.
+menu_item_slot: 4
+
+# The material item.
+menu_item_material: '54,0,1'
+
+# The item description.
+menu_item_description:
+- '&7Click to open abilities menu.'
+
+
+
+# MySQL hostname.
+data_storage_mysql_hostname: 127.0.0.1
+
+# MySQL username.
+data_storage_mysql_username: root
+
+# MySQL password.
+data_storage_mysql_password: '<mysql_password>'
+
+# MySQL port.
+data_storage_mysql_port: 3306
+
+# MySQL database.
+data_storage_mysql_database: sparkgames
+
+# MySQL suffix, you can use this if you want to have different tables.
+data_storage_mysql_suffix: ''
+
+
+# Set to true to cancel the event if it was cancelled previously, this only works for abilities and rpg events. This may affect the plugin working, recommend not to change...
+event_ignore_cancelled: true
+
+
+# Do not change anything of this, old versions file will be moved to 'outdated' folder.
+configuration_version: '1.0.4'

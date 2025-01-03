@@ -1,0 +1,10 @@
+@echo off
+chcp 65001
+
+:Server
+
+cd /d "%~dp0"
+title BCL
+java -server -Xmx4G -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=50 -Dfile.encoding=UTF-8 -jar Spigot.jar --nojline
+
+Goto Server

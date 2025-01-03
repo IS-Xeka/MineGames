@@ -1,0 +1,171 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&5Магазин снаряжения'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'ashop'
+
+1:
+  REQUIRED-ITEM: 'gold_ingot, 10'
+  COMMAND: 'give: 302'
+  LORE:
+    - '&e&oЦена: &610 золота'
+    - '&f&oКоличество: &c1'
+  ID: 302
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+2:
+  REQUIRED-ITEM: 'gold_ingot, 10'
+  COMMAND: 'give: 303'
+  LORE:
+    - '&e&oЦена: &610 золота'
+    - '&f&oКоличество: &c1'
+  ID: 303
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+3:
+  REQUIRED-ITEM: 'gold_ingot, 10'
+  COMMAND: 'give: 304'
+  LORE:
+    - '&e&oЦена: &610 золота'
+    - '&f&oКоличество: &c1'
+  ID: 304
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+4:
+  REQUIRED-ITEM: 'gold_ingot, 10'
+  COMMAND: 'give: 305'
+  LORE:
+    - '&e&oЦена: &610 золота'
+    - '&f&oКоличество: &c1'
+  ID: 305
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+5:
+  REQUIRED-ITEM: 'gold_ingot, 5'
+  COMMAND: 'give: 267'
+  LORE:
+    - '&e&oЦена: &65 золота'
+    - '&f&oКоличество: &c1'
+  ID: 267
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+6:
+  REQUIRED-ITEM: 'gold_ingot, 5'
+  COMMAND: 'give: 261'
+  LORE:
+    - '&e&oЦена: &65 золота'
+    - '&f&oКоличество: &c1'
+  ID: 261
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+  
+7:
+  REQUIRED-ITEM: 'gold_ingot, 5'
+  COMMAND: 'give: 262, 16'
+  LORE:
+    - '&e&oЦена: &65 золота'
+    - '&f&oКоличество: &c16'
+  ID: 262
+  AMOUNT: 16
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+8:
+  REQUIRED-ITEM: 'gold_ingot, 5'
+  COMMAND: 'give: 346'
+  LORE:
+    - '&e&oЦена: &65 золота'
+    - '&f&oКоличество: &c1'
+  ID: 346
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+9:
+  REQUIRED-ITEM: 'gold_ingot, 5'
+  COMMAND: 'give: 354'
+  LORE:
+    - '&e&oЦена: &65 золота'
+    - '&f&oКоличество: &c1'
+  ID: 354
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+10:
+  REQUIRED-ITEM: 'gold_ingot, 5'
+  COMMAND: 'give: 364'
+  LORE:
+    - '&e&oЦена: &65 золота'
+    - '&f&oКоличество: &c1'
+  ID: 364
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+11:
+  REQUIRED-ITEM: 'gold_ingot, 5'
+  COMMAND: 'give: 340'
+  LORE:
+    - '&e&oЦена: &65 золота'
+    - '&f&oКоличество: &c1'
+  ID: 340
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+12:
+  REQUIRED-ITEM: 'gold_ingot, 40'
+  COMMAND: 'give: 368'
+  LORE:
+    - '&e&oЦена: &640 золота'
+    - '&f&oКоличество: &c1'
+  ID: 368
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+13:
+  REQUIRED-ITEM: 'emerald, 8'
+  COMMAND: 'give: 145'
+  LORE:
+    - '&e&oЦена: &a8 изумрудов'
+    - '&f&oКоличество: &c1'
+  ID: 145
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+14:
+  REQUIRED-ITEM: 'emerald, 12'
+  COMMAND: 'give: 384, 16'
+  LORE:
+    - '&e&oЦена: &a12 изумрудов'
+    - '&f&oКоличество: &c16'
+  ID: 384
+  AMOUNT: 16
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+15:
+  REQUIRED-ITEM: 'emerald, 30'
+  COMMAND: 'give: 322:1'
+  LORE:
+    - '&e&oЦена: &a30 изумрудов'
+    - '&f&oКоличество: &c1'
+  ID: 322
+  DATA-VALUE: 1
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3

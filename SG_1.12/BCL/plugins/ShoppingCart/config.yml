@@ -1,0 +1,35 @@
+send-messages: false
+request-perms: false
+check-on-join: true
+#Настройки базы данных MySQL
+mysql:
+  #Хост базы данных
+  host: "127.0.0.1"
+  #Имя пользователя базы данных
+  username: "root"
+  #Пароль базы данных
+  password: "<mysql_password>"
+  #Название базы данных
+  database: "sparkgames"
+  #Порт базы данных
+  port: "3306"
+  #Название таблицы
+  table: "shopcart"
+  #Столбики
+  columns:
+    #Нумерация
+    id: "id"
+    #Ник игрока
+    name: "player"
+    #Действие (любые цифры, что будет происходить написано в actions)
+    action: "item"
+#Какие действия будут выполняться
+actions:
+  1: "pex user {name} group set premium;notice §a§l[SparkGames] §6§l{name}§r §aприобрёл донат - §aПремиум"
+  2: "pex user {name} group set gladiator;notice §a§l[SparkGames] §6§l{name}§r §aприобрёл донат - §eГладиатор"
+  3: "pex user {name} group set legend;notice §a§l[SparkGames] §6§l{name}§r §aприобрёл донат - §6Креатив"
+  4: "pex user {name} group set emperor;notice §a§l[SparkGames] §6§l{name}§r §aприобрёл донат - §cМодератор"
+  5: "pex user {name} prefix \"[&fYou&cTube] &b\";notice §a§l[SparkGames] §6§l{name}§r §aприобрёл префикс - §fYou§cTube"
+  6: "crate give Virtual MoneyCase1 1 {name};notice §a§l[SparkGames] §6§l{name}§r §aприобрёл ключ от &bКейса с монетами"
+  7: "crate give Virtual MoneyCase2 1 {name};notice §a§l[SparkGames] §6§l{name}§r §aприобрёл ключ от &6Большого кейса с монетами"
+  8: "crate give Virtual DonateCase1 1 {name};notice §a§l[SparkGames] §6§l{name}§r §aприобрёл ключ от &bКейса с Донатом"
