@@ -1,6 +1,0 @@
-change-tab-names: true
-update-notification: false
-fix-death-messages: false
-auto-refresh:
-  enabled: true
-  seconds: 20

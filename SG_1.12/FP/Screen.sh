@@ -1,1 +1,0 @@
-screen -A -m -d -S FP sh Server.sh

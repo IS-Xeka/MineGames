@@ -1,7 +1,0 @@
-remove-invalid-enchants: true
-check-enchants: true
-check-update: false
-ignore-worlds: []
-ignored-tags: []
-max-pps: -1
-max-pps-kick-msg: "Нестабильное соединение."
